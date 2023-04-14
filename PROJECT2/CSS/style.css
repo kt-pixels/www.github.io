@@ -1,0 +1,578 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* NAVBAR SECTION  */
+
+#wwwlogo {
+    height: 100px;
+    margin-left: 16px;
+}
+
+.mnav {
+    display: flex;
+    background-color: rgb(66 4 4);
+    box-shadow: 0px 5px 10px;
+    max-width: 100%;
+}
+
+.newmynav {
+    display: flex;
+}
+
+.nav {
+    list-style: none;
+    padding: 40px;
+    color: white;
+}
+
+#text {
+    width: 170px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 290px;
+    text-align: center;
+}
+
+
+/* ICONS SECTION  */
+.fa fa-comment-o {
+    width: 300px;
+}
+
+.fa fa-search {
+    height: 30px;
+}
+
+.icons {
+    width: 40px;
+    height: 34px;
+    margin-top: 30px;
+}
+
+.change {
+    display: none;
+}
+
+/*FIRST CONTAINER SECTION */
+
+/* IMAGES SECTION  */
+#myfood {
+    transform: rotate(-30deg);
+    width: 260px;
+    margin-top: 115px;
+    margin-left: 27px;
+    box-shadow: 5px 5px 30px;
+}
+
+#myfruits {
+    transform: rotate(-30deg);
+    width: 260px;
+    margin-top: 120px;
+    box-shadow: 5px 5px 30px;
+}
+
+#imgApple {
+    width: 268px;
+    height: 310px;
+    background-color: #e5e5e5;
+    transform: rotate(-40deg);
+    box-shadow: 5px 5px 30px;
+    margin-left: 36px;
+    overflow: hidden;
+}
+
+#myorange {
+    width: 300px;
+}
+
+#applemy {
+    width: 210px;
+    margin-top: 27px;
+    margin-left: 28px;
+    height: 242px;
+    box-shadow: 5px 5px 30px;
+    transform: rotate(40deg);
+    
+}
+
+.logoimg {
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    margin-top: 110px;
+    margin-left: 170px;
+    box-shadow: 5px 5px 30px;
+}
+
+.circle {
+    height: 300px;
+    width: 300px;
+    border-radius: 360px;
+}
+
+
+
+/* VIDEOS SECTION  */
+.vid {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.vid .myNutrients {
+    border: groove;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px;
+}
+.vid .myNutrients:hover {
+    box-shadow: 6px 6px #908d8ddb;
+    border-radius: 0px;
+}
+.myPeragraph {
+    margin: 60px;
+    margin-top: 87px;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* BUTTON SECTION  */
+
+.Mybtn {
+    padding: 12px 25px 12px 25px;
+    background-image: linear-gradient(to right, #188bff, #030ac1);
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: double;
+}
+.rMore{
+    display: block;
+    margin-left: 50px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 10px 0px 10px 0px;
+    width: 446px;
+    height: auto;
+    max-width: 446px;
+    font-size: 30px;
+    background-color: #0049ffc7;
+    color: white;
+}
+
+/* BACKGROUND SECTION  */
+.main-bodycont {
+    display: flex;
+    background-image: url(www.png);
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 600px;
+    border-radius: 0px 0px 30px 30px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-body-para {
+    font-size: 36px;
+    color: white;
+    display: none;
+}
+
+.bodycont {
+    width: 340px;
+    height: 340px;
+    margin: 40px;
+    border-radius: 40px;
+}
+
+#cont1 {
+    margin-top: -40px;
+    margin-left: -30px;
+    width: 300px;
+    height: 500px;
+    background-color: #e5e5e5;
+    transform: rotate(30deg);
+    overflow: hidden;
+    box-shadow: 5px 5px 30px;
+}
+
+#cont2 {
+    margin-top: 170px;
+    margin-left: 130px;
+    width: 300px;
+    height: 500px;
+    background-image: linear-gradient(rgb(95, 95, 95), rgb(37, 37, 37));
+    transform: rotate(30deg);
+    overflow: hidden;
+    box-shadow: 5px 5px 30px;
+}
+
+/* MY FAV ICONS IMAGES SECTION  */
+
+#favicons {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.myFavs{
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 40px;
+    border-radius: 360px;
+    /* box-shadow: 0px 0px 14px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.myFavs:hover{
+    border-radius: 360px;
+    transform: scale(1.3);
+    opacity: 1;
+    transition: 0.7s;
+    /* box-shadow: 3px 3px 2px grey; */
+}
+.myFavsImg {
+    width: 140px;
+}
+
+#myHr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1140px;
+    max-width: 100%;
+    margin-left: 66px;
+    color: black;
+    background-color: black;
+    height: 5px;
+}
+/* MY SERVICES OR POSTS  */
+
+.myPOSTS{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.firstCenter {
+    display: flex;
+}
+.secondCenter {
+    display: flex;
+}
+
+
+/* THIS IS FOR ANIMATION SECTION  */
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:30px; top:0px;}
+    50%  {font-size: 50px; left:30px; top:100px;}
+    75%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+  }
+  
+.mywww {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    /* animation-name: example; */
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+/* SECEND CONTAINER SECTION  */
+
+/* MAIN PART  */
+
+.para {
+    overflow: hidden;
+    background-image: radial-gradient(transparent, #00000030, #0000004d, #000000ab);
+}
+
+
+/* HEADINGS */
+#head1{
+    margin-top: -200px;
+    margin-left: 20px;
+}
+
+#head2{
+    margin-left: 20px;
+}
+
+#head3{
+    margin-left: 20px;
+}
+
+#header1 {
+    margin-left: 507px;
+    margin-top: -194px;
+    margin-bottom: 40px;
+}
+.headerwww {
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+/* PARAGRAPHS DIVS  */
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.another-para {
+    margin: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.mycontent img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px ; 
+    transition: transform .8s;  
+}
+.mycontent img:hover {
+    opacity: 0.7;
+    box-shadow: 6px 6px 0px grey;
+    transform: scale(1.1);
+}
+
+.homepara{
+    font-family: Sans-serif;
+    font-size: 26px;
+    margin: 20px;
+}
+
+/* slides section  */
+
+.slides div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* FOOTER SECTION  */
+.mainFoot{
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    background-color: rgb(22 22 22);
+}
+
+.myFoot {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    font-size: 30px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.icon-bar {
+    width: 90px;
+    background-color: #555;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .TableLists {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    width: 40%;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 25px;
+  }
+
+  .TableLists li img {
+    width: 100px;
+    max-width: 100%;
+    border-radius: 360px;
+    margin-bottom: 20px;
+    border: groove;
+  }
+  .TableLists li ul{
+    padding: 10px;
+  }
+  .TableLists li ul:hover{
+    background-color: #e3e3e3;
+    cursor: pointer;
+    color: #000;
+  }
+
+.foothead {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+}
+
+
+#Conclusion {
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+
+}
+@media only screen and (max-width : 1100px) {
+
+    .mnav {
+        display: none;
+    }
+
+    .newmynav {
+        display: block;
+        text-align: center;
+    }
+
+    #menu-bar {
+        position: relative;
+        background-color: rgb(22 22 22);
+        padding: 2px;
+    }
+
+    .bar {
+        width: 44px;
+        margin: 10px;
+        margin-top: 10px;
+        height: 5px;
+        background-color: white;
+        margin-bottom: 10px;
+        transition: 0.3s ease;
+    }
+
+    #wwwlogo {
+        height: 152px;
+        margin-left: 0px;
+    }
+
+    .nav {
+        text-align: center;
+        margin-bottom: -46px;
+        margin-top: -39px;
+    }
+
+    #text {
+        margin-left: 0px;
+    }
+
+    .change {
+        display: block;
+    }
+
+    .change .bar {
+        background-color: white;
+    }
+
+    .change #bar1 {
+        transform: translateY(14px) rotateZ(-45deg);
+    }
+
+    .change #bar2 {
+        opacity: 0;
+    }
+
+    .change #bar3 {
+        transform: translateY(-14px) rotateZ(45deg);
+    }
+
+    .bg-bars {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .main-bodycont{
+        height: 435px;
+    }
+    #cont1 {
+        margin-top: -16px;
+        margin-left: -6px;
+        width: 140px;
+        height: 260px;
+    }
+
+    #myfood {
+        width: 124px;
+        margin-top: 65px;
+        margin-left: 13px;
+        border-radius: 23px;
+    }
+    .logoimg{
+        width: 110px;
+        height: 110px;
+        border-radius: 24px;
+        margin-top: 158px;
+        margin-left: -39px
+    }
+
+    #cont2 {
+        width: 140px;
+    height: 260px;
+    margin-top: 212px;
+    margin-left: -128px;
+    }
+    #myfruits {
+        width: 136px;
+    margin-top: 68px;
+    }
+    #applemy{
+        display: none;
+    }
+    #imgApple{
+        display: none;
+    }
+
+    #cir1 {
+        margin-top: -350px;
+    }
+    #cir2 {
+        margin-left: -245px;
+    }
+    #cir3 {
+        margin-left: -316px;
+    }
+}
