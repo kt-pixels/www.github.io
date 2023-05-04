@@ -1,0 +1,448 @@
+/* BODY SECTION  */
+html {
+  scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* NAVBAR SECTION  */
+
+/* LINKS SECTION  */
+
+#li {
+    list-style: none;
+    /* text-align: start; */
+    font-size: 20px;
+    margin-top: -62px;
+}
+
+li ul {
+  padding: 20px 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.mnav {
+    display: flex;
+    background-color: rgb(66 4 4);
+    box-shadow: 0px 5px 10px;
+    max-width: 100%;
+    align-items: center;
+}
+
+/* LOGO  */
+
+#wwwlogo {
+    height: 100px;
+    margin-left: 16px;
+    max-width: 100%;
+}
+/* LIST  */
+
+.nav {
+    list-style: none;
+    color: white;
+    max-width: 100%;
+    margin-left: 60px;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+/* SEARCH OR BUTTON  */
+
+#text {
+    width: 170px;
+    height: 30px;
+    margin-left: 290px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.icons {
+    width: 40px;
+    height: 34px;
+    max-width: 100%;
+}
+
+/* FOR BUTTON SECTION  */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+   /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 219px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .fullbody {
+    padding: 20px;
+    margin-top: 42px;
+  }
+  .main-myformsinput{
+    
+    border: groove;
+    /* width: 50%; */
+    padding: 20px;
+
+  }
+  /* .myformsinput {
+    
+  } */
+  .myformsinput input {
+    margin: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-color: ghostwhite;
+  }
+  .myimage {
+    align-items: end;
+    text-align: end;
+    margin-top: -512px;
+  }
+  .myimage img {
+    /* position: absolute; */
+    size: 10vw;
+    width: 30vw;
+  }
+  #first-name {
+    width: 18vw;
+  }
+  #last-name {
+    width: 18vw;
+  }
+  #mail {
+    width: 18vw;
+  }
+  #confirm-mail {
+    width: 18vw;
+  }
+  #password {
+    width: 42vw;
+  }
+  #contact-number {
+    width: 42vw;
+  }
+  #date {
+    width: 42vw;
+  }
+  #msg {
+    margin-top: 20px;
+    width: 43vw;
+    margin-left: 20px;
+    border-color: darkgrey;
+    border: groove;
+  }
+  
+
+  label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+  /* SCROLLING BUTTON  */
+
+  #myBtn1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #323232; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 28px; /* Increase font size */
+    height: 50px;
+  }
+  
+  #myBtn1:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  /* MAIN HEADER SECTION  */
+
+  .headerwww {
+    text-align: center;
+    /* text-shadow: 2px 2px 5px; */
+    font-size: 3vw;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    max-width: 100%;
+  }
+
+
+  /* MAIN FOOTER SECTION  */
+
+.mainFoot{
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    background-color: rgb(22 22 22);
+  }
+
+  /* ICONS  */
+
+.icon-bar {
+    width: 90px;
+    background-color: #555;
+    max-width: 100%;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    max-width: 100%;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* LISTS FOOTER    */
+  
+  .TableLists {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    width: 40%;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 2vw;
+  }
+  
+  .TableLists li img {
+    width: 100px;
+    max-width: 100%;
+    border-radius: 360px;
+    margin-bottom: 20px;
+    border: groove;
+  }
+  
+  .TableLists li ul{
+    padding: 10px;
+    max-width: 100%;
+    font-size: 20px;
+  }
+  
+  .TableLists li ul:hover{
+    background-color: #e3e3e3;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  /* COPYRIGT SECTION  */
+  
+  .myFoot {
+    text-align: center;
+    max-width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: black;
+  }
+  
+
+@media only screen and (max-width: 1100px){
+  .mnav {
+    display: none;
+}
+  #menu-bar {
+    position: relative;
+    background-color: rgb(22 22 22);
+    padding: 2px;
+}
+.bar {
+  width: 36px;
+  margin: 10px;
+  margin-top: 10px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 10px;
+  transition: 0.3s ease;
+}
+#wwwlogo {
+  height: 152px;
+  margin-left: 0px;
+}
+.nav {
+  text-align: center;
+  margin-bottom: -46px;
+  margin-top: -39px;
+  margin-left: 0px;
+  padding: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+}
+.fullbody {
+  display: block;
+}
+.myimage {
+  display: none;
+}
+.myFoot {
+  font-size: 10px;
+}
+.TableLists {
+  font-size: 2vw;
+}
+.TableLists li {
+  font-size: 12px;
+}
+.TableLists li ul {
+  padding: 10px 0px 10px 5px;
+  max-width: 100%;
+  font-size: 10px;
+}
+.TableLists li img {
+  width: 8vw;
+  margin-top: 10px;
+}
+#myBtn1 {
+  position: fixed;
+  bottom: 6px;
+  right: 10px;
+  padding: 10px;
+  font-size: 28px;
+  height: 40px;
+  background-color: #5550;
+  color: #5c0707;
+}
+.newmynav {
+  display: block;
+  text-align: center;
+}
+#text {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.dropdown-content {
+  margin-left: -66px;
+  text-align: start;
+}
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(12px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-14px) rotateZ(45deg);
+}
+
+.bg-bars {
+  display: none;
+}
+#first-name {
+  width: 70vw;
+    margin-left: 0px;
+}
+#last-name {
+  width: 70vw;
+    margin-left: 0px;
+}
+#mail {
+  width: 70vw;
+    margin-left: 0px;
+}
+#confirm-mail {
+  width: 70vw;
+    margin-left: 0px;
+}
+#password {
+  width: 70vw;
+    margin-left: 0px;
+}
+#contact-number {
+  width: 70vw;
+    margin-left: 0px;
+}
+#date {
+  width: 70vw;
+    margin-left: 0px;
+}
+#msg {
+  width: 60vw;
+    margin-left: 0px;
+}
+#myBtn1:hover {
+  background-color: #0000000d;
+}
+}
+
+@media only screen and (max-width: 600px){
+  .mainFoot {
+    padding: 15px;
+}
+.icon-bar {
+  display: none;
+}
+.TableLists img {
+  display: block;
+}
+.TableLists li ul {
+  padding: 10px 0px 10px 5px;
+  max-width: 100%;
+  font-size: 9px;
+}
+#h3 {
+  display: none;
+}
+}
+
+  

@@ -1,0 +1,624 @@
+/* BODY SECTION  */
+html {
+  scroll-behavior: smooth;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.h2 {
+  width: 68vw;
+    margin-left: -10px;
+}
+/* NAVBAR SECTION  */
+
+/* LINKS SECTION  */
+
+#li {
+    list-style: none;
+    /* text-align: start; */
+    font-size: 20px;
+    margin-top: -62px;
+}
+
+li ul {
+  padding: 20px 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.mnav {
+  display: flex;
+  background-color: rgb(66 4 4);
+  box-shadow: 0px 5px 10px;
+  max-width: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+/* LOGO  */
+
+#wwwlogo {
+    height: 100px;
+    margin-left: 16px;
+    max-width: 100%;
+}
+/* LIST  */
+
+.nav {
+    list-style: none;
+    color: white;
+    max-width: 100%;
+    margin-left: 60px;
+}
+
+.nav:hover {
+    cursor: pointer;
+}
+/* SEARCH OR BUTTON  */
+
+#text {
+    width: 170px;
+    height: 30px;
+    margin-left: 290px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.icons {
+    width: 40px;
+    height: 34px;
+    max-width: 100%;
+}
+
+/* FOR BUTTON SECTION  */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+   /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 219px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* RECENT POSTS SECTION MAKING AND MY CONTENT IS HERE  */
+
+  .fullbody {
+    display: flex;
+    /* padding: 10px; */
+    margin-top: 42px;
+  }
+
+
+
+  /* FOR RIGHT SIDE  */
+  .mycontainer2 {
+    display: block;
+    width: 20%;
+    max-width: 80%;
+    margin-left: 60px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 70vw;
+    top: 25vw;
+    border-left: groove;
+    border-bottom: groove;
+    min-width: calc(20% - 2px);
+    z-index: 999 !important;
+    overflow-y: auto;
+    height: calc(155vh - 50px);
+  }
+  .mycontainer2 li ul:hover {
+    background-color: #b90000cf;
+    color: white;
+  }
+  #myWWW {
+    width: 20vw;
+    background-color: #0000008f;
+    border-radius: 0px 30px 30px 30px;
+  }
+  /* FOR LEFT SIDE  */
+
+  .thisFlexDiv {
+    display: block;
+  }
+  .mycontainer1 {
+    padding: 20px;
+    display: flex;
+    /* width: 100%;
+    max-width: 96%; */
+  }
+
+  .image {
+    /* box-shadow: 2px 2px 2px grey; */
+    max-width: 100%;
+    /* height: 270px; */
+  }
+  .image img {
+    width: 30vw;
+    margin-top: 30px;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 1px 1px 5px;
+  }
+  #myimagesof {
+    width: 36vw;
+    margin-top: 0px;
+    border-radius: 0px;
+  }
+
+  /* a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  } */
+  
+  .round:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .privOrnext{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+  }
+  .round {
+    text-decoration: none;
+    padding: 0px 24px 10px;
+    font-size: 40px;
+  }
+
+  .myparas {
+    text-align: justify;
+    margin-left: 20px;
+  }
+
+  #vitnut {
+    font-size: 21px;
+    margin-top: 12px;
+    width: 420px;
+  }
+.vitnut {
+  margin-top: 40px;
+  font-size: 20px;
+  width: 72%;
+}
+.vitnut li {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  list-style: decimal;
+  text-align: justify;
+}
+
+.mylistofvit {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* MAIN WWW HEADING SECTION  */
+
+.headerwww {
+  font-size: 3vw;
+  padding-top: 50px;
+  padding-left: 10px;
+  margin-top: 0px;
+  max-width: 100%;
+}
+
+.recentImg {
+  width: 19vw;
+border: groove;
+}
+
+.hr {
+  margin-bottom: 20px;
+}
+
+.mypageHr {
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+.impnote {
+  margin-top: 40px;
+}
+
+/* MAIN FOOTER SECTION  */
+
+.mainFoot{
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+  background-color: rgb(22 22 22);
+}
+
+/* ICONS  */
+
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+  max-width: 100%;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  max-width: 100%;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+/* LISTS FOOTER    */
+
+.TableLists {
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  display: flex;
+  width: 40%;
+  color: whitesmoke;
+  list-style: none;
+  font-size: 2vw;
+}
+
+.TableLists li img {
+  width: 100px;
+  max-width: 100%;
+  border-radius: 360px;
+  margin-bottom: 20px;
+  border: groove;
+}
+
+.TableLists li ul{
+  padding: 10px;
+  max-width: 100%;
+  font-size: 20px;
+}
+
+.TableLists li ul:hover{
+  background-color: #e3e3e3;
+  cursor: pointer;
+  color: #000;
+}
+
+/* COPYRIGT SECTION  */
+
+.myFoot {
+  text-align: center;
+  max-width: 100%;
+  font-size: 20px;
+  padding: 20px;
+  color: whitesmoke;
+  background-color: black;
+}
+
+/* SCROLLING BUTTON  */
+
+#myBtn1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #323232; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 28px; /* Increase font size */
+  height: 50px;
+}
+
+#myBtn1:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/* .hovertext {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: 140px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+.hovertext:hover:before {
+  opacity: 1;
+  visibility: visible;
+} */
+
+@media only screen and (max-width : 1100px){
+
+  /* FULL BODY SECTION  */
+
+  .fullbody{
+    display: block;
+  }
+
+/* FOR ROTATE BARS  */
+
+#menu-bar {
+    position: relative;
+    background-color: rgb(22 22 22);
+    padding: 2px;
+}
+
+/* HAMBURGER MENU  */
+.bar {
+    width: 36px;
+    margin: 10px;
+    margin-top: 10px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+.change {
+    display: block;
+}
+
+.change .bar {
+    background-color: white;
+}
+
+.change #bar1 {
+    transform: translateY(12px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+    opacity: 0;
+}
+
+.change #bar3 {
+    transform: translateY(-14px) rotateZ(45deg);
+}
+
+.bg-bars {
+    display: none;
+}
+
+
+/* MAIN BODY CONTENT SECTION  */
+
+#myimagesof {
+  width: 89vw;
+  margin-top: -24px;
+  margin-bottom: 26px;
+}
+
+#vitnut {
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.mycontainer1 {
+  padding: 20px;
+  display: block;
+  text-align: center;
+  /* width: 89%;
+  max-width: 100%; */
+}
+
+.mylistofvit {
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.h2 {
+  width: 100%;
+    margin-left: 0px;
+    font-size: 5vw;
+    text-align: justify;
+}
+#h2 {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+}
+
+.vitnut {
+  margin-top: 0px;
+  font-size: 20px;
+  width: 100%;
+}
+
+/* RECENT SECTION  */
+
+.mycontainer2 {
+  display: none;
+}
+
+/* PARAGRAPH SECTION  */
+
+.myparas {
+  margin-left: 0px;
+  font-size: 2vw;
+      text-align: start;
+}
+/* FOOTER SECTION SIZING  */
+
+
+
+.TableLists {
+  font-size: 2vw;
+}
+.TableLists li {
+  font-size: 12px;
+}
+.TableLists li img {
+  width: 8vw;
+  margin-top: 10px;
+}
+.TableLists li ul {
+  padding: 10px 0px 10px 5px;
+  max-width: 100%;
+  font-size: 10px;
+}
+.myFoot {
+  font-size: 10px;
+}
+
+/* HIDE NAVBAR LISTS  */
+.mnav {
+  display: none;
+}
+
+/* SHOW MENU LISTS  */
+.newmynav {
+  display: block;
+  text-align: center;
+}
+#wwwlogo {
+  height: 152px;
+  margin-left: 0px;
+}
+.nav {
+  text-align: center;
+  margin-bottom: -46px;
+  margin-top: -39px;
+  margin-left: 0px;
+  padding: 40px;
+}
+#text {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.dropdown-content {
+  margin-left: -66px;
+  text-align: start;
+}
+#myBtn1 {
+  position: fixed;
+  bottom: 6px;
+  right: 10px;
+  padding: 10px;
+  font-size: 28px;
+  height: 40px;
+  background-color: #5550;
+  color: #5c0707;
+}
+#myBtn1:hover {
+  background-color: #0000000d;
+}
+}
+
+@media only screen and (max-width : 600px){
+.TableLists li ul {
+  padding: 10px 0px 10px 5px;
+  max-width: 100%;
+  font-size: 9px;
+}
+h3 {
+  font-size: 5vw;
+    text-align: justify;
+}
+#h3 {
+  display: none;
+}
+.TableLists img {
+  display: block;
+}
+.icon-bar {
+  display: none;
+}
+.mainFoot {
+  padding: 15px;
+}
+.myparas h2 {
+  font-size: 4vw;
+    font-family: cursive;
+}
+.myparas .h2 {
+  font-size: 4vw;
+    text-align: justify;
+    font-family: monospace;
+}
+.image{
+  text-align: center;
+}
+.image img {
+  width: 80vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px;
+}
+.impnote {
+  text-align: justify;
+}
+}

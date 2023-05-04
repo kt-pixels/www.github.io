@@ -17,20 +17,42 @@
         <div id="bar2" class="bar"></div>
         <div id="bar3" class="bar"></div>
     </div>
-    <div>
+    <div class="newDropping">
         <nav id="myNavbar" class="mnav">
             <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
-            <li class="nav">HOME</li>
-            <li class="nav">ABOUT</li>
-            <li class="nav">SERVICES</li>
-            <li class="nav">CONTACT US</li>
-            <input type="text" id="text" placeholder="SEARCH HERE">
+            <li class="nav"> <a href="index.html">HOME </a></li>
+            <li class="nav"> <a href="about.html" target="_blank">ABOUT </a></li>
+            <li class="nav"> <a href="posts.html" target="_blank">POSTS </a></li>
+            <li class="nav"> <a href="contact.html" target="_blank">CONTACT US </a></li>
+            <div class="dropdown">
+            <input type="text" id="text" placeholder="SEARCH HERE" id="searchbar"  onkeyup="search_posts()">
+            <div class="dropdown-content">
+                <a href="vitamins&nutri.html" target="_blank" class="myposts">
+                    <li> VITAMINS & MINERALS </li>
+                </a>
+                <a href="sleep.html" target="_blank" class="myposts">
+                    <li> SLEEP GOOD </li>
+                </a>
+                <a href="workouttips.html" target="_blank" class="myposts">
+                    <li> WORKOUT TIPS </li>
+                </a>
+                <a href="healthyfood.html" target="_blank" class="myposts">
+                    <li> BALANCE DIET </li>
+                </a>
+                <a href="maditation.html" target="_blank" class="myposts">
+                    <li> MADITATION </li>
+                </a>
+                <a href="skincare.html" target="_blank" class="myposts">
+                    <li> SKIN CARE </li>
+                </a>
+              </div>
+            </div>
             <button type="submit" class="icons"><i class="fa fa-search"></i></button>
             
         </nav>
     </div>
     
-    
+  <div class="fullBody">  
 <div class="headerwww grid">
     <h1>
         WHOLE WELLNESS WEB 
@@ -74,7 +96,7 @@
 </div>
 <hr>
 <div class="headerwww">
-    <h1>
+    <h1 id="someFont">
         "Complete Wellness: A Holistic Approach to Living Your Best Life"
     </h1>
 </div>
@@ -83,8 +105,8 @@
         <img src="img/health.png" alt="" class="myNutrients">
         <div class="myPeragraph">
             <p>
-             <q> Healthy food is any type of food that provides the body with the nutrients it needs to function properly and maintain optimal health. This includes foods that are rich in vitamins, minerals, fiber, protein, healthy fats, and complex carbohydrates. </q><br>
-             <button class="Mybtn">READ</button>
+             <q> Healthy food is any type of food that provides the body with the nutrients it needs to function properly and maintain optimal health. This includes foods that are rich in <b>(vitamins, minerals, fiber, protein, healthy fats, and complex carbohydrates.)</b> </q><br>
+             <a href="healthyfood.html" target="_blank"><button class="Mybtn">READ</button></a>
             </p>
         </div>
     </div>
@@ -97,17 +119,17 @@
                 Protein is an essential nutrient that is important for building and repairing tissues in the body.
                 Foods high in fat can be a source of important nutrients and energy for the body.
              </q><br>
-             <button class="Mybtn">READ</button>
+             <a href="nutrients.html" target="_blank"><button class="Mybtn">READ</button></a>
             </p>
         </div>
     </div>
     <hr>
      <div class="vid">
-        <img src="img/avoid.png" alt="" class="myNutrients">
+        <img src="img/fastfood.png" alt="" class="myNutrients">
         <div class="myPeragraph">
             <p>
              <q>Junk or fast food are often high in calories, saturated and trans fats, sugar, salt, and processed ingredients. Overconsumption of these types of food can lead to a variety of health problems, including</q><br>
-             <button class="Mybtn">READ</button>
+             <a href=""><button class="Mybtn">COMMING SOON</button></a>
             </p>
         </div>
     </div>
@@ -117,51 +139,72 @@
         <div class="myPeragraph">
             <p>
              <q>Regular exercise is crucial for maintaining good health and well-being. It has numerous benefits for both the body and the mind.</q><br>
-             <button class="Mybtn">READ</button>
+             <a href="workouttips.html" target="_blank"><button class="Mybtn">READ</button></a>
             </p>
         </div>
     </div>
     <hr>
     <div class="footerheading">
         <h2 class="foothead">
-           <q> MAIN MOTIVE </q> <br>
+         <q> MAIN MOTIVE </q> <br>
         </h2>
+        <hr id="myHr1">
         <p id="Conclusion"><q> At Whole Wellness, we believe that everyone deserves to live a healthy and fulfilling life. We hope that our website will provide you with the information, tools, and support you need to achieve your wellness goals. Remember, true wellness is a journey, not a destination, and we're here to support you every step of the way. </q></p>
     </div>
+  </div>
+  
     <div class="mainFoot">
         <div class="icon-bar">
-            <a class="active" href="#"><i class="fa fa-home"></i></a> 
-            <a href="#"><i class="fa fa-heartbeat"></i></a> 
-            <a href="#"><i class="fa fa-apple"></i></a> 
-            <a href="#"><i class="fa fa-headphones"></i></a>
-            <a href="#"><i class="fa fa-phone"></i></a> 
+            <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+            <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
+            <a href="healthyfood.html"><i class="fa fa-apple"></i></a> 
+            <a href="maditation.html"><i class="fa fa-headphones"></i></a>
+            <a href="contact.html"><i class="fa fa-phone"></i></a>
           </div>          
+          <div class="TableLists">
+            <li>
+                
+                    <h4 style="color: #169602;">GOOD FOOD</h4>
+                <br>
+                <a href="vitamins&nutri.html" target="_blank"><ul>VITAMINS & MINERALS</ul><hr></a>
+                <a href="nutrients.html" target="_blank"><ul>GOOD FOOD</ul><hr></a>
+                <a href=""><ul>AVOID FAST FOOD</ul><hr></a>
+                <a href=""><ul>FRUITS & VEGETABLES</ul><hr></a>
+                <a href=""><ul>HEALTHY TIPS</ul><hr></a>
+                <a href="healthyfood.html" target="_blank"><ul>BALANCE DIET</ul><hr></a>
+            </li>
+        </div>
+        <div class="TableLists">
+            <li>
+            
+            <h3 style="
+                    color: white;
+                    font-size: 20px;
+                    text-shadow: 3px 3px 10px black;
+                ">
+                Welcome To Whole Wellness
+            </h3><br>
+            <img src="img/dumbles.png" alt="">
+            <img src="img/www1.png" alt=""><br>
+            <img src="img/www2.png" alt="">
+            <img src="img/dumble.png" alt="">
+            </li>
+            
+            <!-- <li><br>
+            </li> -->
+        </div>
         
         <div class="TableLists">
             <li>
-                <img src="img/www1.png" alt=""><br>
-                <ul>HEALTHY TIPS</ul><hr>
-                <ul>BALANCE DIET</ul><hr>
-                <ul>SKIN CARE</ul><hr>
-                <ul>WORKOUT TIPS</ul><hr>
-            </li>
-        </div>
-        <div class="TableLists">
-            <li>
-                <img src="img/www2.png" alt=""><br>
-                <ul>MADITATION</ul><hr>
-                <ul>GOOD FOOD</ul><hr>
-                <ul>AVOID FAST FOOD</ul><hr>
-                <ul>GOOD SLEEP</ul><hr>
-            </li>
-        </div>
-        <div class="TableLists">
-            <li>
-                <img src="img/www3.png" alt=""><br>
-                <ul>MIND CONTROL</ul><hr>
-                <ul>VITAMINS & MINERALS</ul><hr>
+                <!-- <img src="img/www3.png" alt=""> -->
+                    <h4 style="color: #169602;">GOOD HEALTH</h4>
+                <br>
+                <a href="maditation.html" target="_blank"><ul>MADITATION</ul><hr></a>
+                <a href="mindcontrol.html" target="_blank"><ul>MIND CONTROL</ul><hr></a>
                 <ul>LIVE HEALTHY</ul><hr>
-                <ul>FRUITS & VEGETABLES</ul><hr>
+                <a href="sleep.html" target="_blank"><ul>GOOD SLEEP</ul><hr></a>
+                <a href="skincare.html" target="_blank"><ul>SKIN CARE</ul><hr></a>
+                <a href="workouttips.html" target="_blank"><ul>WORKOUT TIPS</ul><hr></a>
             </li>
         </div>
     </div>
@@ -170,7 +213,12 @@
           2023  &copy COPYRIGHTS WHOLE WELLNESS WEB
         </footer>
     </div>
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa fa-sort-asc"></i></button>
     <script src="JS/java.js"></script>
+    <!-- ABOUT US SECTION  -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8356373669932225"
+    crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
