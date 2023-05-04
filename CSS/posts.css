@@ -13,6 +13,10 @@ html {
 
 /* LINKS SECTION  */
 
+a {
+  color: whitesmoke;
+  cursor: pointer;
+}
 #li {
     list-style: none;
     /* text-align: start; */

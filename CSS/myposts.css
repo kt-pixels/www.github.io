@@ -227,7 +227,7 @@ li a {
   margin-top: 30px;
   margin-bottom: 20px;
   list-style: decimal;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .mylistofvit {
@@ -392,6 +392,13 @@ border: groove;
   visibility: visible;
 } */
 
+.justify{
+  font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 @media only screen and (max-width : 1100px){
 
   /* FULL BODY SECTION  */
@@ -469,7 +476,7 @@ border: groove;
 .mylistofvit {
     margin-top: 0px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .h2 {
@@ -600,13 +607,15 @@ h3 {
   padding: 15px;
 }
 .myparas h2 {
-  font-size: 4vw;
-    font-family: cursive;
+  font-size: 5vw;
+    /* font-family: cursive; */
 }
 .myparas .h2 {
-  font-size: 4vw;
+  font-size: 18px;
     text-align: justify;
-    font-family: monospace;
+}
+.Myvitamins {
+  margin-top: 20px;
 }
 .image{
   text-align: center;
@@ -620,5 +629,12 @@ h3 {
 }
 .impnote {
   text-align: justify;
+  font-size: 17px;
+}
+.justify {
+  font-size: 17px;
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 0px;
 }
 }
