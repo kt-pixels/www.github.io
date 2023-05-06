@@ -85,6 +85,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 // let myrecent = document.getElementById("recent");
 

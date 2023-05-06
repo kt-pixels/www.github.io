@@ -32,3 +32,5 @@ function menuOnhover() {
     recentImg.getElementsByClassName('hovertext')[i].innerHTML = "COMMING SOON";
   }
 }
+
+document.addEventListener('contextmenu', event => event.preventDefault());
