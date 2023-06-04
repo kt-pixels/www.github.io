@@ -42,13 +42,39 @@ li a {
     margin-left: 16px;
     max-width: 100%;
 }
+
+.mycontacts{
+  padding-left: 10px;
+  margin: 15px;
+}
+.mycontacts a{
+  padding-left: 10px;
+  font-size: 36px;
+  padding: 10px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#instagram{
+  background-image: linear-gradient(to bottom right, purple, rgb(245, 15, 149), red, yellow);
+  padding: 10px;
+  border: groove;
+  border-radius: 20px 20px 20px 20px;
+}
+#whatsapp {
+  background-image: linear-gradient( green, rgb(36, 189, 36));
+  padding: 10px;
+  border: groove;
+  border-radius: 50px 50px 50px 0px;
+}
+
 /* LIST  */
 
 .nav {
     list-style: none;
     color: white;
     max-width: 100%;
-    margin-left: 60px;
+    margin-left: 45px;
 }
 
 .nav:hover {
@@ -59,7 +85,7 @@ li a {
 #text {
     width: 170px;
     height: 30px;
-    margin-left: 290px;
+    margin-left: 50px;
     text-align: center;
     max-width: 100%;
 }
@@ -85,7 +111,7 @@ li a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-left: 219px;
+    margin-left: -30px;
   }
   
   /* Links inside the dropdown */
@@ -116,6 +142,13 @@ li a {
     padding: 20px;
 
   }
+
+  .main-heading{
+    color: rgb(70, 0, 0);
+    font-size: 65px;
+    text-align: center;
+  }
+
   /* .myformsinput {
     
   } */
@@ -436,6 +469,14 @@ li a {
 #myBtn1:hover {
   background-color: #0000000d;
 }
+
+.main-heading{
+  color: rgb(70, 0, 0);
+  font-size: 6vw;
+  text-align: center;
+  text-decoration: underline;
+}
+
 }
 
 @media only screen and (max-width: 600px){
@@ -458,13 +499,39 @@ li a {
 }
 #submit {
   margin-left: 0px;
-
+  padding: 8px 16px;
+    font-size: 14px;
+}
+#wwwlogo {
+  height: 100px;
+  margin-left: 0px;
 }
 .main-myformsinput {
   background-image: url('B9.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.main-heading{
+  color: rgb(70, 0, 0);
+  font-size: 6vw;
+  text-align: center;
+  text-decoration: underline;
+}
+.nav {
+  text-align: center;
+  margin-bottom: -46px;
+  margin-top: -39px;
+  margin-left: 0px;
+  padding: 40px;
+  font-size: 14px;
+}
+
+#instagram {
+  border-radius: 10px 10px 10px 10px;
+}
+#whatsapp {
+  padding: 8px;
 }
 }
 

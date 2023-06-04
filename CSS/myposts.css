@@ -31,6 +31,18 @@ li a {
     text-decoration: none;
 }
 
+li b a {
+  text-decoration: underline;
+  color: #55008d;
+}
+
+#myinsta {
+  color: #55008d;
+}
+
+.myvitamins-heading {
+  width: 860px;
+}
 .mnav {
   display: flex;
   background-color: rgb(66 4 4);
@@ -53,7 +65,7 @@ li a {
     list-style: none;
     color: white;
     max-width: 100%;
-    margin-left: 60px;
+    margin-left: 45px;
 }
 
 .nav:hover {
@@ -64,7 +76,7 @@ li a {
 #text {
     width: 170px;
     height: 30px;
-    margin-left: 290px;
+    margin-left: 50px;
     text-align: center;
     max-width: 100%;
 }
@@ -90,7 +102,7 @@ li a {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-left: 219px;
+    margin-left: -30px;
   }
   
   /* Links inside the dropdown */
@@ -118,7 +130,30 @@ li a {
     margin-top: 42px;
   }
 
+  .mycontacts{
+    padding-left: 10px;
+    margin: 15px;
+}
+.mycontacts a{
+    padding-left: 10px;
+    font-size: 36px;
+    padding: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
 
+#instagram{
+    background-image: linear-gradient(to bottom right, purple, rgb(245, 15, 149), red, yellow);
+    padding: 10px;
+    border: groove;
+    border-radius: 20px 20px 20px 20px;
+}
+#whatsapp {
+    background-image: linear-gradient( green, rgb(36, 189, 36));
+    padding: 10px;
+    border: groove;
+    border-radius: 50px 50px 50px 0px;
+}
 
   /* FOR RIGHT SIDE  */
   .mycontainer2 {
@@ -166,15 +201,18 @@ li a {
     /* height: 270px; */
   }
   .image img {
-    width: 30vw;
+    width: 40vw;
     margin-top: 30px;
-    border-radius: 0px 25px 0px 25px;
-    box-shadow: 1px 1px 5px;
+    border-radius: 0px 9px 0px 9px;
+    /* box-shadow: 1px 1px 5px; */
   }
   #myimagesof {
-    width: 36vw;
+    width: 50vw;
     margin-top: 0px;
     border-radius: 0px;
+  }
+  .image-max {
+padding-left: 38px;
   }
 
   /* a {
@@ -216,7 +254,7 @@ li a {
   #vitnut {
     font-size: 21px;
     margin-top: 12px;
-    width: 420px;
+    width: 870px;
   }
 .vitnut {
   margin-top: 40px;
@@ -245,6 +283,17 @@ li a {
   max-width: 100%;
 }
 
+.main-heading{
+  color: rgb(70, 0, 0);
+  font-size: 65px;
+  text-align: center;
+}
+
+/* .vitandnut {
+  width: 870px;
+  font-size: 20px;
+  margin-top: 20px;
+} */
 .recentImg {
   width: 19vw;
 border: groove;
@@ -260,6 +309,10 @@ border: groove;
 }
 .impnote {
   margin-top: 40px;
+  border: groove;
+  overflow-y: scroll;
+  height: 120px;
+  padding: 10px;
 }
 
 /* MAIN FOOTER SECTION  */
@@ -364,6 +417,20 @@ border: groove;
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+.Mybtn {
+  padding: 12px 25px 12px 25px;
+  background-image: linear-gradient(to right, #188bff, #030ac1);
+  color: white;
+  font-size: 16px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: double;
+  max-width: 100%;
+  cursor: pointer;
+}
+.Mybtn:hover {
+  background-image: linear-gradient(to right,#030ac1, #188bff);
+}
 /* .hovertext {
   position: relative;
   border-bottom: 1px dotted black;
@@ -414,6 +481,11 @@ border: groove;
     background-color: rgb(22 22 22);
     padding: 2px;
 }
+.main-heading {
+  color: rgb(70, 0, 0);
+  font-size: 6vw;
+  text-align: center;
+}
 
 /* HAMBURGER MENU  */
 .bar {
@@ -455,16 +527,18 @@ border: groove;
 
 #myimagesof {
   width: 89vw;
-  margin-top: -24px;
+  /* margin-top: -24px; */
   margin-bottom: 26px;
 }
 
 #vitnut {
   width: 100%;
   text-align: justify;
-  font-size: 18px;
+  font-size: 16px;
 }
-
+ol {
+  text-align: justify;
+}
 .mycontainer1 {
   padding: 20px;
   display: block;
@@ -499,7 +573,7 @@ border: groove;
 
 .vitnut {
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 16px;
   width: 100%;
 }
 
@@ -550,7 +624,7 @@ border: groove;
   text-align: center;
 }
 #wwwlogo {
-  height: 152px;
+  height: 100px;
   margin-left: 0px;
 }
 .nav {
@@ -559,6 +633,7 @@ border: groove;
   margin-top: -39px;
   margin-left: 0px;
   padding: 40px;
+  font-size: 14px;
 }
 #text {
   margin-left: 0px;
@@ -610,9 +685,16 @@ h3 {
   font-size: 5vw;
     /* font-family: cursive; */
 }
+.main-heading {
+  color: rgb(70, 0, 0);
+  font-size: 6vw;
+  text-align: center;
+  text-decoration: underline;
+}
 .myparas .h2 {
   font-size: 18px;
     text-align: justify;
+    margin-bottom: 12px;
 }
 .Myvitamins {
   margin-top: 20px;
@@ -632,9 +714,24 @@ h3 {
   font-size: 17px;
 }
 .justify {
-  font-size: 17px;
+  font-size: 16px;
   text-align: justify;
   margin-top: 15px;
   margin-left: 0px;
 }
+.Mybtn {
+  padding: 8px 15px 8px 15px;
+  font-size: 12px;
+}
+.image-max {
+  padding-left: 20px;
+    }
+
+    #instagram {
+      border-radius: 10px 10px 10px 10px;
+    }
+    #whatsapp {
+      padding: 8px;
+    }
+
 }
