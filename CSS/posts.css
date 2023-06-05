@@ -55,15 +55,15 @@ li a {
 
 #instagram{
   background-image: linear-gradient(to bottom right, purple, rgb(245, 15, 149), red, yellow);
-  padding: 10px;
+  padding: 6px 8px;
   border: groove;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
 }
 #whatsapp {
   background-image: linear-gradient( green, rgb(36, 189, 36));
-  padding: 10px;
+  padding: 6px 8px;
   border: groove;
-  border-radius: 50px 50px 50px 0px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 /* LOGO  */
@@ -496,11 +496,17 @@ li a {
   width: 40vw;
 }
 
+.mycontacts a {
+  /* padding-left: 10px; */
+  font-size: 40px;
+}
 #instagram {
   border-radius: 10px 10px 10px 10px;
+  padding: 6px 8px;
 }
 #whatsapp {
-  padding: 8px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 6px 8px;
 }
 
 }
