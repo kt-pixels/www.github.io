@@ -35,7 +35,7 @@ html {
     background-color: #323232; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 5px 15px 0px 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 28px; /* Increase font size */
     height: 50px;
@@ -80,7 +80,7 @@ li a {
     list-style: none;
     color: white;
     max-width: 100%;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .nav:hover {
@@ -118,17 +118,43 @@ li a {
 
 .main-heading{
     color: rgb(70, 0, 0);
-    font-size: 65px;
+    /* font-size: 65px; */
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
+.main-heading span:nth-child(1) {
+    font-size: 50px;
+}
+
+.main-heading span:last-child {
+    font-size: 34px;
+    margin: 20px 0px;
+}
+
+.none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+#india{
+    width: 95px;
+    margin: 10px;
+    display: flex;
+    position: absolute;
+    top: 7px;
+    left: 70rem;
+}
 
 /* HOME PAGE FRONT IMAGES SECTION  */
 
 .container{
     display: flex;
-    justify-content: center;
-    max-width: 100%;
+    justify-content: space-around;
 }
 
 .another-para {
@@ -143,19 +169,17 @@ li a {
     width: 33%;
 } */
 .mycontent img {
-    width: 22vw;
-    max-width: 100%;
-    height: auto;
-    margin: 58px;
+    width: 20vw;
+    margin: 12px;
     border-radius: 10px;
     box-shadow: 1px 1px 6px ; 
     transition: transform .8s;  
 }
 
 .mycontent img:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     box-shadow: 6px 6px 0px grey;
-    transform: scale(1.1);
+    transform: scale(1.04);
 }
 
 
@@ -164,8 +188,7 @@ li a {
 #favicons {
     display: flex;
     overflow: hidden;
-    justify-content: center;
-    max-width: 100%;
+    justify-content: space-between;
 }
 
 .myFavs{
@@ -227,12 +250,65 @@ li a {
 
 /* FOR HORIZONTAL LINES SECTION  */
 
-#myHr {
-    text-align: center;
-    max-width: 100%;
-    color: black;
-    background-color: black;
-    height: 5px;
+#Dropdown1{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+    z-index: 3;
+}
+
+#Dropdown2{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 36rem;
+    z-index: 3;
+}
+
+#Dropdown3{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 43rem;
+    z-index: 3;
+}
+
+#Dropdown4{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 52rem;
+    z-index: 3;
+}
+
+#Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    background-color: rgb(66 4 4);
+    color: white;
+    border: 1px groove;
+}
+#Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
+    cursor: pointer;
+    background-color: rgb(155, 0, 0);
+}
+
+#Dropdown1:last-child ul {
+    border-bottom: none;
 }
 
 #myHr1 {
@@ -240,7 +316,8 @@ li a {
 }
 
 #someFont {
-    font-size: 40px;
+    font-size: 36px;
+    text-decoration: underline;
 }
 
 
@@ -248,33 +325,27 @@ li a {
 
 .vid {
     display: flex;
-    max-width: 100%;
-    height: auto;
-    margin-top: 50px;
 }
 
 .vid .myNutrients {
-    border: groove;
+    border: 2px groove;
     margin: 50px;
-    border-radius: 20px;
+    height: 300px;
+    width: 460px;    
     box-shadow: 2px 2px 10px;
-    max-width: 100%;
-    width: 35vw;
 }
 
 .vid .myNutrients:hover {
-    box-shadow: 6px 6px #908d8ddb;
-    border-radius: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray;
 }
 
 
 /* FOOTER HEADING SECTION  */
 
 .foothead {
-    font-size: 4vw;
-    justify-content: center;
+    font-size: 30px;
     text-align: center;
-    /* text-shadow: 2px 2px 4px; */
     max-width: 100%;
     margin-top: 20px;
 }
@@ -335,11 +406,24 @@ li a {
     font-size: 2vw;
   }
 
+  .welcome-heading{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .good-food {
+    color: #169602; 
+    background-color: transparent; 
+    text-align: start; 
+    box-shadow: none;
+  }
+
   .TableLists li img {
     width: 100px;
     max-width: 100%;
     border-radius: 360px;
     margin-bottom: 20px;
+    margin-left: 58px;
     border: groove;
   }
 
@@ -475,6 +559,13 @@ hr {
 
 @media only screen and (max-width : 1100px) {
 
+    /* .main-heading span:nth-child(1) {
+        font-size: 50px;
+    }
+    .main-heading span:last-child {
+        font-size: 50px;
+    } */
+
     #myBtn1 {
         position: fixed;
         bottom: 6px;
@@ -607,6 +698,7 @@ hr {
     .TableLists li img{
         width: 8vw;
             margin-top: 10px;
+            margin-left: 0;
     }
 
 
@@ -649,7 +741,6 @@ hr {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 20px;
-        /* font-size: 4vw; */
       }
 
       .foothead {
@@ -659,26 +750,59 @@ hr {
 }
 
 @media only screen and (max-width : 600px) {
+
+    .grid {
+        padding-top: 10px;
+    }
+
+    .main-heading span:nth-child(1) {
+        font-size: 25px;
+    }
+    .main-heading span:last-child {
+        font-size: 20px;
+    }
+
+    #india {
+        display: none;
+    }
+
+    .mycontent img {
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    border: 2px groove;
+    }
+
+    #favicons {
+        justify-content: center;
+    }
+
+    .mycontent:last-child img{
+    display: none;
+    }
+
     .another-para {
-        font-size: 4vw;
-    text-align: justify;
-    margin: 24px;
+    font-size: 14px;
+    text-align: center;
+    margin: 18px;
     }   
 
     .vid .myNutrients {
-        width: 80vw;
-        box-shadow: 4px 4px #908d8ddb;
+        width: 90%;
+    height: 186px;
+    box-shadow: 4px 4px #908d8ddb;
     border-radius: 0px;
+    margin: 15px 0px 0px 0px;
     }
 
     /* PARAGRAPHS SECTION  */
 
     .myPeragraph {
-        margin: 10px;
-    text-align: justify;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 5vw;
+        margin: 20px 10px 10px 10px;
+        text-align: justify;
+        font-style: inherit;
+        font-weight: 100;
+        font-size: 16px;
     }
 
     .TableLists li ul {
@@ -707,12 +831,7 @@ hr {
 }
 
   #myHr1 {
-    display: block;
-    text-align: center;
-    max-width: 100%;
-    color: black;
-    background-color: black;
-    height: 3px;
+    display: none;
 }
 
 .main-heading {
@@ -721,10 +840,14 @@ hr {
     text-align: center;
 }
 
+.welcome-heading {
+    display: none;
+}
+
 #someFont {
     font-size: 5vw;
 }
-h3 {
+#none {
     display: none;
 }
 .TableLists img {
@@ -736,14 +859,14 @@ h3 {
 }
 
 .foothead {
-    font-size: 10vw;
+    font-size: 18px;
 }
 
 #Conclusion {
     text-align: justify;
     margin: 0px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 14px;
 }
 .Mybtn {
     padding: 8px 15px 8px 15px;
@@ -751,15 +874,31 @@ h3 {
   }
 
   .mycontacts a {
-    /* padding-left: 10px; */
-    font-size: 40px;
+    font-size: 24px;
   }
   #instagram {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 6px 6px 6px 6px;
     padding: 6px 8px;
   }
   #whatsapp {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 6px 6px 6px 6px;
     padding: 6px 8px;
   }
+
+  #Dropdown1 {
+    top: 20rem;
+    left: 0;
+}
+#Dropdown2 {
+    top: 23rem;
+    left: 0;
+}
+#Dropdown3 {
+    top: 26rem;
+    left: 0;
+}
+#Dropdown4 {
+    top: 29rem;
+    left: 0;
+}
 }

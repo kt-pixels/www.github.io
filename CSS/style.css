@@ -55,6 +55,15 @@
     display: none;
 }
 
+
+.none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
 /*FIRST CONTAINER SECTION */
 
 /* IMAGES SECTION  */
@@ -238,6 +247,17 @@
 .myFavsImg {
     width: 140px;
 }
+.welcome-heading{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .good-food {
+    color: #169602; 
+    background-color: transparent; 
+    text-align: start; 
+    box-shadow: none;
+  }
 
 #myHr{
     justify-content: center;
@@ -432,6 +452,7 @@
     border-radius: 360px;
     margin-bottom: 20px;
     border: groove;
+    margin-left: 58px;
   }
   .TableLists li ul{
     padding: 10px;
@@ -566,6 +587,9 @@
         display: none;
     }
 
+    .welcome-heading{
+        display: none;
+    }
     #cir1 {
         margin-top: -350px;
     }

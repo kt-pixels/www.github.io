@@ -53,6 +53,11 @@ li a {
   cursor: pointer;
 }
 
+.image-container img:hover {
+  opacity: 0.8;
+}
+
+
 #instagram{
   background-image: linear-gradient(to bottom right, purple, rgb(245, 15, 149), red, yellow);
   padding: 6px 8px;
@@ -79,7 +84,7 @@ li a {
     list-style: none;
     color: white;
     max-width: 100%;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .nav:hover {
@@ -99,6 +104,21 @@ li a {
     width: 40px;
     height: 34px;
     max-width: 100%;
+}
+
+.welcome-heading {
+  color: white;
+  font-size: 20px;
+  text-shadow: 3px 3px 10px black;
+}
+
+#india {
+  width: 95px;
+  margin: 10px;
+  display: flex;
+  position: absolute;
+  top: 7px;
+  left: 70rem;
 }
 
 /* FOR BUTTON SECTION  */
@@ -136,28 +156,77 @@ li a {
     display: block;
   }
 
+
+  .none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.welcome-heading{
+  font-size: 20px;
+  text-align: center;
+}
+
+.good-food {
+  color: #169602; 
+  background-color: transparent; 
+  text-align: start; 
+  box-shadow: none;
+}
+
   .fullbody {
+    margin: 0 10px;
     padding: 20px;
-    margin-top: 42px;
-  }
-  .fullbodyX {
+}
+  /* .fullbodyX {
     display: block;
-    /* overflow-x: scroll; */
     padding: 20px;
     border: inset;
-  }
+  } */
+  .fullbodyX {
+    display: block;
+}
 
   .grid {
     text-align: center;
     margin-top: 42px;
   }
-  .myX {
-    /* width: 315vh; */
+  /* .myX {
     padding: 20px;
+  } */
+
+
+
+  .left {
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+.left a{
+  display: inline-block;
+  margin-right: 20px; /* Adjust the spacing between items */
+  animation: scrollText 20s linear infinite;
+}
+
+/* @keyframes scrollText {
+  0% {
+    transform: translateX(100%);
   }
-  .myX img {
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+
+
+  .left img {
     margin-left: 30px;
-    width: 30vw;
+    width: 500px;
     border: groove;
   }
 
@@ -197,10 +266,70 @@ li a {
 
   .main-heading{
     color: rgb(70, 0, 0);
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
-    text-decoration: underline;
   }
+
+  #Dropdown1{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+    z-index: 3;
+}
+
+#Dropdown2{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 36rem;
+    z-index: 3;
+}
+
+#Dropdown3{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 43rem;
+    z-index: 3;
+}
+
+#Dropdown4{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 52rem;
+    z-index: 3;
+}
+
+#Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    background-color: rgb(66 4 4);
+    color: white;
+    border: 1px groove;
+}
+#Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
+    cursor: pointer;
+    background-color: rgb(155, 0, 0);
+}
+
+#Dropdown1:last-child ul {
+    border-bottom: none;
+}
 
 
   /* MAIN FOOTER SECTION  */
@@ -256,6 +385,7 @@ li a {
     max-width: 100%;
     border-radius: 360px;
     margin-bottom: 20px;
+    margin-left: 58px;
     border: groove;
   }
   
@@ -377,7 +507,6 @@ li a {
 .grid {
   margin-top: 16px;
   font-size: 2vw;
-  font-family: cursive;
 }
 .fullbody {
   margin-top: 0px;
@@ -467,6 +596,7 @@ li a {
 .TableLists li img {
   width: 8vw;
   margin-top: 10px;
+  margin-left: 0;
 }
 .TableLists img {
     display: block;
@@ -485,28 +615,58 @@ li a {
 
   .main-heading {
     color: rgb(70, 0, 0);
-    font-size: 6vw;
+    font-size: 22px;
     text-align: center;
 }
-.myX {
-  /* width: 315vh; */
-  padding: 0px;
-}
-.myX img {
-  width: 40vw;
+
+.grid {
+  margin-top: 16px;
+  font-size: 10px;
 }
 
+.left {
+  /* width: 315vh; */
+  padding: 10px;
+}
+.left img {
+  border: groove;
+  width: 200px;
+  margin: 0;
+}
+.welcome-heading{
+  display: none;
+}
 .mycontacts a {
   /* padding-left: 10px; */
-  font-size: 40px;
+  font-size: 24px;
 }
 #instagram {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 6px 6px 6px 6px;
   padding: 6px 8px;
 }
 #whatsapp {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 6px 6px 6px 6px;
   padding: 6px 8px;
 }
 
+#Dropdown1 {
+  top: 20rem;
+  left: 0;
+}
+#Dropdown2 {
+  top: 23rem;
+  left: 0;
+}
+#Dropdown3 {
+  top: 26rem;
+  left: 0;
+}
+#Dropdown4 {
+  top: 29rem;
+  left: 0;
+}
+
+#india {
+  display: none;
+}
 }

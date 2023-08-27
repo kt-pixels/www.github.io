@@ -74,7 +74,7 @@ li a {
     list-style: none;
     color: white;
     max-width: 100%;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .nav:hover {
@@ -88,6 +88,18 @@ li a {
     margin-left: 50px;
     text-align: center;
     max-width: 100%;
+}
+
+.welcome-heading{
+  font-size: 20px;
+  text-align: center;
+}
+
+.good-food {
+  color: #169602; 
+  background-color: transparent; 
+  text-align: start; 
+  box-shadow: none;
 }
 
 .icons {
@@ -136,22 +148,28 @@ li a {
     margin-top: 42px;
   }
   .main-myformsinput{
-    
-    border: groove;
-    /* width: 50%; */
     padding: 20px;
-
+    height: 59rem;
   }
 
   .main-heading{
     color: rgb(70, 0, 0);
-    font-size: 65px;
+    font-size: 50px;
     text-align: center;
   }
 
-  /* .myformsinput {
-    
-  } */
+  .none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+  .myformsinput {
+    display: flex;
+    flex-direction: column;
+  }
   .myformsinput input {
     margin: 20px;
     padding: 10px;
@@ -159,26 +177,24 @@ li a {
     border-color: ghostwhite;
   }
   .myimage {
-    align-items: end;
-    text-align: end;
-    margin-top: -597px;
+    display: flex;
+    justify-content: end;
+    margin: -50rem 0px 12rem 0px;
   }
   .myimage img {
-    /* position: absolute; */
-    size: 10vw;
     width: 35vw;
   }
   #first-name {
-    width: 18vw;
+    width: 42vw;
   }
   #last-name {
-    width: 18vw;
+    width: 42vw;
   }
   #mail {
-    width: 18vw;
+    width: 42vw;
   }
   #confirm-mail {
-    width: 18vw;
+    width: 42vw;
   }
   #password {
     width: 42vw;
@@ -236,6 +252,78 @@ li a {
   }
 
 
+  #Dropdown1{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+    z-index: 3;
+}
+
+#Dropdown2{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 36rem;
+    z-index: 3;
+}
+
+#Dropdown3{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 43rem;
+    z-index: 3;
+}
+
+#Dropdown4{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 52rem;
+    z-index: 3;
+}
+
+#Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    background-color: rgb(66 4 4);
+    color: white;
+    border: 1px groove;
+}
+#Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
+    cursor: pointer;
+    background-color: rgb(155, 0, 0);
+}
+
+#Dropdown1:last-child ul {
+    border-bottom: none;
+}
+
+
+#india{
+  width: 95px;
+  margin: 10px;
+  display: flex;
+  position: absolute;
+  top: 7px;
+  left: 70rem;
+}
+
+
   /* MAIN FOOTER SECTION  */
 
 .mainFoot{
@@ -290,6 +378,7 @@ li a {
     border-radius: 360px;
     margin-bottom: 20px;
     border: groove;
+    margin-left: 58px;
   }
   
   .TableLists li ul{
@@ -314,7 +403,7 @@ li a {
     color: whitesmoke;
     background-color: black;
   }
-  #submit {
+  #button {
     padding: 12px 25px 12px 25px;
     background-image: linear-gradient(to right, #188bff, #030ac1);
     color: white;
@@ -324,8 +413,9 @@ li a {
     border: double;
     cursor: pointer;
     margin-left: 20px;
+    width: 42vw;
   }
-  #submit:hover {
+  #button:hover {
     background-image: linear-gradient(to right,#030ac1, #188bff);
 }
 
@@ -387,6 +477,7 @@ li a {
 .TableLists li img {
   width: 8vw;
   margin-top: 10px;
+  margin-left: 0;
 }
 #myBtn1 {
   position: fixed;
@@ -511,12 +602,13 @@ li a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: auto;
 }
 .main-heading{
   color: rgb(70, 0, 0);
-  font-size: 6vw;
+  font-size: 24px;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .nav {
   text-align: center;
@@ -527,17 +619,65 @@ li a {
   font-size: 14px;
 }
 
+fieldset {
+  margin: -10px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.myformsinput input {
+  padding: 6px;
+  font-size: 12px;
+}
+
+#button {
+  padding: 8px 0px 8px 0px;
+    font-size: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: groove;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 30vw;
+}
+
+.welcome-heading{
+  display: none;
+}
+
 .mycontacts a {
   /* padding-left: 10px; */
-  font-size: 40px;
+  font-size: 24px;
 }
 #instagram {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 6px 6px 6px 6px;
   padding: 6px 8px;
 }
 #whatsapp {
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 6px 6px 6px 6px;
   padding: 6px 8px;
+}
+
+#Dropdown1 {
+  top: 20rem;
+  left: 0;
+}
+#Dropdown2 {
+  top: 23rem;
+  left: 0;
+}
+#Dropdown3 {
+  top: 26rem;
+  left: 0;
+}
+#Dropdown4 {
+  top: 29rem;
+  left: 0;
+}
+#india {
+  display: none;
 }
 }
 

@@ -5,322 +5,1494 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the world of vitamins and nutrients with Whole Wellness Web. Learn about the benefits of essential vitamins like Vitamin A, B1 (Thiamine), and B2 (Riboflavin). Discover how these nutrients support vision, energy production, immune health, skin care, and more. Find valuable insights on maintaining a balanced diet and holistic wellness.">
+    <meta name="keywords"
+        content="vitamins, nutrients, holistic wellness, Vitamin A, B1, Thiamine, B2, Riboflavin, benefits, balanced diet">
+    <meta name="author" content="KirtanArtistry">
     <link rel="stylesheet" href="CSS/myposts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Whole Wellness Web || Vitamins and Nutrients</title>
-    <link rel="shortcut icon" href="img/plogo.png" type="image/my-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Essential Vitamins and Nutrients for Holistic Wellness | Whole Wellness Web</title>
+    <link rel="shortcut icon" href="img/6-removebg-preview.png" type="image/my-icon">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
-     crossorigin="anonymous"></script>
-     
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="menu-bar" onclick="menuOnClick()">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
-    </div>
+    <section>
+        <div id="hamburger">
+            <div class="bars" id="bars1"></div>
+            <div class="bars" id="bars2"></div>
+            <div class="bars" id="bars3"></div>
+        </div>
+        <div class="side-menu">
+            <a href="#vitaminA">VITAMIN A</a>
+            <a href="#vitaminB1">VITAMIN B1</a>
+            <a href="#vitaminB2">VITAMIN B2</a>
+            <a href="#vitaminB3">VITAMIN B3</a>
+            <a href="#vitaminB5">VITAMIN B5</a>
+            <a href="#vitaminB6">VITAMIN B6</a>
+            <a href="#vitaminB7">VITAMIN B7</a>
+            <a href="#vitaminB9">VITAMIN B9</a>
+            <a href="#vitaminB12">VITAMIN B12</a>
+            <a href="#vitaminC">VITAMIN C</a>
+            <a href="#vitaminD">VITAMIN D</a>
+            <a href="#vitaminE">VITAMIN E</a>
+            <a href="#vitaminK">VITAMIN K</a>
+            <a href="#vitaminOMEGA-3">VITAMIN OMEGA-3</a>
+        </div>
+    </section>
+    <section>
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </section>
     <div class="newDropping">
-        <nav id="myNavbar" class="mnav">
-            <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
-            <li class="nav"> <a href="index.html">HOME </a></li>
-            <li class="nav"> <a href="about.html" target="_blank">ABOUT </a></li>
-            <li class="nav"> <a href="posts.html" target="_blank">POSTS </a></li>
-            <li class="nav"> <a href="contact.html" target="_blank">CONTACT US </a></li>
-            <li class="nav"> <a href="terms-and-condition.html">TERMS AND CONDITIONS </a></li>
-            <li class="nav"> <a href="privacy-policy.html" target="_blank">PRIVACY POLICY </a></li>
-            <div class="dropdown">
-                <input type="text" id="text" placeholder="SEARCH HERE" id="searchbar" onkeyup="search_posts()">
-                <div class="dropdown-content">
-                    <a href="vitamins&nutri.html" target="_blank" class="myposts">
-                        <li> VITAMINS & MINERALS </li>
-                    </a>
-                    <a href="sleep.html" target="_blank" class="myposts">
-                        <li> SLEEP GOOD </li>
-                    </a>
-                    <a href="workouttips.html" target="_blank" class="myposts">
-                        <li> WORKOUT TIPS </li>
-                    </a>
-                    <a href="healthyfood.html" target="_blank" class="myposts">
-                        <li> BALANCE DIET </li>
-                    </a>
-                    <a href="maditation.html" target="_blank" class="myposts">
-                        <li> MADITATION </li>
-                    </a>
-                    <a href="skincare.html" target="_blank" class="myposts">
-                        <li> SKIN CARE </li>
-                    </a>
+        <header>
+            <nav id="myNavbar" class="mnav">
+                <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
+                <li class="nav"> <a href="index.html"> <i class="fa fa-home"></i>&nbsp;HOME </a></li>
+                <li class="nav"> <a href="about.html" ><i class="fa fa-address-book"></i>&nbsp;ABOUT
+                        US</a></li>
+                <li class="nav"> <a href="posts.html" ><i class="far fa-images"></i>&nbsp;POSTS </a></li>
+                <li class="nav" id="show1">DIET PLANS <span class="fas fa-angle-down" id="whenClickFirst"></span>
+                <li id="Dropdown1">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+                </li>
+                <li class="nav" id="show2">RECIPES <span class="fas fa-angle-down" id="whenClickSecond"></span>
+                <li id="Dropdown2">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+                </li>
+                <li class="nav" id="show3">WORKOUTS <span class="fas fa-angle-down" id="whenClickThird"></span>
+                <li id="Dropdown3">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+                </li>
+                <li class="nav" id="show4">YOGA <span class="fas fa-angle-down" id="whenClickForth"></span>
+                <li id="Dropdown4">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+                </li>
+                <li class="nav"> <a href="contact.html" ><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US
+                    </a></li>
+
+                <img src="img/orsrc17338.jpg" alt="indian" id="india">
+
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <div class="headerwww grid">
+                    <h1 class="main-heading">
+                        Discover Optimal Health and Wellness with Whole Wellness Web
+                    </h1>
                 </div>
-            </div>
-            <button type="submit" class="icons"><i class="fa fa-search"></i></button>
-        </nav>
-
-        <div class="headerwww grid">
-            <h1 class="main-heading">
-                WHOLE WELLNESS WEB 
-            </h1>
-        </div>
-        <div class="fullbody">
-            <div class="thisFlexDiv">
-                <div class="mycontainer1">
-
-                    <div class="myparas">
-                        <h2 class="myvitamins-heading">* VITAMINS AND NUTRIENTS *</h2>
-                        <p id="vitnut"><q> It's important to get a variety of vitamins through a balanced and nutritious
-                                diet. Eating a diet rich in fruits, vegetables, whole grains, lean protein, and healthy
-                                fats can help ensure you are getting the vitamins your body needs to function at its
-                                best. If you are concerned about getting enough vitamins, talk to your healthcare
-                                provider about whether a vitamin supplement may be right for you. </q>
-                        </p>
+            </section>
+            <div class="fullbody">
+                <div class="thisFlexDiv">
+                    <div class="mycontainer1">
+                        <section>
+                            <article>
+                                <div class="myparas">
+                                    <h2 class="myvitamins-heading">Discover the Vital Role of Vitamins and Nutrients for
+                                        Your Well-being</h2>
+                                    <p id="vitnut"><q> It's important to get a variety of vitamins through a balanced
+                                            and nutritious
+                                            diet. Eating a diet rich in fruits, vegetables, whole grains, lean protein,
+                                            and healthy fats can help ensure you are getting the vitamins your body
+                                            needs to function at its best. If you are concerned about getting enough
+                                            vitamins, talk to your healthcare provider about whether a vitamin
+                                            supplement may be right for you. </q>
+                                    </p>
+                                </div>
+                            </article>
+                        </section>
                     </div>
+
+                    <div class="image-max">
+                    </div>
+
+                    <!-- VITAMIN A SECTION  -->
+
+                    <div class="mycontainer1" style="display: block;">
+                        <div class="myparas">
+                            <h2>
+                                Discover the Vital Roles of 13 Essential Vitamins for Optimal Body Function
+                            </h2>
+
+                            <div class="vitnut">
+                                <h3 class="Myvitamins" id="vitaminA">
+                                    1. The Importance of Vitamin A for Your Health
+                                </h3>
+
+                                <section>
+                                    <article>
+                                        <p class="mylistofvit">
+                                            Vitamin A is a fat-soluble vitamin that is important for many functions in
+                                            the body. It is also known as retinol and is found naturally in some foods,
+                                            such as liver, eggs, and dairy products, or added to others, such as
+                                            fortified cereals.
+                                        </p>
+                                    </article>
+                                </section>
+
+                                <div class="image">
+                                    <img src="img/fruits&vitamin.png" alt="">
+                                </div>
+
+                                <section class="flex-container">
+                                    <article>
+                                        <h3>Here are some of the benefits of Vitamin A for our body:</h3>
+
+                                        <div class="flex-my">
+                                            <div class="flex-item">
+                                                <li><b>Supports Vision:</b>
+                                                    <p class="justify">Vitamin A is essential for healthy vision, as it
+                                                        helps the eyes adjust to changes in light and supports the
+                                                        functioning of the retina.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Boosts Immunity:</b>
+                                                    <p class="justify">Vitamin A is important for maintaining the health
+                                                        of the immune system and helps the body fight off infections and
+                                                        illnesses.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Promotes Skin Health:</b>
+                                                    <p class="justify">Vitamin A is essential for healthy skin, as it
+                                                        helps to promote skin cell turnover and the production of
+                                                        collagen, which helps keep skin firm and smooth.</p>
+                                                </li>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex-my">
+                                            <div class="flex-item">
+                                                <li><b>Supports Growth and Development:</b>
+                                                    <p class="justify">Vitamin A is important for normal growth and
+                                                        development, particularly in children.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Protects Against Age-Related Decline:</b>
+                                                    <p class="justify">Vitamin A has antioxidant properties, which means
+                                                        it can help protect against damage from free radicals that
+                                                        contribute to aging and age-related decline.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Supports Reproductive Health:</b>
+                                                    <p class="justify">Vitamin A plays a role in reproductive health,
+                                                        including the production of sperm and the development of the
+                                                        fetus during pregnancy.</p>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <p class="impnote"><b>NOTE :-</b> It's important to get enough Vitamin A through
+                                            a balanced and varied diet, as deficiency can lead to a range of health
+                                            problems, including vision impairment, weakened immune system, and skin
+                                            issues. However, it's also important not to consume too much Vitamin A, as
+                                            excess intake can be toxic. Talk to your healthcare provider about your
+                                            individual Vitamin A needs and whether a supplement may be right for you.
+                                        </p>
+                                    </article>
+                                </section>
+                                <hr class="mypageHr">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VITAMIN B1 SECTION  -->
+
+                    <section>
+                        <div class="mycontainer1" style="display: block;">
+
+                            <div class="myparas">
+                                <div class="vitnut">
+                                    <h3 class="Myvitamins" id="vitaminB1">2. Unlocking the Power of Vitamin B1 (Thiamine) for Energy,
+                                        Nervous System Health, and More</h3>
+                                    <article>
+                                        <p class="mylistofvit">
+                                            Vitamin B1, also known as thiamine, is one of the B complex vitamins that
+                                            the body
+                                            needs to convert food into energy. Thiamine is water-soluble, meaning that
+                                            the body
+                                            does not store it and it needs to be replenished regularly through the diet
+                                            or
+                                            supplementation.
+                                        </p>
+                                    </article>
+                                    <div class="image">
+                                        <img src="img/B1.jpg" alt="Vitamin b1">
+                                    </div>
+                                    <section id="iWntToHideLast">
+                                        <article>
+                                            <h3>The benefits of Vitamin B1 for the body include:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Energy Production:</b>
+                                                        <p class="justify">Thiamine helps convert carbohydrates into
+                                                            energy, which
+                                                            is essential for the body to function properly.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Nervous System Function:</b>
+                                                        <p class="justify">Thiamine is important for the nervous system
+                                                            to function
+                                                            properly, as it helps produce neurotransmitters that are
+                                                            involved in
+                                                            communication between nerve cells.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Heart Health:</b>
+                                                        <p class="justify">Thiamine can help improve heart health by
+                                                            reducing
+                                                            inflammation and improving blood flow.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Brain Function:</b>
+                                                        <p class="justify">Thiamine is important for cognitive function
+                                                            and may help
+                                                            improve memory and concentration.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Digestive Health:</b>
+                                                        <p class="justify">Thiamine helps the body produce hydrochloric
+                                                            acid, which
+                                                            is necessary for proper digestion of food.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                                                    <li><b>Nervous System Support:</b>
+                                                        <p class="justify">Vitamin A plays a role in reproductive
+                                                            health, including
+                                                            the production of sperm and the development of the fetus
+                                                            during
+                                                            pregnancy.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+
+                                            <p class="impnote"><b>NOTE :-</b> Deficiency of Vitamin B1 can lead to a
+                                                condition
+                                                called beriberi, which can cause symptoms such as muscle weakness,
+                                                fatigue, and
+                                                nerve damage. Severe deficiency can lead to heart failure and other
+                                                serious health
+                                                problems. <br>
+
+                                                Foods that are rich in Vitamin B1 include whole grains, meat, fish,
+                                                legumes, nuts,
+                                                and seeds. If you are concerned about getting enough Vitamin B1 in your
+                                                diet, talk
+                                                to your healthcare provider about whether a Vitamin B1 supplement may be
+                                                right for
+                                                you.</p>
+                                        </article>
+                                    </section>
+                                    <hr class="mypageHr">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- VITAMIN B2 SECTION  -->
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB2">3. Unlocking the Power of Vitamin B2 (Riboflavin) for
+                                                Optimal Health</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B2, also known as riboflavin, is a water-soluble vitamin
+                                                    that plays an
+                                                    important role in energy production and antioxidant function. It's
+                                                    involved in many
+                                                    metabolic processes in the body, including the conversion of food
+                                                    into energy and
+                                                    the metabolism of fats, carbohydrates, and protein.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B2.jpg" alt="Vitamin B2">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of vitamin B2 for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Energy Production:</b>
+                                                        <p class="justify">Vitamin B2 plays a crucial role in energy
+                                                            production in the body.
+                                                            It helps convert food into energy that the body can use.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Healthy skin:</b>
+                                                        <p class="justify">Vitamin B2 is important for maintaining
+                                                            healthy skin. It helps
+                                                            protect the skin from damage caused by free radicals and UV
+                                                            radiation.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Eye health:</b>
+                                                        <p class="justify">Vitamin B2 plays a role in maintaining eye
+                                                            health. It helps
+                                                            prevent cataracts and other eye disorders.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Antioxidant function:</b>
+                                                        <p class="justify">Vitamin B2 is an antioxidant, which means it
+                                                            helps protect the
+                                                            body from damage caused by free radicals. This can help
+                                                            reduce the risk of
+                                                            chronic diseases such as cancer, heart disease, and
+                                                            Alzheimer's disease.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Migraine prevention:</b>
+                                                        <p class="justify">Some studies suggest that vitamin B2 may help
+                                                            prevent migraines
+                                                            by reducing the frequency and severity of attacks.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Anemia prevention:</b>
+                                                        <p class="justify">Vitamin B2 is important for red blood cell
+                                                            production, which
+                                                            helps prevent anemia.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Foods rich in vitamin B2 include milk,
+                                                cheese, eggs,
+                                                meat, fish, and leafy green vegetables. Most people can get enough
+                                                vitamin B2
+                                                through a balanced and varied diet. However, if you are at risk of
+                                                deficiency or
+                                                have a medical condition that affects your ability to absorb nutrients,
+                                                your
+                                                healthcare provider may recommend a vitamin B2 supplement.
+                                            </p>
+                                            <hr class="mypageHr">
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+
+
+                    <!-- VITAMIN B3 SECTION  -->
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB3">4. Niacin (Vitamin B3): Benefits, Sources, and Role
+                                                in Health</h3>
+                                            <p class="mylistofvit">
+                                                Vitamin B3, also known as niacin, is a water-soluble vitamin that
+                                                plays an important role in converting food into energy. It is also
+                                                involved in DNA repair, hormone synthesis, and immune system
+                                                function. Here are some of the key benefits of vitamin B3:
+                                            </p>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B3.jpg" alt="Vitamin B3">
+                                        </div>
+                                        <h3>Here are some benefits of vitamin B3 for our body:</h3>
+                                        <div class="flex-my">
+                                            <div class="flex-item">
+                                                <li><b>Energy Production:</b>
+                                                    <p class="justify">Vitamin B3 is involved in the production of
+                                                        ATP, which is the main source of energy for the body. It
+                                                        helps convert carbohydrates, fats, and proteins into usable
+                                                        energy.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Lower cholesterol:</b>
+                                                    <p class="justify">High doses of vitamin B3 have been shown to
+                                                        lower LDL (bad) cholesterol and increase HDL (good)
+                                                        cholesterol, which can help reduce the risk of heart
+                                                        disease.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Improve brain function:</b>
+                                                    <p class="justify">Vitamin B3 may improve cognitive function and
+                                                        reduce symptoms of Alzheimer's disease.</p>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="flex-my">
+                                            <div class="flex-item">
+                                                <li><b>Skin health:</b>
+                                                    <p class="justify">Vitamin B3 has been shown to improve skin
+                                                        barrier function and reduce inflammation, which can help
+                                                        improve the appearance of the skin and reduce symptoms of
+                                                        acne.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Reducing inflammation:</b>
+                                                    <p class="justify">Vitamin B3 has anti-inflammatory properties
+                                                        and may help reduce inflammation in the body.</p>
+                                                </li>
+                                            </div>
+                                            <div class="flex-item">
+                                                <li><b>Diabetes management:</b>
+                                                    <p class="justify">Vitamin B3 may improve glucose tolerance and
+                                                        insulin sensitivity, which can help manage diabetes.</p>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <p class="impnote"><b>NOTE :-</b> It's important to get enough vitamin B3
+                                            through a balanced and nutritious diet. Foods rich in vitamin B3 include
+                                            chicken, fish, beef, peanuts, mushrooms, and green peas. If you are
+                                            concerned about getting enough vitamin B3, talk to your healthcare
+                                            provider about whether a supplement may be right for you.
+                                        </p>
+                                        <hr class="mypageHr">
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+                    <!-- VITAMIN B5 SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB5">5. "Unlocking the Benefits of Vitamin B5 (Pantothenic
+                                                Acid) for Optimal Health"</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B5, also known as pantothenic acid, is a water-soluble
+                                                    vitamin that plays a role in several bodily functions. Here are some
+                                                    benefits of vitamin B5 for the body.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B5.jpg" alt="Vitamin B5">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of vitamin B5 for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Energy Production:</b>
+                                                        <p class="justify">Vitamin B5 is involved in the process of
+                                                            converting food into energy, which is important for overall
+                                                            energy levels and metabolism.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Hormone production:</b>
+                                                        <p class="justify">Vitamin B5 is involved in the production of
+                                                            hormones such as testosterone, estrogen, and cortisol.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Healthy skin:</b>
+                                                        <p class="justify">Vitamin B5 is important for maintaining
+                                                            healthy skin, as it helps with the production of oils that
+                                                            keep skin moisturized.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Reducing inflammation:</b>
+                                                        <p class="justify">Vitamin B5 has been shown to have
+                                                            anti-inflammatory effects, which may help reduce the risk of
+                                                            chronic diseases such as heart disease and cancer.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Supporting brain function:</b>
+                                                        <p class="justify">Vitamin B5 is involved in the production of
+                                                            neurotransmitters, which are important for brain function
+                                                            and mood regulation.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Cholesterol and triglyceride levels:</b>
+                                                        <p class="justify">Some research suggests that vitamin B5 may
+                                                            help lower cholesterol and triglyceride levels, which can
+                                                            reduce the risk of heart disease.
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Overall, getting enough vitamin B5 through
+                                                a balanced and nutritious diet is important for maintaining optimal
+                                                health and supporting many bodily functions. Good sources of vitamin B5
+                                                include meat, fish, poultry, whole grains, and vegetables such as sweet
+                                                potatoes and broccoli.
+                                            </p>
+                                            <hr class="mypageHr">
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+
+                    <!-- VITAMIN B6 SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB6">6. Optimizing Health: The Power of Vitamin B6 in
+                                                Nervous System Support and Beyond</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B6, also known as pyridoxine, is one of the eight B
+                                                    vitamins. It is a water-soluble vitamin that plays an important role
+                                                    in various bodily functions.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B6.jpg" alt="Vitamin B6">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of vitamin B6 for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Helps with brain function:</b>
+                                                        <p class="justify">Vitamin B6 is necessary for the production of
+                                                            neurotransmitters such as serotonin, dopamine, and GABA.
+                                                            These neurotransmitters are important for mood regulation,
+                                                            sleep, and cognitive function.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Supports immune function:</b>
+                                                        <p class="justify">Vitamin B6 plays a role in the production of
+                                                            white blood cells, which help to fight off infections and
+                                                            disease.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Helps with red blood cell production:</b>
+                                                        <p class="justify">Vitamin B6 is necessary for the production of
+                                                            hemoglobin, the protein in red blood cells that carries
+                                                            oxygen throughout the body.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Helps with metabolism:</b>
+                                                        <p class="justify">Vitamin B6 is involved in the metabolism of
+                                                            carbohydrates, proteins, and fats. It helps to break down
+                                                            these nutrients and convert them into energy.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Supports heart health:</b>
+                                                        <p class="justify">Vitamin B6 helps to reduce levels of
+                                                            homocysteine, an amino acid that has been linked to an
+                                                            increased risk of heart disease.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                                                    <li><b>Cholesterol and triglyceride levels:</b>
+                                                        <p class="justify">Some research suggests that vitamin B5 may
+                                                            help lower cholesterol and triglyceride levels, which can
+                                                            reduce the risk of heart disease.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Some good sources of Vitamin B6 include
+                                                poultry, fish, potatoes, bananas, and fortified cereals. The recommended
+                                                daily intake of Vitamin B6 for adults is 1.3-1.7 mg per day. However,
+                                                it's important not to take too much Vitamin B6, as high doses can cause
+                                                nerve damage. It's always best to get your vitamins through a balanced
+                                                and nutritious diet, and to talk to your healthcare provider before
+                                                taking any supplements.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>                                     
+
+
+                    <!-- VITAMIN B7 SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB7">7. Unlocking the Benefits of Vitamin B7 (Biotin) for Healthy Living</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B7, also known as biotin, is a water-soluble vitamin that is necessary for the metabolism of carbohydrates, fats, and protein. It also plays a role in the synthesis of fatty acids and glucose. Biotin is important for healthy hair, skin, and nails, and is often found in beauty products.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B7.jpg" alt="Vitamin B7">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some of the benefits of Vitamin B7:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Healthy hair:</b>
+                                                        <p class="justify">Biotin is often used in hair products to promote healthy hair growth and prevent hair loss.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Healthy skin:</b>
+                                                        <p class="justify">Biotin helps keep skin healthy by promoting the production of fatty acids, which are important for maintaining healthy skin.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Strong nails:</b>
+                                                        <p class="justify">Biotin can help strengthen nails and prevent brittleness.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Metabolism:</b>
+                                                        <p class="justify">Biotin is necessary for the metabolism of carbohydrates, fats, and protein, which is important for energy production and overall health.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Pregnancy:</b>
+                                                        <p class="justify">Biotin is important for fetal development during pregnancy and can help prevent birth defects.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Blood sugar regulation:</b>
+                                                        <p class="justify">Biotin may play a role in regulating blood sugar levels in people with diabetes.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> It's important to get enough Vitamin B7 through a balanced and nutritious diet, as deficiency can lead to skin rash, hair loss, and neurological symptoms. Good sources of biotin include eggs, nuts, whole grains, and vegetables such as sweet potatoes and spinach.</p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+                    <!-- VITAMIN B9 SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB9">8. Optimize Your Health with Vitamin B9 (Folic Acid) Benefits</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B9, also known as folate or folic acid, is a water-soluble
+                                                    vitamin that is essential for many important functions in the body.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/B9.jpg" alt="Vitamin B9">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of vitamin B9 for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Promotes cell growth and division:</b>
+                                                        <p class="justify">Vitamin B9 is essential for the growth and
+                                                            division of cells in the body, making it especially
+                                                            important during periods of rapid growth, such as pregnancy
+                                                            and infancy.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Supports healthy brain function:</b>
+                                                        <p class="justify">Vitamin B9 plays a role in the production of
+                                                            neurotransmitters, which are important for cognitive
+                                                            function, mood regulation, and memory.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Prevents birth defects:</b>
+                                                        <p class="justify">Adequate intake of vitamin B9 before and
+                                                            during pregnancy can help prevent neural tube defects in the
+                                                            developing fetus.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Reduces the risk of heart disease:</b>
+                                                        <p class="justify">Vitamin B9 helps reduce levels of
+                                                            homocysteine, an amino acid that has been linked to an
+                                                            increased risk of heart disease.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>May reduce the risk of certain cancers:</b>
+                                                        <p class="justify">Some studies have suggested that adequate
+                                                            intake of vitamin B9 may help reduce the risk of certain
+                                                            cancers, such as colon, breast, and pancreatic cancer.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                                                    <li><b>Blood sugar regulation:</b>
+                                                        <p class="justify">Biotin may play a role in regulating blood
+                                                            sugar levels in people with diabetes.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Good food sources of vitamin B9 include
+                                                leafy green vegetables, beans, lentils, citrus fruits, fortified
+                                                cereals, and supplements. It's important to note that excessive intake
+                                                of vitamin B9 can be harmful, so it's best to talk to your healthcare
+                                                provider about the right amount for you.
+                                            </p>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- VITAMIN B12 SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminB12">9. Unlocking the Benefits: The Crucial Role of
+                                                Vitamin B12 in Your Health</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin B12, also known as cobalamin, is a water-soluble vitamin
+                                                    that plays an important role in many bodily functions. It is
+                                                    essential for the production of red blood cells, DNA synthesis, and
+                                                    proper nerve function.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/dairy productes.jpg" alt="Vitamin B12">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of Vitamin B12 for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Red Blood Cell Production:</b>
+                                                        <p class="justify">Vitamin B12 helps in the production of red
+                                                            blood cells, which carry oxygen to various parts of the
+                                                            body.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Energy Production:</b>
+                                                        <p class="justify">Vitamin B12 plays a key role in converting
+                                                            food into energy, which is important for maintaining healthy
+                                                            metabolism and preventing fatigue.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Brain and Nerve Function:</b>
+                                                        <p class="justify">Vitamin B12 is essential for the proper
+                                                            functioning of the nervous system. It helps in the
+                                                            production of myelin, a fatty substance that surrounds and
+                                                            protects nerve fibers.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Heart Health:</b>
+                                                        <p class="justify">Vitamin B12 helps in the production of amino
+                                                            acids that are important for maintaining healthy heart
+                                                            function and reducing the risk of heart disease.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Digestive Health:</b>
+                                                        <p class="justify">Vitamin B12 helps in the production of
+                                                            digestive enzymes that aid in the breakdown and absorption
+                                                            of nutrients.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Mood and Cognitive Health:</b>
+                                                        <p class="justify">Vitamin B12 is essential for the production
+                                                            of neurotransmitters, which are important for regulating
+                                                            mood and cognitive function.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Some sources of Vitamin B12 include meat,
+                                                fish, eggs, and dairy products. For individuals who follow a vegetarian
+                                                or vegan diet, Vitamin B12 supplements may be necessary to meet their
+                                                daily needs. It's important to talk to your healthcare provider about
+                                                your Vitamin B12 needs, especially if you have any health conditions or
+                                                concerns.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- VITAMIN C SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminC">10. Optimizing Health: The Power of Vitamin C for
+                                                Wellness and Vitality</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin C, also known as ascorbic acid, is a water-soluble vitamin
+                                                    that is essential for overall health. Here are some of the benefits
+                                                    of vitamin C for the body:
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/vitamin C.png" alt="Vitamin C">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of vitamin C for our body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Immune System Support:</b>
+                                                        <p class="justify">Vitamin C is a powerful antioxidant that
+                                                            helps protect the body from harmful free radicals and
+                                                            supports the immune system. It is involved in the production
+                                                            of white blood cells, which help fight off infections and
+                                                            diseases.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Collagen Production:</b>
+                                                        <p class="justify">Vitamin C is necessary for the production of
+                                                            collagen, which is an important protein that helps maintain
+                                                            the strength and elasticity of skin, bones, and other
+                                                            connective tissues.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Wound Healing:</b>
+                                                        <p class="justify">Vitamin C plays a role in the healing of
+                                                            wounds and tissue repair by helping to form new tissue and
+                                                            blood vessels.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Iron Absorption:</b>
+                                                        <p class="justify">Vitamin C can help the body absorb iron from
+                                                            plant-based sources, which can be beneficial for people who
+                                                            follow a vegetarian or vegan diet.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Eye Health:</b>
+                                                        <p class="justify">Vitamin C may help reduce the risk of
+                                                            age-related macular degeneration, which is a leading cause
+                                                            of vision loss in older adults.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Brain Function:</b>
+                                                        <p class="justify">Vitamin C may help improve cognitive function
+                                                            and reduce the risk of cognitive decline in older adults.
+                                                        </p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Foods that are high in vitamin C include
+                                                citrus fruits, strawberries, kiwi, broccoli, bell peppers, tomatoes, and
+                                                spinach. It's important to get enough vitamin C through a balanced and
+                                                nutritious diet or through supplements if needed, as vitamin C
+                                                deficiency can lead to scurvy, a serious condition that can cause
+                                                fatigue, muscle weakness, and joint pain.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- VITAMIN D SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminD">11. Unlocking the Benefits of Vitamin D: From Health
+                                                to Wellness</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin D is a fat-soluble vitamin that plays a crucial role in maintaining bone
+                                                    health and supporting the immune system. It can be obtained through exposure to
+                                                    sunlight, certain foods, and supplements.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/vitamin D.png" alt="Vitamin D">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some benefits of Vitamin D for the body:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <article><b>Bone health:</b>
+                                                        <p class="justify">Vitamin D helps the body absorb calcium, which is essential
+                                                            for building and maintaining strong bones. It can help prevent conditions
+                                                            such as osteoporosis, a condition in which bones become weak and brittle.
+                                                        </p>
+                                                    </article>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <article><b>Immune system function:</b>
+                                                        <p class="justify">Vitamin D helps regulate the immune system and can help
+                                                            protect against infections and diseases.</p>
+                                                    </article>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <article><b>Muscle function:</b>
+                                                        <p class="justify">Vitamin D is necessary for muscle function, and deficiency
+                                                            can lead to muscle weakness and pain.</p>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <article><b>Mood:</b>
+                                                        <p class="justify">Research has shown that Vitamin D may play a role in
+                                                            regulating mood and preventing depression.</p>
+                                                    </article>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <article><b>Heart health:</b>
+                                                        <p class="justify">Vitamin D may help reduce the risk of heart disease by
+                                                            reducing inflammation and improving blood pressure.</p>
+                                                    </article>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <article><b>Cancer prevention:</b>
+                                                        <p class="justify">Some studies have suggested that Vitamin D may help prevent
+                                                            certain types of cancers, including breast, colon, and prostate cancer.
+                                                        </p>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> It's important to get enough Vitamin D through a
+                                                combination of sunlight exposure, a balanced diet, and supplements if necessary. The
+                                                recommended daily intake of Vitamin D for most adults is 600 to 800 IU per day.
+                                                However, it's important to talk to your healthcare provider to determine the best
+                                                approach for you, especially if you are at risk for deficiency or have a medical
+                                                condition that affects Vitamin D absorption or utilization.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- VITAMIN E SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminE">12. Unlocking the Potential: The Power of Vitamin E
+                                                for Your Health</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin E is a fat-soluble vitamin that acts as an antioxidant in
+                                                    the body. It is found in a variety of foods, including nuts, seeds,
+                                                    vegetable oils, and leafy green vegetables.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/vitamin E.png" alt="Vitamin E">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some of the benefits of Vitamin E:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <p><b>Antioxidant Properties:</b>
+                                                        Vitamin E is a powerful antioxidant that
+                                                        helps protect cells from damage caused by free radicals,
+                                                        which can lead to chronic diseases such as heart disease,
+                                                        cancer, and Alzheimer's.
+                                                    </p>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <p><b>Skin Health:</b>
+                                                        Vitamin E helps to maintain healthy skin by
+                                                        protecting it from damage caused by environmental factors
+                                                        such as UV radiation and pollution. It also helps to reduce
+                                                        the appearance of scars and fine lines.
+                                                    </p>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <p><b>Immune System:</b>
+                                                        Vitamin E plays a role in supporting a
+                                                        healthy immune system by helping to regulate the production
+                                                        of immune cells.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <p><b>Eye Health:</b>
+                                                        Vitamin E may help to prevent or delay the
+                                                        onset of age-related eye diseases such as macular
+                                                        degeneration and cataracts.
+                                                    </p>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <p><b>Heart Health:</b>
+                                                        Vitamin E may help to reduce the risk of
+                                                        heart disease by helping to prevent the oxidation of LDL
+                                                        (bad) cholesterol, which can lead to the buildup of plaque
+                                                        in the arteries.
+                                                    </p>
+                                                </div>
+                                                <div class="flex-item displayNoneOnMobile"
+                                                    style="opacity: 0;">
+                                                    <p><b>Cancer prevention:</b>
+                                                        Some studies have suggested that Vitamin D
+                                                        may help prevent certain types of cancers, including breast,
+                                                        colon, and prostate cancer.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> It's important to note that while Vitamin
+                                                E has many potential benefits, consuming too much of it through
+                                                supplements can be harmful. It's best to get Vitamin E through a
+                                                balanced diet that includes a variety of foods that are rich in this
+                                                important nutrient.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- VITAMIN K SECTION  -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminK">13. Unlocking the Potential: The Comprehensive Guide
+                                                to Vitamin K Benefits and Sources</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Vitamin K is a fat-soluble vitamin that plays an important role in
+                                                    blood clotting and bone health. There are two main types of vitamin
+                                                    K: vitamin K1 (phylloquinone) and vitamin K2 (menaquinone).
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/vitamin K.png" alt="Vitamin K">
+                                        </div>
+                                        <section>
+                                            <h3>The benefits of vitamin K include:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Blood Clotting:</b>
+                                                        <p class="justify"> Vitamin K is necessary for the production of
+                                                            clotting factors in the blood, which helps to stop bleeding
+                                                            and promote healing after an injury.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Bone Health:</b>
+                                                        <p class="justify"> Vitamin K is involved in the regulation of
+                                                            calcium, which is essential for strong bones. Adequate
+                                                            vitamin K intake can help reduce the risk of bone fractures
+                                                            and osteoporosis.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Heart Health:</b>
+                                                        <p class="justify"> Some studies suggest that vitamin K may help
+                                                            reduce the risk of heart disease by preventing the
+                                                            calcification of arteries.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Brain Function:</b>
+                                                        <p class="justify"> Vitamin K has been shown to support
+                                                            cognitive function and may help reduce the risk of
+                                                            age-related cognitive decline.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Cancer Prevention:</b>
+                                                        <p class="justify"> Some studies have suggested that vitamin K
+                                                            may help reduce the risk of certain types of cancer, such as
+                                                            prostate and liver cancer.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                                                    <li><b>Cancer prevention:</b>
+                                                        <p class="justify">Some studies have suggested that Vitamin D
+                                                            may help prevent certain types of cancers, including breast,
+                                                            colon, and prostate cancer.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> Good food sources of vitamin K include
+                                                leafy green vegetables such as spinach, kale, and broccoli, as well as
+                                                liver, egg yolks, and fermented foods like natto. It's important to talk
+                                                to your healthcare provider before taking vitamin K supplements, as
+                                                excessive intake can interfere with blood thinning medications.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                    
+
+
+                    <!-- Omega-3 -->
+
+                    <section>
+                        <article>
+                            <div class="mycontainer1" style="display: block;">
+                                <div class="myparas">
+                                    <div class="vitnut">
+                                        <section>
+                                            <h3 class="Myvitamins" id="vitaminOMEGA-3">14. The Benefits of Omega-3: Your Guide to Essential
+                                                Fatty Acids</h3>
+                                            <article>
+                                                <p class="mylistofvit">
+                                                    Omega-3 fatty acids are a type of polyunsaturated fat that the body
+                                                    needs but cannot produce on its own. They are essential for good
+                                                    health and are found in a variety of foods such as fish, nuts, and
+                                                    seeds.
+                                                </p>
+                                            </article>
+                                        </section>
+                                        <div class="image">
+                                            <img src="img/omega3.png" alt="Vitamin E">
+                                        </div>
+                                        <section>
+                                            <h3>Here are some of the benefits of omega-3 fatty acids:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Heart Health:</b>
+                                                        <p class="justify"> Omega-3s help to lower triglyceride levels,
+                                                            reduce blood pressure, and decrease the risk of heart
+                                                            disease. Studies have shown that people who consume higher
+                                                            levels of omega-3s are less likely to experience heart
+                                                            attacks or strokes.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Brain Health:</b>
+                                                        <p class="justify"> Omega-3s are important for brain development
+                                                            and function. They can help improve memory and reduce the
+                                                            risk of age-related cognitive decline. In fact, studies have
+                                                            shown that omega-3s may even help prevent certain
+                                                            psychiatric disorders, such as depression and schizophrenia.
+                                                        </p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Joint Health:</b>
+                                                        <p class="justify"> Omega-3s can help reduce inflammation in the
+                                                            body, which can improve joint health and reduce the symptoms
+                                                            of rheumatoid arthritis.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Eye Health:</b>
+                                                        <p class="justify"> Omega-3s are also essential for maintaining
+                                                            good eye health. They can help prevent age-related macular
+                                                            degeneration, a leading cause of blindness in older adults.
+                                                        </p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Pregnancy and Infant Health:</b>
+                                                        <p class="justify"> Omega-3s are important for fetal and infant
+                                                            brain and eye development, and may reduce the risk of
+                                                            preterm labor and postpartum depression. <br> Omega-3s are
+                                                            important for a healthy pregnancy. They can help support the
+                                                            development of the fetus's brain and nervous system, reduce
+                                                            the risk of preterm birth, and may even reduce the risk of
+                                                            postpartum depression.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Reduced Inflammation:</b>
+                                                        <p class="justify"> Omega-3s have anti-inflammatory properties
+                                                            that can help reduce inflammation in the body. This can be
+                                                            particularly beneficial for those with inflammatory
+                                                            conditions such as rheumatoid arthritis or inflammatory
+                                                            bowel disease.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Improved Sleep:</b>
+                                                        <p class="justify"> Omega-3s may also improve the quality of
+                                                            sleep. One study found that consuming omega-3s helped
+                                                            participants fall asleep more quickly and wake up less
+                                                            during the night.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Reduced Anxiety:</b>
+                                                        <p class="justify"> Research has shown that omega-3s may help
+                                                            reduce symptoms of anxiety. In one study, participants who
+                                                            took omega-3 supplements for three months experienced a
+                                                            significant reduction in anxiety symptoms.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Reduced Risk of Cancer:</b>
+                                                        <p class="justify">Omega-3s may also help reduce the risk of
+                                                            certain types of cancer, including breast, colon, and
+                                                            prostate cancer.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <h3 style="
+                background-color: gray;
+                color: white;
+                border-radius: 10px;
+                box-shadow: 2px 2px 5px gray;
+                ">The optimal dose of omega-3s varies depending on age, gender, health status, and other factors. Here
+                                                are some general guidelines:</h3>
+                                            <div class="flex-my">
+                                                <div class="flex-item">
+                                                    <li><b>Adults:</b>
+                                                        <p class="justify">The American Heart Association recommends
+                                                            that adults consume at least two servings of fatty fish per
+                                                            week, which provides about 500 milligrams of EPA and DHA
+                                                            omega-3s per day. If you don't eat fish or prefer to take
+                                                            supplements, a daily dose of 1000-2000 milligrams of
+                                                            combined EPA and DHA is recommended.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Children:</b>
+                                                        <p class="justify">The American Academy of Pediatrics recommends
+                                                            that children consume at least two servings of fatty fish
+                                                            per week. If children don't eat fish or have trouble meeting
+                                                            this recommendation, they can take an omega-3 supplement
+                                                            specifically designed for children.</p>
+                                                    </li>
+                                                </div>
+                                                <div class="flex-item">
+                                                    <li><b>Pregnant and breastfeeding women:</b>
+                                                        <p class="justify">Pregnant and breastfeeding women should aim
+                                                            to consume at least 200-300 milligrams of DHA omega-3s per
+                                                            day. This can be achieved through eating fatty fish or
+                                                            taking a DHA supplement.</p>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                            <p class="impnote"><b>NOTE :-</b> It's recommended that adults consume at
+                                                least two servings of fatty fish per week, which is a good source of
+                                                omega-3 fatty acids. If you don't eat fish, you can also get omega-3s
+                                                from supplements such as fish oil, flaxseed oil, or algae-based
+                                                supplements. However, it's always best to talk to your healthcare
+                                                provider before starting any new supplement regimen.
+                                                <br>
+                                                It's important to note</b> that taking high doses of omega-3 supplements
+                                                can increase the risk of bleeding, especially in people taking blood
+                                                thinning medications. Therefore, it's important to talk to your
+                                                healthcare provider before taking omega-3 supplements, especially if you
+                                                have a bleeding disorder, are taking medications that affect blood
+                                                clotting, or are scheduled for surgery. <br><br>
+                                                <b>Omega-3 </b> supplements come in various forms, including fish oil
+                                                capsules, liquid fish oil, krill oil, and vegan algae oil. The most
+                                                common way to take omega-3 supplements is by swallowing capsules or
+                                                liquid, but some people prefer to mix them into their food or drinks. If
+                                                you have trouble swallowing pills, there are also chewable and gummy
+                                                omega-3 supplements available. It's important to follow the recommended
+                                                dosage on the supplement label and to store supplements in a cool, dry
+                                                place away from sunlight.
+                                            </p>
+                                            <hr class="mypageHr">
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+
                 </div>
 
-                <div class="image-max">
-                    <img src="img/fruits and vegies.png" alt="" id="myimagesof">
-                </div>
-
-<!-- VITAMIN A SECTION  -->
-
-<div class="mycontainer1" style="display: block;">
-
-<div class="myparas">
-                        <h2 class="h2">* There are 13 essential vitamins that the body needs to function properly. Here is a list of vitamins and their benefits: *</h2>
-<div class="vitnut">
-<h2 class="Myvitamins">Vitamin A:</h2>
-<p class="mylistofvit">
-    Vitamin A is a fat-soluble vitamin that is important for many functions in the body. It is also known as retinol and is found naturally in some foods, such as liver, eggs, and dairy products, or added to others, such as fortified cereals.
-    </p>
-<div class="image">
-    <img src="img/fruits&vitamin.png" alt="">
-</div>
-
-<h3>Here are some of the benefits of Vitamin A for our body:</h3>
-<li><b>Supports Vision:</b>
-    <p class="justify">Vitamin A is essential for healthy vision, as it helps the eyes adjust to changes in light and supports the functioning of the retina.</p>
-    </li>
-<li><b>Boosts Immunity:</b>
-    <p class="justify">Vitamin A is important for maintaining the health of the immune system and helps the body fight off infections and illnesses.</p>
-</li>
-<li><b>Promotes Skin Health:</b>
-    <p class="justify">Vitamin A is essential for healthy skin, as it helps to promote skin cell turnover and the production of collagen, which helps keep skin firm and smooth.</p>
-</li>
-<li><b>Supports Growth and Development:</b>
-    <p class="justify">Vitamin A is important for normal growth and development, particularly in children.</p>
-</li>
-<li><b>Protects Against Age-Related Decline:</b>
-    <p class="justify">Vitamin A has antioxidant properties, which means it can help protect against damage from free radicals that contribute to aging and age-related decline.</p>
-</li>
-<li><b>Supports Reproductive Health:</b>
-    <p class="justify">Vitamin A plays a role in reproductive health, including the production of sperm and the development of the fetus during pregnancy.</p>
-</li>
-<p class="impnote"><b>NOTE :-</b> It's important to get enough Vitamin A through a balanced and varied diet, as deficiency can lead to a range of health problems, including vision impairment, weakened immune system, and skin issues. However, it's also important not to consume too much Vitamin A, as excess intake can be toxic. Talk to your healthcare provider about your individual Vitamin A needs and whether a supplement may be right for you.</p>
-<hr class="mypageHr">
-</div>
-</div>
-</div>
-
-<!-- VITAMIN B1 SECTION  -->
-
-<div class="mycontainer1" style="display: block;">
-
-    <div class="myparas">
-    <div class="vitnut">
-    <h2>Vitamin B1 (Thiamine):</h2>
-    <p class="mylistofvit">
-        Vitamin B1, also known as thiamine, is one of the B complex vitamins that the body needs to convert food into energy. Thiamine is water-soluble, meaning that the body does not store it and it needs to be replenished regularly through the diet or supplementation.
-    </p>
-    <div class="image">
-        <img src="img/B1.png" alt="">
-    </div>
-    
-    <h3>The benefits of Vitamin B1 for the body include:</h3>
-    <li><b>Energy Production:</b><p class="justify">Thiamine helps convert carbohydrates into energy, which is essential for the body to function properly.</p>
-    </li>
-    <li><b>Nervous System Function:</b>
-        <p class="justify">Thiamine is important for the nervous system to function properly, as it helps produce neurotransmitters that are involved in communication between nerve cells.</p>
-    </li>
-    <li><b>Heart Health:</b>
-        <p class="justify">Thiamine can help improve heart health by reducing inflammation and improving blood flow.</p>
-    </li>
-    <li><b>Brain Function:</b>
-        <p class="justify">Thiamine is important for cognitive function and may help improve memory and concentration.</p>
-    </li>
-    <li><b>Digestive Health:</b>
-        <p class="justify">Thiamine helps the body produce hydrochloric acid, which is necessary for proper digestion of food.</p>
-    </li>
-    <!-- <li><b>Supports Reproductive Health:</b> Vitamin A plays a role in reproductive health, including the production of sperm and the development of the fetus during pregnancy.</li> -->
-    <p class="impnote"><b>NOTE :-</b> Deficiency of Vitamin B1 can lead to a condition called beriberi, which can cause symptoms such as muscle weakness, fatigue, and nerve damage. Severe deficiency can lead to heart failure and other serious health problems. <br>
-
-        Foods that are rich in Vitamin B1 include whole grains, meat, fish, legumes, nuts, and seeds. If you are concerned about getting enough Vitamin B1 in your diet, talk to your healthcare provider about whether a Vitamin B1 supplement may be right for you.</p>
-    <hr class="mypageHr">
-    </div>
-    </div>
-</div>
-
-<!-- VITAMIN B2 SECTION  -->
-
-<div class="mycontainer1" style="display: block;">
-
-    <div class="myparas">
-    <div class="vitnut">
-    <h2>Vitamin B2 (Riboflavin):</h2>
-    <p class="mylistofvit">
-        Vitamin B2, also known as riboflavin, is a water-soluble vitamin that plays an important role in energy production and antioxidant function. It's involved in many metabolic processes in the body, including the conversion of food into energy and the metabolism of fats, carbohydrates, and protein.
-    </p>
-    <div class="image">
-        <img src="img/B2.png" alt="">
-    </div>
-   
-    <h3>Here are some benefits of vitamin B2 for our body:</h3>
-    <li><b>Energy Production:</b>
-        <p class="justify">Vitamin B2 plays a crucial role in energy production in the body. It helps convert food into energy that the body can use.</p>
-    </li>
-    <li><b>Healthy skin:</b>
-        <p class="justify">Vitamin B2 is important for maintaining healthy skin. It helps protect the skin from damage caused by free radicals and UV radiation.</p>
-    </li>
-    <li><b>Eye health:</b>
-        <p class="justify">Vitamin B2 plays a role in maintaining eye health. It helps prevent cataracts and other eye disorders.</p>
-    </li>
-    <li><b>Antioxidant function:</b>
-        <p class="justify">Vitamin B2 is an antioxidant, which means it helps protect the body from damage caused by free radicals. This can help reduce the risk of chronic diseases such as cancer, heart disease, and Alzheimer's disease.</p>
-    </li>
-    <li><b>Migraine prevention:</b>
-        <p class="justify">Some studies suggest that vitamin B2 may help prevent migraines by reducing the frequency and severity of attacks.</p>
-    </li>
-    <li><b>Anemia prevention:</b>
-        <p class="justify">Vitamin B2 is important for red blood cell production, which helps prevent anemia.</p>
-    </li>
-    <p class="impnote"><b>NOTE :-</b> Foods rich in vitamin B2 include milk, cheese, eggs, meat, fish, and leafy green vegetables. Most people can get enough vitamin B2 through a balanced and varied diet. However, if you are at risk of deficiency or have a medical condition that affects your ability to absorb nutrients, your healthcare provider may recommend a vitamin B2 supplement.
-    </p>
-    <hr class="mypageHr">
-    </div>
-    </div>
-</div>
-
-<div class="privOrnext">
-    <a href="vitamins&nutri4.html" class="previous round">&#8249;</a>
-    <a href="vitamins&nutri1.html" class="next round">&#8250;</a>
-</div>
-
-
-                <!-- <p>
-            <h3>
-           <b> NOTE :- </b>The main objective of Whole Wellness Web is to focus only on vegetarian diet.
-            </h3>
-        </p> -->
             </div>
+        </main>
+    </div>
 
+    <aside>
+        <div class="mycontacts">
+            <a href="https://www.instagram.com/whole_wellness_web/?hl=en" ><i class="fab fa-instagram"
+                    id="instagram"></i></a>
+            <a href="https://wa.me/919810298566" ><i class="fab fa-whatsapp" id="whatsapp"></i></a>
         </div>
-    </div>
-    <div class="mycontainer2" id="recent">
-        <!-- <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="myWWW"> -->
-        <li id="li">
-            <h4 style="color: #000000; font-size: 25px; margin-top: 40px;">RECENT POSTS</h4>
-            <br>
-            <img src="img/fruits&vitamin.png" alt="" class="recentImg">
-            <a href="vitamins&nutri.html" target="_blank" style="color: #000000;"><ul>VITAMINS & MINERALS</ul></a>
-            <hr class="hr">
-            <img src="img/good food.png" alt="" class="recentImg">
-            <a href="nutrients.html" target="_blank" style="color: #000000;"><ul>GOOD FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fastfood.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>AVOID FAST FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fruits and vegies.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>FRUITS & VEGETABLES</ul></a>
-            <hr class="hr">
-            <img src="img/healthy tips.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>HEALTHY TIPS</ul></a>
-            <hr class="hr">
-            <img src="img/balance diet.png" alt="" class="recentImg">
-            <a href="healthyfood.html" target="_blank" style="color: #000000;"><ul>BALANCE DIET</ul></a>
-            <hr class="hr">
-            <img src="img/maditation.png" alt="" class="recentImg">
-            <a href="maditation.html" target="_blank" style="color: #000000;"><ul>MADITATION</ul></a>
-            <hr class="hr">
-            <img src="img/mind control.png" alt="" class="recentImg">
-            <a href="mindcontrol.html" target="_blank" style="color: #000000;"><ul>MIND CONTROL</ul></a>
-            <hr class="hr">
-            <img src="img/live healthy.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>LIVE HEALTHY</ul></a>
-            <hr class="hr">
-            <img src="img/sleep_good.png" alt="" class="recentImg">
-            <a href="sleep.html" target="_blank" style="color: #000000;"><ul>GOOD SLEEP</ul></a>
-            <hr class="hr">
-            <img src="img/care_skin.png" alt="" class="recentImg">
-            <a href="skincare.html" target="_blank" style="color: #000000;"><ul>SKIN CARE</ul></a>
-            <hr class="hr">
-            <img src="img/workout tips.png" alt="" class="recentImg">
-            <a href="workouttips.html" target="_blank" style="color: #000000;"><ul>WORKOUT TIPS</ul></a>
-            <hr class="hr">
-        </li>
-    </div>
-    <div class="mycontacts">
-        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
-        <a href="https://wa.me/919810298566" target="_blank"><i class="fa fa-whatsapp" id="whatsapp"></i></a>
-      </div>
-    <div class="mainFoot">
+    </aside>
+    <footer>
+        <div class="mainFoot">
         <div class="icon-bar">
             <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
             <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
-            <a href="healthyfood.html"><i class="fa fa-apple"></i></a> 
+            <a href="healthyfood.html"><i class="fas fa-apple-alt"></i></a> 
             <a href="maditation.html"><i class="fa fa-headphones"></i></a>
-            <a href="contact.html"><i class="fa fa-phone"></i></a> 
-          </div>          
-          <div class="TableLists">
-            <li>
-                
-                <h4 style="color: #169602;">GOOD FOOD</h4>
-            <br>
-            <a href="vitamins&nutri.html" target="_blank"><ul>VITAMINS & MINERALS</ul><hr></a>
-            <a href="nutrients.html" target="_blank"><ul>GOOD FOOD</ul><hr></a>
-            <a href="fastfood.html"><ul>AVOID FAST FOOD</ul><hr></a>
-            <a href="benefitsofyoga.html"><ul>BENEFITS OF YOGA</ul><hr></a>
-            <a href="healthyfood.html" target="_blank"><ul>BALANCE DIET</ul><hr></a>
-            <a href="maditation.html" target="_blank"><ul>MADITATION</ul><hr></a>
-        </li>
-        </div>
+            <a href="contact.html"><i class="fa fa-phone-alt"></i></a> 
+        </div>   
+    
         <div class="TableLists">
             <li>
-            
-            <h3 style="
-                    color: white;
-                    font-size: 20px;
-                    text-shadow: 3px 3px 10px black;
-                " id="h3">
-                Welcome To Whole Wellness
-            </h3><br>
-            <img src="img/dumbles.png" alt="">
-            <img src="img/www1.png" alt=""><br>
-            <img src="img/www2.png" alt="">
-            <img src="img/dumble.png" alt="">
+                <h3 class="good-food">GOOD FOOD</h3>
+                <br>
+                <a href="vitamins&nutri.html" ><ul>VITAMINS & MINERALS</ul><hr></a>
+                <a href="nutrients.html" ><ul>GOOD FOOD</ul><hr></a>
+                <a href="fastfood.html"><ul>AVOID FAST FOOD</ul><hr></a>
+                <a href="benefitsofyoga.html"><ul>BENEFITS OF YOGA</ul><hr></a>
+                <a href="healthyfood.html" ><ul>BALANCE DIET</ul><hr></a>
+                <a href="maditation.html" ><ul>MADITATION</ul><hr></a>
             </li>
-            
-            <!-- <li><br>
-            </li> -->
+        </div>
+    
+        <div class="TableLists">
+            <li>            
+                <h3 class="welcome-heading" id="h3">
+                    Discover Total Well-being with Whole Wellness Web
+                </h3><br>
+                <img src="img/dumbles.png" alt="imag1">
+                <img src="img/www1.png" alt="imag2"><br>
+                <img src="img/www2.png" alt="iamg3">
+                <img src="img/dumble.png" alt="imag4">
+            </li>
         </div>
         
         <div class="TableLists">
             <li>
-                <!-- <img src="img/www3.png" alt=""> -->
-                    <h4 style="color: #169602;">GOOD HEALTH</h4>
+                <h3 class="good-food">GOOD HEALTH</h3>
                 <br>
-                <a href="mindcontrol.html" target="_blank"><ul>MIND CONTROL</ul><hr></a>
-                <a href="sleep.html" target="_blank"><ul>GOOD SLEEP</ul><hr></a>
-                <a href="skincare.html" target="_blank"><ul>SKIN CARE</ul><hr></a>
-                <a href="workouttips.html" target="_blank"><ul>WORKOUT TIPS</ul><hr></a>
+                <a href="mindcontrol.html" ><ul>MIND CONTROL</ul><hr></a>
+                <a href="sleep.html" ><ul>GOOD SLEEP</ul><hr></a>
+                <a href="skincare.html" ><ul>SKIN CARE</ul><hr></a>
+                <a href="workouttips.html" ><ul>WORKOUT TIPS</ul><hr></a>
                 <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
                 <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
             </li>
         </div>
-    </div>
-    <div class="myFoot">
-        <footer>
-          2023  &copy COPYRIGHTS WHOLE WELLNESS WEB
-        </footer>
-    </div>
-    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa fa-sort-asc"></i></button>
-    <script type="text/javascript" src="https://s.skimresources.com/js/238967X1722021.skimlinks.js"></script>
+        </div>
+    
+        <div class="myFoot">
+            <p>&copy; 2023 COPYRIGHTS WHOLE WELLNESS WEB. All rights reserved.</p>
+         </div>
+    </footer>
+        <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-caret-up"></i></button>
     <script src="JS/postjava.js"></script>
 </body>
 

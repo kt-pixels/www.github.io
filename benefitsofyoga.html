@@ -5,15 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/myposts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Whole Wellness Web || Benefits Of Yoga</title>
-    <link rel="shortcut icon" href="img/plogo.png" type="image/my-icon">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
-     crossorigin="anonymous"></script>
+    <meta name="author" content="Kirtan Kaushik">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="yoga, benefits of yoga, wellness, health, yoga practice">
+    <meta name="description" content="Explore the benefits of yoga for your overall wellness. Learn how yoga reduces stress, improves flexibility, strengthens muscles, and enhances mental well-being.">
+    <title>Discover the Amazing Benefits of Yoga | Whole Wellness Web</title>
+    <link rel="stylesheet" href="CSS/yoga.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/6-removebg-preview.png" type="image/my-icon">
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
+     crossorigin="anonymous"></script> -->
 </head>
 
 <body>
+    <header>
+        <section>
+            <div id="hamburger">
+                <div class="bars" id="bars1"></div>
+                <div class="bars" id="bars2"></div>
+                <div class="bars" id="bars3"></div>
+            </div>
+            <div class="side-menu">
+                <a href="#home">TOP</a>
+                <a href="#benefit">Benefits of practicing yoga</a>
+                <a href="#role">Role in Disease Management</a>
+                <a href="#mountaine">Daily Wellness Yoga</a>
+                <a href="#mountaine">1. The Mountain Pose</a>
+                <a href="#chaire">2. The Chair Pose</a>
+                <a href="#tree">3. The Tree Pose</a>
+                <a href="#standing">4. The Standing Forward Bend</a>
+                <a href="#big-toe">5. The Big Toe Pose</a>
+                <a href="#Downward">6. The Downward Facing Dog Pose</a>
+                <a href="#Seated">7. The Seated Forward Bend</a>
+                <a href="#Bridge">8. The Bridge Pose</a>
+                <a href="#Cobra">9. The Cobra Pose</a>
+                <a href="#Corpse">10. The Corpse Pose</a>
+            </div>
+        </section>
     <div id="menu-bar" onclick="menuOnClick()">
         <div id="bar1" class="bar"></div>
         <div id="bar2" class="bar"></div>
@@ -22,286 +50,2488 @@
     <div class="newDropping">
         <nav id="myNavbar" class="mnav">
             <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
-            <li class="nav"> <a href="index.html">HOME </a></li>
-            <li class="nav"> <a href="about.html" target="_blank">ABOUT </a></li>
-            <li class="nav"> <a href="posts.html" target="_blank">POSTS </a></li>
-            <li class="nav"> <a href="contact.html" target="_blank">CONTACT US </a></li>
-            <li class="nav"> <a href="terms-and-condition.html">TERMS AND CONDITIONS </a></li>
-            <li class="nav"> <a href="privacy-policy.html" target="_blank">PRIVACY POLICY </a></li>
-            <div class="dropdown">
-                <input type="text" id="text" placeholder="SEARCH HERE" id="searchbar" onkeyup="search_posts()">
-                <div class="dropdown-content">
-                    <a href="vitamins&nutri.html" target="_blank" class="myposts">
-                        <li> VITAMINS & MINERALS </li>
-                    </a>
-                    <a href="sleep.html" target="_blank" class="myposts">
-                        <li> SLEEP GOOD </li>
-                    </a>
-                    <a href="workouttips.html" target="_blank" class="myposts">
-                        <li> WORKOUT TIPS </li>
-                    </a>
-                    <a href="healthyfood.html" target="_blank" class="myposts">
-                        <li> BALANCE DIET </li>
-                    </a>
-                    <a href="maditation.html" target="_blank" class="myposts">
-                        <li> MADITATION </li>
-                    </a>
-                    <a href="skincare.html" target="_blank" class="myposts">
-                        <li> SKIN CARE </li>
-                    </a>
-                </div>
-            </div>
-            <button type="submit" class="icons"><i class="fa fa-search"></i></button>
+            <li class="nav"> <a href="index.html"> <i class="fa fa-home"></i>&nbsp;HOME </a></li>
+            <li class="nav"> <a href="about.html" ><i class="fa fa-address-book"></i>&nbsp;ABOUT US</a></li>
+            <li class="nav"> <a href="posts.html" ><i class="far fa-images"></i>&nbsp;POSTS </a></li>
+            <li class="nav" id="show1">DIET PLANS <span class="fas fa-angle-down" id="whenClickFirst"></span>
+            <li id="Dropdown1">
+                <ul>Weight Loss Diet</ul>
+                <ul>Weight Gain Diet</ul>
+                <ul>Muscle Building Diet</ul>
+                <ul>Diabetic-Friendly Diet</ul>
+                <ul>Vegetarian or Vegan Diet</ul>
+                <ul>Heart-Healthy Diet</ul>
+            </li>
+            </li>
+            <li class="nav" id="show2">RECIPES <span class="fas fa-angle-down" id="whenClickSecond"></span>
+                <li id="Dropdown2">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav" id="show3">WORKOUTS <span class="fas fa-angle-down" id="whenClickThird"></span>
+                <li id="Dropdown3">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav" id="show4">YOGA <span class="fas fa-angle-down" id="whenClickForth"></span>
+                <li id="Dropdown4">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav"> <a href="contact.html" ><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US </a></li>
+            
+            <img src="img/orsrc17338.jpg" alt="indian" id="india">
+            
         </nav>
+    </div>
+    </header>
 
+    <main>
         <div class="headerwww grid">
-            <h1 class="main-heading">
-                WHOLE WELLNESS WEB
+            <h1 class="main-heading" id="home">
+                Elevate Your Well-Being Through the Wonders of Yoga
             </h1>
         </div>
         <div class="fullbody">
             <div class="thisFlexDiv">
                 <div class="mycontainer1">
 
-                    
-
                     <div class="myparas">
-                        <h2>* BENEFITS OF YOGA :-</h2>
+                        <h2>Transformative Benefits Unveiled: The Power of Yoga</h2>
                         <p id="vitnut"><q>Yoga is an ancient practice that combines physical postures, breathing techniques, and meditation to promote overall health and well-being. It has been around for thousands of years and is still popular today for its many benefits.</q>
                         </p>
                     </div>
                 </div>
                 <div class="image-max">
-                    <img src="img/Benefits Of Yoga.png" alt="" id="myimagesof">
                 </div>
 
-                <!-- MEDITATION -->
+                <!-- BENEFITS OF YOGA -->
 
-                <div class="mycontainer1" style="display: block;">
+                <section>
+                    <article>
+                    <div class="mycontainer1" style="display: block;">
 
-                    <div class="myparas">
-                        <h2 class="h2">* 10 benefits of practicing yoga :-</b></h2>
+                        <div class="myparas">
+                            <h2 class="h2" id="benefit">Benefits of practicing yoga :-</b></h2>
+                            <div class="vitnut">
+                                <div class="flex-my">
+                                    <div class="flex-item">
+                                <li>
+                                    <b>1. Reduces stress and anxiety -</b>
+                                    <p class="justify">Yoga has been shown to decrease cortisol levels in the body, which is the hormone responsible for stress.</p>
+                                </li>
+                                    </div>
+                                    <div class="flex-item">
+                                <li>
+                                    <b>2. Improves flexibility and balance -</b>
+                                    <p class="justify">Regular yoga practice can increase flexibility and balance, which can reduce the risk of falls and injuries.</p>
+                                </li>
+                                    </div>
+                                    <div class="flex-item">
+                                <li>
+                                    <b>3. Strengthens muscles -</b>
+                                    <p class="justify">Many yoga poses require you to hold your body weight, which can help build strength in your muscles.</p>
+                                </li>
+                                    </div>
+                                </div>
+                    <hr class="mypageHr">
+
+
+                                <div class="flex-my">
+                                    <div class="flex-item">
+                                <li>
+                                    <b>4. Improves posture -</b>
+                                    <p class="justify">Yoga can help improve your posture by strengthening the muscles that support your spine.</p>
+                                </li>
+                                    </div>
+                                    <div class="flex-item">
+                                <li>
+                                    <b>5. Increases mindfulness -</b>
+                                    <p class="justify">The practice of yoga encourages you to be present in the moment, which can help you develop mindfulness and reduce distractions.</p>
+                                </li>
+                                    </div>
+                                    <div class="flex-item">
+                                <li>
+                                    <b>6. Enhances breathing -</b>
+                                    <p class="justify">Yoga teaches you how to breathe deeply and consciously, which can help reduce anxiety and improve lung function.</p>
+                                </li>
+                                    </div>
+                                </div>
+                    <hr class="mypageHr">
+
+
+                                <div class="flex-my">
+                                <div class="flex-item">
+                                <li>
+                                    <b>7. Boosts immune system -</b>
+                                    <p class="justify">Yoga has been shown to boost the immune system by increasing the production of immune cells in the body.</p>
+                                </li>
+                                </div>
+                                <div class="flex-item">
+                                <li>
+                                    <b>8. Lowers blood pressure -</b>
+                                    <p class="justify">Regular yoga practice has been shown to lower blood pressure and reduce the risk of heart disease.</p>
+                                </li>
+                                </div>
+                                <div class="flex-item">
+                                <li>
+                                    <b>9. Improves sleep -</b>
+                                    <p class="justify">Practicing yoga can improve the quality of your sleep by reducing stress and promoting relaxation.</p>
+                                </li>
+                                </div>
+                                </div>
+                    <hr class="mypageHr">
+
+
+                                <div class="flex-my">
+                                <div class="flex-item">
+                                <li>
+                                    <b>10. Promotes overall well-being -</b>
+                                    <p class="justify">Yoga is a holistic practice that can promote overall health and well-being by balancing the mind, body, and spirit.</p>
+                                </li>
+                                </div>
+                                </div>
+                    <hr class="mypageHr">
+
+
+                                <p class="impnote"><b>NOTE :-</b> Yoga is a great way to improve your physical and mental health and promote a sense of inner peace and well-being. Whether you're a beginner or an experienced yogi, there's something for everyone in this ancient practice.</p>
+                                
+                                    <hr class="mypageHr">
+                    </div>
+
+                    </div>
+                    </div>
+                    </article>
+                </section>
+
+                <!-- ROLE IN DESEASES -->
+
+                <section>
+                    <article>
+                    <div class="mycontainer1" style="display: block;">
+
+                        <div class="myparas">
+                            <h2 class="h2" id="role">
+                                Yoga's Complementary Role in Disease Management: 10 Ways It Supports Well-Being</h2>
+                    <div class="vitnut">
+                        <div class="flex-my">
+                            <div class="flex-item">
+                                <li>
+                                    <b>1. Reducing stress -</b>
+                                <p class="justify">Yoga can help reduce stress, which can be a significant contributor to many health problems, including heart disease, diabetes, and high blood pressure.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>2. Boosting the immune system -</b>
+                                <p class="justify">Regular yoga practice can help boost the immune system, making it easier for the body to fight off infections and diseases.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>3. Supporting cardiovascular health -</b>
+                                <p class="justify">Yoga can help improve cardiovascular health by reducing stress and improving circulation.</p>
+                                </li>
+                            </div>
+                        </div>
+                    <hr class="mypageHr">
+
+                        <div class="flex-my">
+                            <div class="flex-item">
+                                <li>
+                                    <b>4. Lowering inflammation -</b>
+                                <p class="justify">Chronic inflammation has been linked to many diseases, and yoga has been shown to help lower inflammation levels in the body.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>5. Enhancing lung function -</b>
+                                <p class="justify">Yoga breathing exercises can help improve lung function, making it easier for people with respiratory conditions to breathe.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>6. Improving digestion -</b>
+                                <p class="justify">Certain yoga postures and breathing techniques can help improve digestion, which can benefit people with digestive issues.</p>
+                                </li>
+                            </div>
+                        </div>
+                    <hr class="mypageHr">
+
+                        <div class="flex-my">
+                            <div class="flex-item">
+                                <li>
+                                    <b>7. Alleviating chronic pain -</b>
+                                <p class="justify">Yoga can help reduce chronic pain, making it an effective complementary treatment for people with conditions such as arthritis and fibromyalgia.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>8. Improving sleep -</b>
+                                <p class="justify">Yoga can help improve sleep quality, which is essential for overall health and healing.</p>
+                                </li>
+                            </div>
+                            <div class="flex-item">
+                                <li>
+                                    <b>9. Supporting mental health -</b>
+                                <p class="justify">Yoga has been shown to help improve mental health, reducing symptoms of anxiety, depression, and post-traumatic stress disorder (PTSD).</p>
+                                </li>
+                            </div>
+                        </div>
+                    <hr class="mypageHr">
+
+                        <div class="flex-my">
+                            <div class="flex-item">
+                                <li>
+                                    <b>10. Enhancing overall well-being - </b>
+                                <p class="justify">By promoting balance and harmony in the body, mind, and spirit, yoga can help people feel more connected, empowered, and resilient, which can support overall healing and well-being.</p>
+                                </li>
+                            </div>
+                        </div>
+                    <hr class="mypageHr">
+
+                    <p class="impnote"><b>NOTE :-</b> While yoga is not a cure for diseases, it can be an effective complementary practice to support healing and enhance overall health and well-being.</p>
+                    <hr class="mypageHr">
+                                
+                    </div>
+
+                    </div>
+                    </div>
+                    </article>
+                </section>
+
+                <!-- TYPES OF YOGA -->
+
+                <!-- 1. mountaine pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="mountaine">1. The Mountain Pose</b></h2>
                         <div class="vitnut">
-                            <li>
-                                <b>Reduces stress and anxiety -</b>
-                               <p class="justify">Yoga has been shown to decrease cortisol levels in the body, which is the hormone responsible for stress.</p>
-                            </li>
-                            <li>
-                                <b>Improves flexibility and balance -</b>
-                               <p class="justify">Regular yoga practice can increase flexibility and balance, which can reduce the risk of falls and injuries.</p>
-                            </li>
-                            <li>
-                                <b>Strengthens muscles -</b>
-                               <p class="justify">Many yoga poses require you to hold your body weight, which can help build strength in your muscles.</p>
-                            </li>
-                            <li>
-                                <b>Improves posture -</b>
-                               <p class="justify">Yoga can help improve your posture by strengthening the muscles that support your spine.</p>
-                            </li>
-                            <li>
-                                <b>Increases mindfulness -</b>
-                               <p class="justify">The practice of yoga encourages you to be present in the moment, which can help you develop mindfulness and reduce distractions.</p>
-                            </li>
-                            <li>
-                                <b>Enhances breathing -</b>
-                               <p class="justify">Yoga teaches you how to breathe deeply and consciously, which can help reduce anxiety and improve lung function.</p>
-                            </li>
-                            <li>
-                                <b>Boosts immune system -</b>
-                               <p class="justify">Yoga has been shown to boost the immune system by increasing the production of immune cells in the body.</p>
-                            </li>
-                            <li>
-                                <b>Lowers blood pressure -</b>
-                               <p class="justify">Regular yoga practice has been shown to lower blood pressure and reduce the risk of heart disease.</p>
-                            </li>
-                            <li>
-                                <b>Improves sleep -</b>
-                               <p class="justify">Practicing yoga can improve the quality of your sleep by reducing stress and promoting relaxation.</p>
-                            </li>
-                            <li>
-                                <b>Promotes overall well-being -</b>
-                               <p class="justify">Yoga is a holistic practice that can promote overall health and well-being by balancing the mind, body, and spirit.</p>
-                            </li>
-                            <p class="impnote"><b>NOTE :-</b> Yoga is a great way to improve your physical and mental health and promote a sense of inner peace and well-being. Whether you're a beginner or an experienced yogi, there's something for everyone in this ancient practice.</p>
+                        <p id="vitnut">
+                        The Mountain Pose, or Tadasana, is a foundational standing pose in yoga. While it may appear simple, it offers numerous benefits for the body and mind. <br>
+                        <strong>Here are the benefits of practicing the Mountain Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/mountain pose.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Postural alignment :- </b>
+                                       <p class="justify">
+                                            Tadasana promotes proper posture by aligning the spine, shoulders, and hips, reducing the risk of musculoskeletal imbalances.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Core strength :- </b>
+                                       <p class="justify">
+                                            The pose engages the core muscles, including the abdominal and back muscles, helping to strengthen and stabilize the torso.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Improved balance :- </b>
+                                       <p class="justify">
+                                            Tadasana cultivates stability and balance by grounding through the feet and finding a steady center of gravity.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Increased body awareness :- </b>
+                                       <p class="justify">
+                                            By focusing on alignment and sensations in the body, Tadasana enhances body awareness, allowing you to notice areas of tension or imbalance.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Energy and vitality :- </b>
+                                       <p class="justify">
+                                            The Mountain Pose promotes an upward flow of energy, revitalizing the body and increasing feelings of alertness and vitality.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Mindfulness and grounding :- </b>
+                                       <p class="justify">
+                                            Tadasana encourages a state of mindfulness by bringing attention to the present moment and connecting with the ground beneath you, fostering a sense of grounding and stability.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Improved posture and body confidence :- </b>
+                                       <p class="justify">
+                                            Regular practice of Tadasana can improve overall posture, leading to increased body confidence and a taller, more open stance.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Breath awareness :- </b>
+                                       <p class="justify">
+                                            The pose invites awareness of the breath, allowing for deep, conscious breathing, which can calm the nervous system and reduce stress.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Improved focus and concentration :- </b>
+                                       <p class="justify">
+                                            Practicing Tadasana requires concentration and focus, helping to sharpen mental clarity and improve attention span.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+                    <p class="impnote"><b>NOTE :-</b> These benefits make Tadasana a valuable pose for beginners and experienced practitioners alike, serving as a foundation for other standing poses and as a mindful posture for cultivating balance and stability in both body and mind.</p>
                             
                              <hr class="mypageHr">
-            </div>
 
-        </div>
-    </div>
+<h3>To practice the Mountain Pose (Tadasana), follow these steps</h3>
 
-    <div class="mycontainer1" style="display: block;">
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                       <p class="justify">
+                                            Stand with your feet hip-width apart, toes pointing forward. Distribute your weight evenly on both feet.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                       <p class="justify">
+                                        Engage your leg muscles and lift your kneecaps without locking the knees. Keep a slight microbend in the knees for stability.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                       <p class="justify">
+                                        Lengthen your tailbone toward the floor, creating a neutral pelvis. Engage your lower abdominal muscles gently.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
 
-        <div class="myparas">
-            <h2 class="h2">
-                While yoga is not a replacement for medical treatment, it can be a valuable complementary practice for people dealing with various diseases.
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                               <p class="justify">
+                                Roll your shoulders back and down, opening your chest. Relax your arms by your sides with your palms facing forward.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                               <p class="justify">
+                                Lengthen your spine from the crown of your head to your tailbone, maintaining a natural curve in your neck.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                               <p class="justify">
+                                Soften your facial muscles and gaze forward, finding a point of focus. Breathe deeply and evenly.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                               <p class="justify">
+                                Maintain the pose for 30 seconds to a few minutes, or as long as comfortable. Continue to breathe deeply throughout the practice.
+                               </p>
+                            </li>
+                        </div>
+                    </div>
+            <hr class="mypageHr">
+            <p class="impnote"><b>NOTE :-</b> When practicing the Mountain Pose, you don't necessarily need any specific materials. However, having a non-slip yoga mat can provide comfort and stability. If you prefer extra support, you can use a folded blanket or yoga block to stand on to alleviate pressure on the feet or knees. Additionally, wearing comfortable clothing that allows for freedom of movement is recommended.
                 <br><br>
-                * 10 ways that yoga can help overcome disease :-</b></h2>
-            <div class="vitnut">
-                <li>
-                    <b>Reducing stress -</b>
-                   <p class="justify">Yoga can help reduce stress, which can be a significant contributor to many health problems, including heart disease, diabetes, and high blood pressure.</p>
-                </li>
-                <li>
-                    <b>Boosting the immune system -</b>
-                   <p class="justify">Regular yoga practice can help boost the immune system, making it easier for the body to fight off infections and diseases.</p>
-                </li>
-                <li>
-                    <b>Supporting cardiovascular health -</b>
-                   <p class="justify">Yoga can help improve cardiovascular health by reducing stress and improving circulation.</p>
-                </li>
-                <li>
-                    <b>Lowering inflammation -</b>
-                   <p class="justify">Chronic inflammation has been linked to many diseases, and yoga has been shown to help lower inflammation levels in the body.</p>
-                </li>
-                <li>
-                    <b>Enhancing lung function -</b>
-                   <p class="justify">Yoga breathing exercises can help improve lung function, making it easier for people with respiratory conditions to breathe.</p>
-                </li>
-                <li>
-                    <b>Improving digestion -</b>
-                   <p class="justify">Certain yoga postures and breathing techniques can help improve digestion, which can benefit people with digestive issues.</p>
-                </li>
-                <li>
-                    <b>Alleviating chronic pain -</b>
-                   <p class="justify">Yoga can help reduce chronic pain, making it an effective complementary treatment for people with conditions such as arthritis and fibromyalgia.</p>
-                </li>
-                <li>
-                    <b>Improving sleep -</b>
-                   <p class="justify">Yoga can help improve sleep quality, which is essential for overall health and healing.</p>
-                </li>
-                <li>
-                    <b>Supporting mental health -</b>
-                   <p class="justify">Yoga has been shown to help improve mental health, reducing symptoms of anxiety, depression, and post-traumatic stress disorder (PTSD).</p>
-                </li>
-                <li>
-                    <b>Enhancing overall well-being - </b>
-                   <p class="justify">By promoting balance and harmony in the body, mind, and spirit, yoga can help people feel more connected, empowered, and resilient, which can support overall healing and well-being.</p>
-                </li>
-                <p class="impnote"><b>NOTE :-</b> While yoga is not a cure for diseases, it can be an effective complementary practice to support healing and enhance overall health and well-being.</p>
-                             
-                             <hr class="mypageHr">
-                             <br>
-                             <a href="types-of-yoga/The-Mountain-Pose.html" target="_blank"><button class="Mybtn">Types Of Yoga...</button></a>
-</div>
+                <strong>Remember</strong>, Tadasana is a foundational pose that can be practiced anywhere, anytime, with or without props. It serves as a starting point for many other yoga poses and can be incorporated into your daily routine for centering, grounding, and alignment.
+            </p>
 
-</div>
-</div>
-    <!-- <div class="privOrnext">
-        <a href="vitamins&nutri.html" class="previous round">&#8249;</a>
-        <a href="vitamins&nutri2.html" class="next round">&#8250;</a>
-    </div> -->
-    <div class="mycontainer2" id="recent">
-        <!-- <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="myWWW"> -->
-        <li id="li">
-            <h4 style="color: #000000; font-size: 25px; margin-top: 40px;">RECENT POSTS</h4>
-            <br>
-            <img src="img/fruits&vitamin.png" alt="" class="recentImg">
-            <a href="vitamins&nutri.html" target="_blank" style="color: #000000;"><ul>VITAMINS & MINERALS</ul></a>
-            <hr class="hr">
-            <img src="img/good food.png" alt="" class="recentImg">
-            <a href="nutrients.html" target="_blank" style="color: #000000;"><ul>GOOD FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fastfood.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>AVOID FAST FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fruits and vegies.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>FRUITS & VEGETABLES</ul></a>
-            <hr class="hr">
-            <img src="img/healthy tips.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>HEALTHY TIPS</ul></a>
-            <hr class="hr">
-            <img src="img/balance diet.png" alt="" class="recentImg">
-            <a href="healthyfood.html" target="_blank" style="color: #000000;"><ul>BALANCE DIET</ul></a>
-            <hr class="hr">
-            <img src="img/maditation.png" alt="" class="recentImg">
-            <a href="maditation.html" target="_blank" style="color: #000000;"><ul>MADITATION</ul></a>
-            <hr class="hr">
-            <img src="img/mind control.png" alt="" class="recentImg">
-            <a href="mindcontrol.html" target="_blank" style="color: #000000;"><ul>MIND CONTROL</ul></a>
-            <hr class="hr">
-            <img src="img/live healthy.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>LIVE HEALTHY</ul></a>
-            <hr class="hr">
-            <img src="img/sleep_good.png" alt="" class="recentImg">
-            <a href="sleep.html" target="_blank" style="color: #000000;"><ul>GOOD SLEEP</ul></a>
-            <hr class="hr">
-            <img src="img/care_skin.png" alt="" class="recentImg">
-            <a href="skincare.html" target="_blank" style="color: #000000;"><ul>SKIN CARE</ul></a>
-            <hr class="hr">
-            <img src="img/workout tips.png" alt="" class="recentImg">
-            <a href="workouttips.html" target="_blank" style="color: #000000;"><ul>WORKOUT TIPS</ul></a>
-            <hr class="hr">
-        </li>
-    </div>
-    <div class="mycontacts">
-        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
-        <a href="https://wa.me/919810298566" target="_blank"><i class="fa fa-whatsapp" id="whatsapp"></i></a>
-      </div>
-    <div class="mainFoot">
-        <div class="icon-bar">
-            <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
-            <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
-            <a href="healthyfood.html"><i class="fa fa-apple"></i></a> 
-            <a href="maditation.html"><i class="fa fa-headphones"></i></a>
-            <a href="contact.html"><i class="fa fa-phone"></i></a> 
+                        </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+
+
+                <!-- 2. Chaire pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="chaire">2. The Chair Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Chair Pose, also known as Utkatasana in Sanskrit, is a standing yoga pose that offers numerous benefits for the body and mind. <br>
+                        <strong>Here are the benefits of practicing the Chair Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/Utkatasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Strengthens the legs :- </b>
+                                       <p class="justify">
+                                            Utkatasana targets the muscles of the thighs, hips, and calves, helping to build strength and endurance in the lower body.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Tones the glutes :- </b>
+                                       <p class="justify">
+                                            Holding the Chair Pose engages the gluteal muscles, which helps to firm and tone the buttocks.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Improves posture :- </b>
+                                       <p class="justify">
+                                            The pose promotes proper alignment and encourages an upright posture, which can help alleviate back and neck pain caused by poor posture.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Enhances core stability :- </b>
+                                       <p class="justify">
+                                            The Chair Pose activates the core muscles, including the abdominals and lower back, helping to improve overall stability and balance.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Enhances core stability :- </b>
+                                       <p class="justify">
+                                            The Chair Pose activates the core muscles, including the abdominals and lower back, helping to improve overall stability and balance.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Increases ankle strength :- </b>
+                                       <p class="justify">
+                                            Balancing in the pose strengthens the muscles around the ankles, reducing the risk of sprains and improving stability.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Stretches the shoulders and chest :- </b>
+                                       <p class="justify">
+                                            Utkatasana involves lifting the arms overhead, which helps to stretch and open the chest and shoulders, relieving tension and promoting better breathing.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Stimulates the abdominal organs :- </b>
+                                       <p class="justify">
+                                            The compression created in the abdominal region during the Chair Pose stimulates digestion and massages the internal organs, promoting healthy digestion.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Boosts energy and circulation :- </b>
+                                       <p class="justify">
+                                        
+                                            Holding the pose activates the muscles and increases blood flow, providing a gentle cardiovascular workout and boosting energy levels.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>10. Develops mental focus and concentration :- </b>
+                               <p class="justify">
+                                    Balancing in the pose requires concentration and focus, helping to calm the mind and improve mental clarity.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>11. Builds willpower and determination :- </b>
+                               <p class="justify">
+                                    The Chair Pose can be challenging, and practicing it regularly can cultivate mental strength, willpower, and the ability to overcome obstacles on and off the mat.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>12. Boosts energy and circulation :- </b>
+                               <p class="justify">
+                                
+                                    Holding the pose activates the muscles and increases blood flow, providing a gentle cardiovascular workout and boosting energy levels.
+                                
+                               </p>
+                            </li>
+                        </div>
+                    </div>
+                    <p class="impnote"><b>NOTE :-</b> These are some of the benefits you can experience by incorporating the Chair Pose into your yoga practice. Remember to listen to your body, modify the pose if needed, and work within your own comfort level to avoid strain or injury.</p>
+                            
+                             <hr class="mypageHr">
+
+<h3>To practice the Chair Pose (Utkatasana), you don't need any special equipment</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                       <p class="justify">
+                                        Stand tall with your feet together or hip-width apart, toes pointing forward.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                       <p class="justify">
+                                        Inhale and raise your arms straight above your head, keeping them parallel and palms facing each other. This is the starting position.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                       <p class="justify">
+                                        Exhale and bend your knees, as if sitting back into an imaginary chair. Keep your thighs parallel to the ground and your knees directly over your ankles. Try to shift your weight into your heels.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                               <p class="justify">
+                                Maintain a straight spine and engage your core muscles to support your posture.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                               <p class="justify">
+                                Relax your shoulders away from your ears and keep your chest lifted.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                               <p class="justify">
+                                If comfortable, you can lower your hips deeper into the pose, but make sure your knees don't go past your toes.
+                               </p>
+                            </li>
+                        </div>
+                    </div>
+            <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                               <p class="justify">
+                                Keep your gaze forward or, if you prefer, you can look up toward your hands.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                               <p class="justify">
+                                Breathe deeply and hold the pose for 30 seconds to 1 minute, or as long as you're comfortable.
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 9.</b>
+                               <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                               </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+            <hr class="mypageHr">
+            <p class="impnote"><b>NOTE:-</b> It's normal to feel a slight burning sensation in your thighs. If you experience any discomfort in your knees, you can reduce the depth of the squat or try placing a folded blanket under your heels for support.
+                <br><br>
+                Engage your core muscles throughout the pose to maintain stability and protect your lower back.
+                <br><br>
+                Focus on your breath and try to relax into the pose, finding a balance between effort and ease.
+                <br><br>
+                The Chair Pose can be incorporated into a yoga sequence or practiced on its own. All you need is a clear space to move and a comfortable yoga mat or nonslip surface to stand on.
+            </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 3. Tree pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="tree">3. The Tree Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Tree Pose, or Vrikshasana, is a standing yoga pose that involves balancing on one leg with the other leg bent and placed against the inner thigh or calf. <br>
+                        <strong>Here are the benefits of practicing the Tree Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/Vrikshasana.jpeg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Improves balance :- </b>
+                                       <p class="justify">
+                                            The Tree Pose requires focused concentration and balance, helping to strengthen the muscles responsible for maintaining balance.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Enhances stability :- </b>
+                                       <p class="justify">
+                                            Regular practice of the Tree Pose strengthens the muscles in the feet, ankles, and legs, which can improve overall stability and prevent falls.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Increases core strength :- </b>
+                                       <p class="justify">
+                                        
+                                            Maintaining the upright position in the Tree Pose engages the core muscles, promoting strength and stability in the abdominal area.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Improves posture :- </b>
+                                       <p class="justify">
+                                        
+                                            By encouraging an upright and aligned posture, the Tree Pose helps to lengthen the spine and strengthen the muscles that support proper posture.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Enhances concentration :- </b>
+                                       <p class="justify">
+                                        
+                                            Balancing in the Tree Pose requires mental focus and concentration, which can improve mindfulness and mental clarity.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Stretches the hips and groin :- </b>
+                                       <p class="justify">
+                                        
+                                            The position of the bent leg in the Tree Pose stretches the hips and groin, increasing flexibility and relieving tension in these areas.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Strengthens thighs and calves :- </b>
+                                       <p class="justify">
+                                        
+                                            The standing leg in the Tree Pose is actively engaged, which strengthens the thighs and calves over time.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Develops ankle strength :- </b>
+                                       <p class="justify">
+                                        
+                                            Balancing on one leg in the Tree Pose challenges the ankle joint, improving its strength and stability.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Promotes mind-body connection :- </b>
+                                       <p class="justify">
+                                        
+                                            The Tree Pose encourages a deep connection between the mind and body, fostering a sense of grounding and presence.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>10. Cultivates a sense of inner calm :- </b>
+                               <p class="justify">
+                                
+                                    The balance and focus required in the Tree Pose can help calm the mind, reduce anxiety, and promote a sense of inner peace.
+                                
+                               </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>Builds willpower and determination :- </b>
+                            <p class="justify">
+                                    The Chair Pose can be challenging, and practicing it regularly can cultivate mental strength, willpower, and the ability to overcome obstacles on and off the mat.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>Boosts energy and circulation :- </b>
+                            <p class="justify">
+                                
+                                    Holding the pose activates the muscles and increases blood flow, providing a gentle cardiovascular workout and boosting energy levels.
+                                
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                    <p class="impnote"><b>NOTE :-</b> Practicing the Tree Pose regularly can provide these benefits and contribute to overall physical and mental well-being.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Step-by-Step Guide: Tree Pose (Vrikshasana)</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Stand tall at the front of your mat with your feet together and your arms by your sides.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Shift your weight onto your left foot, grounding it firmly into the mat. Keep your left leg straight and engaged.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Bend your right knee and bring the sole of your right foot to rest on the inside of your left thigh. If you're a beginner, you can place your foot on your left calf instead, ensuring it doesn't press against the knee joint.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Find your balance and ensure that your pelvis is level. Engage your core muscles to help stabilize your posture.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Bring your hands together at your heart center in a prayer position, or if you prefer, raise your arms overhead with palms facing each other.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Find a steady gaze on a fixed point in front of you to help maintain your balance.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                Stay in the pose for several deep breaths, feeling rooted through your standing foot and lengthening through your spine.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                Repeat the same steps on the other side, shifting your weight to your right foot and placing your left foot on your right inner thigh or calf.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>NOTE:-</b> If you find it challenging to balance, you can use a wall or a chair for support. Place your fingertips lightly on a wall or hold onto the back of a chair while maintaining the posture.
+                    <br><br>
+                    Focus on finding a relaxed and steady breath throughout the pose. It can help you stay centered and calm.
+                    <br><br>
+                    Don't worry if your foot slips or if you lose balance. Just gently come back into the pose when you're ready.
+                    <br><br>
+                    Avoid placing the foot directly on the knee joint to prevent strain or injury. Gradually work on increasing the duration of your hold in the pose as your balance and strength improve.
+                    <br><br>
+                    By practicing the Tree Pose regularly, you can improve balance, stability, and focus while also strengthening the muscles of the legs and core. Enjoy the process and embrace the feeling of being rooted like a tree!
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 4. The Standing Forward Bend -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="standing">4. The Standing Forward Bend</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            Certainly! The Standing Forward Bend, also known as Uttanasana, is a popular yoga pose that provides numerous benefits for the body and mind. <br>
+                        <strong> Here are the benefits of practicing Uttanasana :-</strong>
+
+                        <div class="image">
+                            <img src="img/Uttanasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Stretches the hamstrings and calves :- </b>
+                                       <p class="justify">
+                                        
+                                            Uttanasana deeply stretches the muscles in the back of the legs, including the hamstrings and calves, promoting flexibility and relieving tension.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Relieves tension in the spine :- </b>
+                                       <p class="justify">
+                                        
+                                            This pose allows the spine to lengthen and decompress, which can alleviate stiffness and discomfort in the back.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Calms the mind :- </b>
+                                       <p class="justify">
+                                        
+                                            Uttanasana has a calming effect on the nervous system, helping to reduce stress, anxiety, and mental fatigue.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Stimulates blood circulation :- </b>
+                                       <p class="justify">
+                                        
+                                            When you fold forward in Uttanasana, the head moves below the heart, which helps increase blood flow to the brain and promote circulation throughout the body.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Improves digestion :- </b>
+                                       <p class="justify">
+                                        
+                                            The gentle compression of the abdomen in Uttanasana massages the digestive organs, helping to stimulate digestion and alleviate bloating or indigestion.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Relieves headaches :- </b>
+                                       <p class="justify">
+                                        
+                                            Uttanasana promotes blood flow to the head and releases tension in the neck and upper back, which can help alleviate headaches and migraines.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Energizes the body :- </b>
+                                       <p class="justify">
+                                        
+                                            The inverted position of Uttanasana increases energy and rejuvenates the body by refreshing the mind and releasing stagnant energy.
+                                        
+                                       </p>
+                                    </li> 
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Enhances flexibility of the spine :- </b>
+                                       <p class="justify">
+                                        
+                                            Regular practice of Uttanasana helps improve the flexibility and mobility of the spine, promoting better posture and overall spinal health.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Cultivates introspection and self-awareness :- </b>
+                                       <p class="justify">
+                                        
+                                            This pose encourages introspection as you fold inward, promoting self-reflection and deepening the mind-body connection.
+                                        
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to listen to your body and work within your comfortable range of motion when practicing Uttanasana. Enjoy the benefits of this rejuvenating pose.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's a step-by-step guide on how to perform the pose</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Start by standing tall with your feet hip-width apart and your arms alongside your body.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Inhale deeply, lengthening your spine and lifting your chest upward.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        As you exhale, engage your core muscles and slowly fold forward from your hips, keeping your spine long and leading with your chest.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Allow your head and neck to relax, and let your arms hang down towards the floor. You can bend your knees slightly if needed to ease any tension in the hamstrings.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                If it feels comfortable, you can let your hands hang freely or grab opposite elbows and allow your upper body to sway gently from side to side.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                As you hold the pose, focus on relaxing and surrendering into the forward fold. Breathe deeply, allowing your breath to guide you deeper into the stretch.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                Stay in Uttanasana for several breaths or longer, depending on your comfort level.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                To come out of the pose, engage your core muscles, inhale, and slowly lift your torso back up to a standing position, keeping your spine long.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>NOTE:-</b> It's important to note that Uttanasana can be modified based on your flexibility and comfort level. If you have tight hamstrings, you can bend your knees slightly or place your hands on blocks or a raised surface to support your upper body.
+                    <br><br>
+                    As mentioned earlier, you don't need any specific materials for Uttanasana. However, practicing on a non-slip yoga mat can provide better traction and stability. Additionally, wearing comfortable clothing that allows freedom of movement is recommended.
+                    <br><br>
+                    Remember to listen to your body and never push yourself beyond your limits. If you have any specific concerns or medical conditions, it's advisable to consult with a qualified yoga instructor or healthcare professional before attempting new poses.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 5. The Big Toe Pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="big-toe">5. The Big Toe Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Big Toe Pose, also known as Padangusthasana, is a standing forward bend that offers various benefits for the body and mind. <br>
+                        <strong>  Here are the benefits of practicing The Big Toe Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/Padangusthasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Stretches the hamstrings :- </b>
+                                       <p class="justify">
+                                            Padangusthasana provides a deep stretch to the hamstrings, promoting flexibility and relieving tension in the back of the legs.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Lengthens the spine :- </b>
+                                       <p class="justify">
+                                            The forward fold in this pose helps lengthen the spine, improving posture and relieving compression in the vertebrae.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Calms the mind :- </b>
+                                       <p class="justify">
+                                            The folding forward action in Padangusthasana promotes a sense of relaxation and calmness, reducing stress and anxiety
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Relieves back pain :- </b>
+                                       <p class="justify">
+                                            Regular practice of this pose can help alleviate mild to moderate back pain by stretching and releasing tension in the back muscles.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Stimulates digestion :- </b>
+                                       <p class="justify">
+                                            The compression of the abdomen in this pose stimulates the digestive organs, improving digestion and relieving bloating or discomfort.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Improves balance and stability :- </b>
+                                       <p class="justify">
+                                            The Big Toe Pose challenges balance and stability, strengthening the legs and ankles and improving overall coordination.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Energizes the body :- </b>
+                                       <p class="justify">
+                                            This pose encourages blood flow to the brain, revitalizing the body and mind, and boosting energy levels.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Relieves headaches :- </b>
+                                       <p class="justify">
+                                            The inverted position of the head in Padangusthasana can help relieve headaches and migraines by increasing circulation and reducing tension in the neck and shoulders.
+                                       </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Enhances focus and concentration :- </b>
+                                       <p class="justify">
+                                            The meditative nature of this pose, combined with deep breathing, helps enhance mental focus and concentration.
+                                       </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to practice Padangusthasana with proper alignment and modifications as needed, and always listen to your body. If you have any specific concerns or conditions, consult with a qualified yoga instructor or healthcare professional before attempting this or any other yoga pose.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's how to practice the pose and what materials you may need</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Start by standing tall with your feet hip-width apart and your arms at your sides. 
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Take a deep breath in and engage your core muscles.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Exhale and fold forward from the hips, keeping your spine long and your chest open. Bend your knees slightly if needed.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                On an inhalation, lengthen your spine and lift your chest, creating space between your torso and thighs.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                As you exhale, gently deepen the forward fold, allowing your head and neck to relax.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Maintain the pose for several breaths, focusing on relaxing the hamstrings and lengthening the spine with each exhale.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                To release the pose, slowly release your grip on your toes or the strap, and on an inhalation, lift your torso back up to a standing position.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                To come out of the pose, engage your core muscles, inhale, and slowly lift your torso back up to a standing position, keeping your spine long.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>Materials you may need:-</b>  Yoga mat: A yoga mat provides cushioning and grip to keep you stable and comfortable during the pose.
+                    <br><br>
+                        Yoga strap or towel: If you can't reach your toes, a yoga strap or towel can be used to extend your reach and hold onto your feet.
+                    <br><br>
+                        Blocks <b>(optional)</b>: Yoga blocks can be placed on the floor in front of you. They can provide support and help you maintain proper alignment if you have difficulty reaching the floor or keeping your spine straight.
+                     <br><br>
+                    Remember to listen to your body and practice within your own comfort level. If you have any existing injuries or conditions, it's best to consult with a qualified yoga teacher or healthcare professional before attempting this or any other yoga pose.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 6. The Downward Facing Dog Pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="Downward">6. The Downward Facing Dog Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            Certainly! The Downward Facing Dog Pose (Adho Mukha Svanasana) is a foundational pose in yoga that offers numerous benefits. <br>
+                        <strong>  Here are the benefits of practicing the Downward Facing Dog Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/Adho Mukho Svanasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Stretches the whole body :- </b>
+                               <p class="justify">
+                                    Downward Dog stretches and lengthens the spine, hamstrings, calves, shoulders, and arms, promoting overall flexibility and relieving muscle tension.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Strengthens the upper body :- </b>
+                                        <p class="justify">
+                                             This pose strengthens the arms, shoulders, and upper back, helping to tone and build strength in the upper body.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Improves posture :- </b>
+                               <p class="justify">
+                                    Regular practice of Downward Dog can help improve posture by strengthening the muscles that support the spine and promoting proper alignment.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Increases blood circulation :- </b>
+                               <p class="justify">
+                                    The inverted position of Downward Dog encourages blood flow towards the head, which can increase circulation and energy levels throughout the body.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Relieves back pain :- </b>
+                                        <p class="justify">
+                                             The pose helps alleviate tension in the back and can provide relief from mild back pain by stretching and strengthening the muscles in the spine.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Calms the mind :- </b>
+                               <p class="justify">
+                                    Downward Dog is an inversion that encourages deep breathing, which can help calm the mind, reduce stress, and promote relaxation.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Enhances digestion :- </b>
+                               <p class="justify">
+                                    The pose can stimulate the digestive organs, helping to improve digestion and relieve bloating or discomfort in the abdomen.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Builds core strength :- </b>
+                               <p class="justify">
+                                    The engagement of the abdominal muscles in this pose helps to strengthen and tone the core, promoting stability and balance.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Increases shoulder mobility :- </b>
+                               <p class="justify">
+                                    Downward Dog opens up the shoulders and chest, increasing shoulder flexibility and relieving tension in the upper body.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to practice this pose with proper alignment and listen to your body. If you have any specific health concerns or injuries, it's always advisable to consult with a qualified yoga instructor or healthcare professional before attempting any new poses.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's a step-by-step guide on how to do the pose</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Start on your hands and knees, with your hands slightly forward of your shoulders and knees directly below your hips. 
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Spread your fingers wide apart and press your palms firmly into the ground. Make sure your wrists are aligned with your shoulders.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Tuck your toes under and exhale as you lift your knees off the ground, straightening your legs without locking the knees.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Slowly begin to straighten your arms and lift your sitting bones toward the ceiling. Your body should form an inverted "V" shape.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Keep your heels slightly off the ground and press your thighs back. Straighten your spine, lengthening it from your tailbone to the crown of your head.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Relax your head and neck, allowing them to hang freely between your upper arms. Keep your gaze towards your navel or between your legs.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                Engage your abdominal muscles by drawing your navel toward your spine. Relax your shoulders away from your ears.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                Maintain the pose for a few breaths or longer, focusing on deep, steady breathing.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>NOTE :-</b> To enhance your experience in the pose, you may want to use a non-slip yoga mat or practice on a soft surface. It's also helpful to wear comfortable clothing that allows for unrestricted movement.
+                    <br><br>
+                    Remember to listen to your body and modify the pose as needed. If you have any existing injuries or medical conditions, consult with a qualified yoga instructor or healthcare professional before attempting the pose.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 7. The Seated Forward Bend -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="Seated">7. The Seated Forward Bend</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Seated Forward Bend, also known as Paschimottanasana, is a popular yoga pose that offers a range of benefits. <br>
+                        <strong>  Here are the benefits of practicing the Seated Forward Bend :-</strong>
+
+                        <div class="image">
+                            <img src="img/Paschimottanasana.jpeg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Stretches the spine :- </b>
+                               <p class="justify">
+                                    Paschimottanasana elongates and stretches the entire length of the spine, helping to improve spinal flexibility and maintain its natural curvature.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Increases flexibility in the hamstrings :- </b>
+                               <p class="justify">
+                                    This pose targets the hamstrings and helps to lengthen and stretch them, promoting greater flexibility and reducing tightness in the back of the thighs.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Opens up the hips :- </b>
+                               <p class="justify">
+                                    Paschimottanasana gently stretches the muscles of the hips, relieving tension and improving hip mobility.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Calms the mind :- </b>
+                               <p class="justify">
+                                    The forward folding action of this pose promotes relaxation and can help calm the mind, reducing stress and anxiety.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Relieves lower back pain :- </b>
+                               <p class="justify">
+                                    Seated Forward Bend provides a gentle stretch to the lower back, helping to alleviate tension and discomfort in that area.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Stimulates the abdominal organs :- </b>
+                               <p class="justify">
+                                    The compression of the abdomen in this pose massages and stimulates the internal organs, supporting digestion and improving overall digestive function.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Enhances circulation :- </b>
+                               <p class="justify">
+                                    Paschimottanasana increases blood flow to the pelvis, abdomen, and back, which can help improve circulation and promote healthier organs.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Alleviates menstrual discomfort :- </b>
+                               <p class="justify">
+                                    The forward folding action and gentle compression of the abdominal area in this pose can provide relief from menstrual cramps and discomfort.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Cultivates introspection and mindfulness :- </b>
+                               <p class="justify">
+                                The inward focus required in this pose encourages introspection, self-reflection, and mindfulness, promoting a deeper connection with oneself.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to approach Paschimottanasana with patience and respect for your body's limits. It is essential to practice under the guidance of a qualified yoga instructor, especially if you have any existing injuries or conditions.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's how to do it and what you may need</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Start by sitting on the floor with your legs extended in front of you. Keep your spine straight and your feet flexed. 
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Take a deep inhale and lengthen your spine, reaching the crown of your head toward the ceiling.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        On the exhale, begin to hinge forward from the hips, leading with your chest. Keep your spine long as you fold forward.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Reach your hands forward and try to hold onto your feet or ankles. If you cannot reach them, you can use a yoga strap or towel to loop around the soles of your feet and hold onto the strap with your hands.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Allow your head and neck to relax and gently tuck your chin toward your chest.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Focus on lengthening your spine with each inhale and deepening the stretch on the exhale. Be mindful of any sensations of tightness or resistance and avoid pushing yourself beyond your limits.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                Hold the pose for several breaths, aiming to deepen the stretch gradually without straining. You can stay in the pose for 30 seconds to a few minutes, depending on your comfort level and flexibility.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                To release the pose, slowly engage your core muscles and lift your torso back up to a seated position, keeping your spine long.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>Materials needed :-</b> <br><br>
+                    <b> Yoga mat or a comfortable surface :- </b> A yoga mat provides cushioning and traction, but you can also practice on a soft carpet or folded blanket.
+                     <br><br>
+                    <b> Yoga strap or towel (optional) :- </b> If you can't reach your feet, a strap or towel can be helpful for holding onto your feet or ankles and extending your reach.
+                     <br><br>
+                     Remember to approach this pose with patience and respect for your body's limits. Avoid forcing yourself into a deep stretch and listen to your body's signals. If you have any pre-existing conditions or injuries, it's advisable to consult with a qualified yoga teacher or healthcare professional before attempting this pose.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 8. The Bridge Pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="Bridge">8. The Bridge Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Bridge Pose, also known as Setu Bandhasana, is a yoga posture that offers several benefits to the body and mind. <br>
+                        <strong>  Here are the benefits of practicing the Bridge Pose :-</strong>
+
+                        <div class="image">
+                            <img src="img/Setu Bandhasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Strengthens the back muscles :- </b>
+                               <p class="justify">
+                                    The Bridge Pose helps strengthen the muscles of the back, including the lower back, upper back, and glutes.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Stretches the chest and shoulders :- </b>
+                                        <p class="justify">
+                                             This pose opens up the chest and shoulders, counteracting the effects of poor posture and desk work.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Tones the legs and buttocks :- </b>
+                                        <p class="justify">
+                                             By engaging the leg muscles and glutes, the Bridge Pose helps tone and strengthen the lower body.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Improves spine flexibility :- </b>
+                               <p class="justify">
+                                    The bridge shape created in this pose helps to stretch and lengthen the spine, improving flexibility and mobility.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Stimulates the thyroid gland :- </b>
+                               <p class="justify">
+                                    The Bridge Pose applies gentle pressure on the throat region, which can help stimulate the thyroid gland, supporting healthy metabolism.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Calms the mind and reduces anxiety :- </b>
+                                        <p class="justify">
+                                             This pose can help calm the mind, relieve stress, and reduce anxiety by activating the parasympathetic nervous system.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Boosts energy levels :- </b>
+                                        <p class="justify">
+                                             The Bridge Pose can help alleviate fatigue and boost energy levels by opening up the chest and increasing oxygen intake.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Relieves menstrual discomfort :- </b>
+                               <p class="justify">
+                                    This pose can help alleviate menstrual discomfort by improving blood flow to the pelvic region and reducing cramps.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Therapeutic for insomnia :- </b>
+                                        <p class="justify">
+                                             The Bridge Pose can be helpful for individuals struggling with insomnia or sleep difficulties, as it promotes relaxation and prepares the body for rest.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to practice the Bridge Pose with proper alignment and listen to your body. It is advisable to learn this pose under the guidance of a qualified yoga instructor to ensure safety and maximize the benefits.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's a step-by-step guide on how to do the pose and what you will need</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Lie down on your back on the yoga mat with your knees bent and your feet hip-width apart, flat on the floor. Place your arms alongside your body, with your palms facing down. 
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Press your feet firmly into the ground, engaging your leg muscles.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Inhale, and as you exhale, lift your hips off the floor, pushing through your feet and engaging your glutes and core muscles. Allow your spine to lift, creating a gentle arch in the lower back.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                If possible, interlace your fingers underneath your body, pressing your arms and shoulders into the ground for support. If this is uncomfortable, you can keep your arms alongside your body.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Maintain a relaxed and steady breath as you hold the pose. Keep your gaze straight ahead or gently towards your chest.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Hold the Bridge Pose for 30 seconds to a minute, gradually increasing the duration as you become more comfortable.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                To release, slowly lower your hips back down to the floor, one vertebra at a time, exhaling as you do so.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                Avoid straining your neck or over-arching your back. Find a comfortable level of lift for your hips and adjust accordingly..
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                To release the pose, inhale and straighten your legs, coming back to a standing position with your arms by your sides.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>Materials needed :-</b> <br><br>
+                    <b>Yoga mat or a comfortable surface :-</b> Use a yoga mat or a non-slip surface that provides cushioning and support.
+                    <br><br>
+                    Remember to listen to your body and modify the pose as needed. If you have any pre-existing medical conditions or injuries, consult with a qualified yoga instructor or healthcare professional before attempting new poses.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 9. The Cobra Pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="Cobra">9. The Cobra Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                           <strong> Certainly! Here are 10 benefits of practicing the Cobra Pose (Bhujangasana):-
+                           </strong>
+
+                        <div class="image">
+                            <img src="img/bhujangasan.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Strengthens the back muscles :- </b>
+                               <p class="justify">
+                                    Cobra Pose helps strengthen the muscles of the back, including the erector spinae, which supports the spine and promotes good posture.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Increases flexibility :- </b>
+                               <p class="justify">
+                                    This pose stretches and opens the chest, shoulders, and abdomen, improving flexibility in those areas.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Stimulates the digestive organs :- </b>
+                               <p class="justify">
+                                    Cobra Pose stimulates the digestive organs, helping to improve digestion and relieve constipation.
+                               </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Tones the abdominal muscles :- </b>
+                               <p class="justify">
+                                    The pose engages the abdominal muscles, helping to tone and strengthen the core.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Relieves back pain :- </b>
+                               <p class="justify">
+                                    Cobra Pose can help alleviate back pain by stretching and strengthening the back muscles and improving spinal alignment.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Opens the heart chakra :- </b>
+                                        <p class="justify">
+                                             The heart chakra is associated with love, compassion, and emotional well-being. Cobra Pose helps open the chest and activate the heart chakra.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Enhances lung capacity :- </b>
+                               <p class="justify">
+                                    The deep expansion of the chest in Cobra Pose increases lung capacity and improves breathing.
+                               </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Improves posture :- </b>
+                                        <p class="justify">
+                                             Regular practice of Cobra Pose can help improve posture by strengthening the muscles that support the spine.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Reduces stress and fatigue :- </b>
+                                        <p class="justify">
+                                             This pose helps reduce stress and fatigue by releasing tension in the back, shoulders, and neck, and promoting relaxation.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Remember to practice Cobra Pose with proper alignment and listen to your body's limits. If you have any pre-existing medical conditions or injuries, consult a qualified yoga instructor or healthcare professional before attempting this pose.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's a step-by-step guide on how to do the Cobra Pose</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Start by lying on your stomach with your legs extended behind you and the tops of your feet resting on the ground.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Place your palms on the ground, next to your shoulders, with your elbows bent and pointing toward the ceiling.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Press your thighs and the tops of your feet into the floor, engaging your leg muscles.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Inhale and slowly begin to straighten your arms, lifting your chest off the ground. Keep your pelvis and lower body grounded.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Draw your shoulder blades back and down, opening your chest and lifting through the crown of your head.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Maintain a gentle gaze forward or slightly upward, avoiding straining your neck.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                Keep your elbows slightly bent, avoiding locking them.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                As you hold the pose, continue to breathe deeply, allowing the breath to guide your movement and maintaining a sense of relaxation.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                Hold the pose for 15 to 30 seconds, gradually increasing the duration as you become more comfortable.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 10.</b>
+                            <p class="justify">
+                                To release, exhale and slowly lower your chest and forehead back down to the ground.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>NOTE :-</b> <br><br>
+                    It's important to listen to your body and practice with awareness. If you experience any discomfort or pain, modify the pose by lowering the intensity or reducing the range of motion. Over time, with regular practice, you can gradually increase your flexibility and depth in the Cobra Pose.
+                    <br><br>
+                    Remember, it's always a good idea to consult with a qualified yoga instructor before attempting any new poses, especially if you have any pre-existing injuries or conditions.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+
+                <!-- 10. The Corpse Pose -->
+                <section>
+                    <article>
+                        <div class="mycontainer1" style="display: block;">
+                            <div class="myparas">
+                                <h2 class="h2" id="Corpse">10. The Corpse Pose</b></h2>
+                        <div class="vitnut">
+                        <p id="vitnut">
+                            The Corpse Pose, or Savasana, is a relaxation pose typically
+                            performed at the end of a yoga practice. Despite its seemingly simple nature, it offers
+                            numerous benefits. <br>
+                           <strong> Here are the benefits of practicing the Corpse Pose:-
+                           </strong>
+
+                        <div class="image">
+                            <img src="img/Savasana.jpg" alt="Mountaine Pose" id="myimagesof">
+                        </div>
+
+                        </p>
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>1. Deep relaxation :- </b>
+                                <p class="justify">
+                                    Savasana induces a state of deep relaxation, allowing the body and mind to fully
+                                    rest and rejuvenate.
+                                </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>2. Stress reduction :- </b>
+                                        <p class="justify">
+                                            By consciously releasing tension and promoting relaxation, Savasana helps reduce
+                                            stress and anxiety levels.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>3. Calms the nervous system :- </b>
+                                        <p class="justify">
+                                            The pose activates the parasympathetic nervous system, promoting a state of calm and
+                                            relaxation.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>4. Lowers blood pressure :- </b>
+                                        <p class="justify">
+                                            The relaxation response triggered by Savasana helps lower blood pressure and reduces
+                                            the risk of heart-related issues.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>5. Enhances mind-body connection :- </b>
+                                        <p class="justify">
+                                            Savasana cultivates a heightened sense of awareness, allowing you to connect with
+                                            the sensations and experiences in your body.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>6. Improves sleep quality :- </b>
+                                <p class="justify">
+                                    Regular practice of Savasana can improve the quality of your sleep, helping you feel
+                                    more rested and rejuvenated.
+                                </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>7. Releases muscle tension :- </b>
+                                        <p class="justify">
+                                            The pose allows for the release of muscular tension and promotes a sense of physical
+                                            ease and relaxation.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>8. Reduces fatigue :- </b>
+                                        <p class="justify">
+                                            By providing deep rest and rejuvenation, Savasana helps reduce fatigue and increase
+                                            energy levels.
+                                        </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>9. Enhances mental clarity :- </b>
+                                        <p class="justify">
+                                            Through the deep relaxation and mental stillness experienced in Savasana, it can
+                                            enhance mental clarity and focus.
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    
+                    <p class="impnote"><b>NOTE :-</b> Incorporating Savasana into your yoga practice allows you to experience the profound benefits of deep relaxation and rejuvenation, contributing to overall physical, mental, and emotional well-being.</p>
+                            
+                            <hr class="mypageHr">
+
+                <h3>Here's how to do Savasana and what materials you may need</h3>
+
+                            <div class="flex-my">
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 1.</b>
+                                    <p class="justify">
+                                        Choose a quiet area where you won't be easily disturbed. Lay a yoga mat or a soft
+                                surface on the floor.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 2.</b>
+                                    <p class="justify">
+                                        Lie down on the mat with your legs extended and slightly apart. Keep your arms relaxed
+                                by your sides, palms facing up.
+                                    </p>
+                                    </li>
+                                </div>
+                                <div class="flex-item">
+                                    <li>
+                                        <b>STEP 3.</b>
+                                    <p class="justify">
+                                        Take a moment to ensure your body is comfortable. You can use a blanket or bolster under
+                                your knees for extra support if needed.
+                                    </p>
+                                    </li>
+                                </div>
+                            </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 4.</b>
+                            <p class="justify">
+                                Close your eyes to minimize external distractions and help you turn your focus inward.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 5.</b>
+                            <p class="justify">
+                                Starting from your toes, consciously relax each part of your body, moving up to your
+                                feet, legs, hips, torso, arms, and finally to your head. Let go of any tension or
+                                tightness.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 6.</b>
+                            <p class="justify">
+                                Bring your attention to your breath. Notice the natural rhythm of your breath and let it
+                                deepen and slow down. Allow each breath to bring a sense of relaxation and release.
+                            </p>
+                            </li>
+                        </div>
+                    </div>
+                <hr class="mypageHr">
+
+                        <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 7.</b>
+                            <p class="justify">
+                                As thoughts arise, gently acknowledge them and let them go. Direct your attention back
+                                to your breath or the sensation of relaxation in your body.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>STEP 8.</b>
+                            <p class="justify">
+                                Remain in the pose for as long as you'd like, typically around 5 to 20 minutes. Feel
+                                free to set an alarm or use soft, gentle music to signal the end of your practice.
+                            </p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>STEP 9.</b>
+                            <p class="justify">
+                                Hold the pose for 15 to 30 seconds, gradually increasing the duration as you become more comfortable.
+                            </p>
+                            </li>
+                        </div>
+                        </div>
+                        </div>
+                <hr class="mypageHr">
+                <p class="impnote"><b>Materials you may need for Savasana :-</b> <br><br>
+                    Yoga mat or comfortable surface
+                    <br><br>
+                   <b>Blanket :-</b> Use a blanket to provide extra cushioning or warmth if needed.
+                    <br><br>
+                   <b>Bolster or cushion :-</b> If you prefer additional support under your knees or lower back, you
+                    can use a bolster or cushion.
+                    <br><br>
+                   <b>Eye pillow :-</b> An eye pillow can help block out light and promote relaxation in the eyes
+                    and face.
+                    <br><br>
+                    Remember, Savasana is a time for complete relaxation and rejuvenation. Allow yourself to surrender to the pose, letting go of any tension or expectations. Enjoy this opportunity to rest and restore your body and mind.
+                </p>
+
+                        </div>
+                            </div>
+                    </article>
+                </section>
+
+                <!-- THIS DIVS ARE CLOSING FOR THE ENDS -->
+                </div>                    
+            </div>
         </div>
-        <div class="TableLists">
-            <li>
-                
-                <h4 style="color: #169602;">GOOD FOOD</h4>
+    </main>
+
+
+<!-- LINKS SECTION -->
+<aside>
+    <div class="mycontacts">
+      <a href="https://www.instagram.com/whole_wellness_web/?hl=en" ><i class="fab fa-instagram" id="instagram"></i></a>
+      <a href="https://wa.me/919810298566" ><i class="fab fa-whatsapp" id="whatsapp"></i></a>
+    </div>
+  </aside>
+  
+  <footer>
+    <div class="mainFoot">
+    <div class="icon-bar">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+        <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
+        <a href="healthyfood.html"><i class="fas fa-apple-alt"></i></a> 
+        <a href="maditation.html"><i class="fa fa-headphones"></i></a>
+        <a href="contact.html"><i class="fa fa-phone-alt"></i></a> 
+    </div>   
+
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD FOOD</h3>
             <br>
-            <a href="vitamins&nutri.html" target="_blank"><ul>VITAMINS & MINERALS</ul><hr></a>
-            <a href="nutrients.html" target="_blank"><ul>GOOD FOOD</ul><hr></a>
+            <a href="vitamins&nutri.html" ><ul>VITAMINS & MINERALS</ul><hr></a>
+            <a href="nutrients.html" ><ul>GOOD FOOD</ul><hr></a>
             <a href="fastfood.html"><ul>AVOID FAST FOOD</ul><hr></a>
             <a href="benefitsofyoga.html"><ul>BENEFITS OF YOGA</ul><hr></a>
-            <a href="healthyfood.html" target="_blank"><ul>BALANCE DIET</ul><hr></a>
-            <a href="maditation.html" target="_blank"><ul>MADITATION</ul><hr></a>
+            <a href="healthyfood.html" ><ul>BALANCE DIET</ul><hr></a>
+            <a href="maditation.html" ><ul>MADITATION</ul><hr></a>
         </li>
-        </div>
-        <div class="TableLists">
-            <li>
-
-                <h3 style="
-                    color: white;
-                    font-size: 20px;
-                    text-shadow: 3px 3px 10px black;
-                "
-                id="h3">
-                    Welcome To Whole Wellness
-                </h3><br>
-                <img src="img/dumbles.png" alt="">
-                <img src="img/www1.png" alt=""><br>
-                <img src="img/www2.png" alt="">
-                <img src="img/dumble.png" alt="">
-            </li>
-
-            <!-- <li><br>
-            </li> -->
-        </div>
-
-        <div class="TableLists">
-            <li>
-                <!-- <img src="img/www3.png" alt=""> -->
-                    <h4 style="color: #169602;">GOOD HEALTH</h4>
-                <br>
-                <a href="mindcontrol.html" target="_blank"><ul>MIND CONTROL</ul><hr></a>
-                <a href="sleep.html" target="_blank"><ul>GOOD SLEEP</ul><hr></a>
-                <a href="skincare.html" target="_blank"><ul>SKIN CARE</ul><hr></a>
-                <a href="workouttips.html" target="_blank"><ul>WORKOUT TIPS</ul><hr></a>
-                <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
-                <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
-            </li>
-        </div>
     </div>
+
+    <div class="TableLists">
+        <li>            
+            <h3 class="welcome-heading" id="h3">
+                Discover Total Well-being with Whole Wellness Web
+            </h3><br>
+            <img src="img/dumbles.png" alt="imag1">
+            <img src="img/www1.png" alt="imag2"><br>
+            <img src="img/www2.png" alt="iamg3">
+            <img src="img/dumble.png" alt="imag4">
+        </li>
+    </div>
+    
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD HEALTH</h3>
+            <br>
+            <a href="mindcontrol.html" ><ul>MIND CONTROL</ul><hr></a>
+            <a href="sleep.html" ><ul>GOOD SLEEP</ul><hr></a>
+            <a href="skincare.html" ><ul>SKIN CARE</ul><hr></a>
+            <a href="workouttips.html" ><ul>WORKOUT TIPS</ul><hr></a>
+            <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
+            <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
+        </li>
+    </div>
+    </div>
+
     <div class="myFoot">
-        <footer>
-            2023 &copy COPYRIGHTS WHOLE WELLNESS WEB
-        </footer>
-    </div>
-    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa fa-sort-asc"></i></button>
-    <script type="text/javascript" src="https://s.skimresources.com/js/238967X1722021.skimlinks.js"></script>
-    <script src="JS/postjava.js"></script>
+        <p>&copy; 2023 COPYRIGHTS WHOLE WELLNESS WEB. All rights reserved.</p>
+     </div>
+</footer>
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-caret-up"></i></button>
+    <script src="JS/yoga.js"></script>
 </body>
 
 </html>

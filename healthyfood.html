@@ -5,15 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/myposts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Whole Wellness Web || Balance Diet</title>
-    <link rel="shortcut icon" href="img/plogo.png" type="image/my-icon">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
-     crossorigin="anonymous"></script>
+    <meta name="description" content="Discover the key to a balanced diet and maintaining a healthy lifestyle. Learn about nutrition, hydration, exercise, and more for optimal well-being.">
+    <meta name="author" content="KirtanArtistry">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="CSS/healthylife.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Achieving and Sustaining Optimal Physical Health | Whole Wellness Web</title>
+
+    <link rel="shortcut icon" href="img/6-removebg-preview.png" type="image/my-icon">
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
+     crossorigin="anonymous"></script> -->
 </head>
 
 <body>
+<header>
+    <section>
+        <div id="hamburger">
+            <div class="bars" id="bars1"></div>
+            <div class="bars" id="bars2"></div>
+            <div class="bars" id="bars3"></div>
+        </div>
+        <div class="side-menu">
+            <a href="#home">TOP</a>
+            <a href="#health">Optimal Physical Health</a>
+            <a href="#Exercise">1. Regular Exercise</a>
+            <a href="#Diet">2. Balanced Diet</a>
+            <a href="#Hydration">3. Importance of Hydration</a>
+            <a href="#sleep">4. Wellness Through Restorative Sleep</a>
+            <a href="#stress">5. Managing Stress for a Healthier Life</a>
+            <!-- <a href="#Downward">6. The Downward Facing Dog Pose</a>
+            <a href="#Seated">7. The Seated Forward Bend</a>
+            <a href="#Bridge">8. The Bridge Pose</a>
+            <a href="#Cobra">9. The Cobra Pose</a>
+            <a href="#Corpse">10. The Corpse Pose</a> -->
+        </div>
+</section>
+
     <div id="menu-bar" onclick="menuOnClick()">
         <div id="bar1" class="bar"></div>
         <div id="bar2" class="bar"></div>
@@ -22,314 +49,670 @@
     <div class="newDropping">
         <nav id="myNavbar" class="mnav">
             <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
-            <li class="nav"> <a href="index.html">HOME </a></li>
-            <li class="nav"> <a href="about.html" target="_blank">ABOUT </a></li>
-            <li class="nav"> <a href="posts.html" target="_blank">POSTS </a></li>
-            <li class="nav"> <a href="contact.html" target="_blank">CONTACT US </a></li>
-            <li class="nav"> <a href="terms-and-condition.html">TERMS AND CONDITIONS </a></li>
-            <li class="nav"> <a href="privacy-policy.html" target="_blank">PRIVACY POLICY </a></li>
-            <div class="dropdown">
-                <input type="text" id="text" placeholder="SEARCH HERE" id="searchbar" onkeyup="search_posts()">
-                <div class="dropdown-content">
-                    <a href="vitamins&nutri.html" target="_blank" class="myposts">
-                        <li> VITAMINS & MINERALS </li>
-                    </a>
-                    <a href="sleep.html" target="_blank" class="myposts">
-                        <li> SLEEP GOOD </li>
-                    </a>
-                    <a href="workouttips.html" target="_blank" class="myposts">
-                        <li> WORKOUT TIPS </li>
-                    </a>
-                    <a href="healthyfood.html" target="_blank" class="myposts">
-                        <li> BALANCE DIET </li>
-                    </a>
-                    <a href="maditation.html" target="_blank" class="myposts">
-                        <li> MADITATION </li>
-                    </a>
-                    <a href="skincare.html" target="_blank" class="myposts">
-                        <li> SKIN CARE </li>
-                    </a>
-                </div>
-            </div>
-            <button type="submit" class="icons"><i class="fa fa-search"></i></button>
+            <li class="nav"> <a href="index.html"> <i class="fa fa-home"></i>&nbsp;HOME </a></li>
+            <li class="nav"> <a href="about.html" ><i class="fa fa-address-book"></i>&nbsp;ABOUT US</a></li>
+            <li class="nav"> <a href="posts.html" ><i class="far fa-images"></i>&nbsp;POSTS </a></li>
+            <li class="nav" id="show1">DIET PLANS <span class="fas fa-angle-down" id="whenClickFirst"></span>
+            <li id="Dropdown1">
+                <ul>Weight Loss Diet</ul>
+                <ul>Weight Gain Diet</ul>
+                <ul>Muscle Building Diet</ul>
+                <ul>Diabetic-Friendly Diet</ul>
+                <ul>Vegetarian or Vegan Diet</ul>
+                <ul>Heart-Healthy Diet</ul>
+            </li>
+            </li>
+            <li class="nav" id="show2">RECIPES <span class="fas fa-angle-down" id="whenClickSecond"></span>
+                <li id="Dropdown2">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav" id="show3">WORKOUTS <span class="fas fa-angle-down" id="whenClickThird"></span>
+                <li id="Dropdown3">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav" id="show4">YOGA <span class="fas fa-angle-down" id="whenClickForth"></span>
+                <li id="Dropdown4">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+            </li>
+            <li class="nav"> <a href="contact.html" ><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US </a></li>
+            
+            <img src="img/orsrc17338.jpg" alt="indian" id="india">
+            
         </nav>
+    </div>
+</header>
 
+
+
+<main>
         <div class="headerwww grid">
-            <h1 class="main-heading">
-                WHOLE WELLNESS WEB
+            <h1 class="main-heading" id="home">
+                Whole Wellness Web: Your Path to Achieving Optimal Physical Health
             </h1>
         </div>
         <div class="fullbody">
             <div class="thisFlexDiv">
                 <div class="mycontainer1">
-
-                    
-
                     <div class="myparas">
-                        <h2 id="h2">* MAINTAINING A HEALTHY BODY *</h2>
+                        <h2 id="h2">Achieving and Sustaining Optimal Physical Health</h2>
                         <p id="vitnut"><q> Maintaining a healthy body is a lifestyle choice that requires consistent effort and dedication. By incorporating these tips into your daily routine, you can help improve your overall health and well-being. </q>
                         </p>
                     </div>
                 </div>
                 <div class="image-max">
-                    <img src="img/B6.png" alt="" id="myimagesof">
+                    <!-- <img src="img/B6.png" alt="" id="myimagesof"> -->
                 </div>
                 <!-- VITAMIN A SECTION  -->
 
+
+        <!-- OVERALL HEALTH -->
+        <section>
+            <article>
                 <div class="mycontainer1" style="display: block;">
 
                     <div class="myparas">
-                        <h2 class="h2"> Here are some steps and tips to help you maintain good skin health :-</h2>
+                        <h2 class="h2" id="health"> Here are some steps and tips to help you maintain good skin health :-</h2>
                         <div class="vitnut">
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b>Exercise regularly:</b>
+                                <b>1. Exercise regularly:</b>
                                <p class="justify"> Engage in moderate to vigorous physical activity for at least 30 minutes per day. This could include brisk walking, running, cycling, or swimming.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Eat a balanced diet:</b>
+                                <b>2. Eat a balanced diet:</b>
                                <p class="justify">  Eat a variety of nutrient-rich foods, including fruits, vegetables, whole grains, lean proteins, and healthy fats.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Stay hydrated:</b>
+                                <b>3. Stay hydrated:</b>
                                <p class="justify">  Drink plenty of water throughout the day to maintain good hydration levels.</p>
                             </li>
+                        </div>
+                    </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b>Get enough sleep:</b>
+                                <b>4. Get enough sleep:</b>
                                <p class="justify">  Aim for 7-9 hours of sleep per night to help your body recover and recharge.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Manage stress:</b>
+                                <b>5. Manage stress:</b>
                                <p class="justify">  Practice stress management techniques, such as deep breathing, meditation, or yoga.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Limit alcohol and tobacco use:</b>
+                                <b>6. Limit alcohol and tobacco use:</b>
                                <p class="justify">  Avoid or limit alcohol consumption and quit smoking or using tobacco products.</p>
                             </li>
+                        </div>
+                    </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b>Stay up to date on health screenings:</b>
+                                <b>7. Stay up to date on health screenings:</b>
                                <p class="justify">  Get regular check-ups and health screenings to detect any potential health problems early on.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Maintain a healthy weight:</b>
+                                <b>8. Maintain a healthy weight:</b>
                                <p class="justify">  Aim to maintain a healthy weight by eating a balanced diet and exercising regularly.</p>
                             </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>9. Maintain a healthy weight:</b>
+                               <p class="justify">  Aim to maintain a healthy weight by eating a balanced diet and exercising regularly.</p>
+                            </li>
+                        </div>
+                    </div>
+                    <hr class="mypageHr">
+            </div>
+
+        </div>
+                </div>
+            </article>
+        </section>
+
+         <!-- REGULARLY EXERCISE -->
+         <section>
+            <article>
+                <div class="mycontainer1" style="display: block;">
+
+                    <div class="myparas">
+                        <h2 class="h2" id="Exercise">The Transformative Power of Regular Exercise for a Healthier You</h2>
+                        
+                        <div class="vitnut">
+                            <p>
+                                In the quest for a healthier lifestyle, few things are as impactful as regular exercise. Exercise is not just a means to shed a few pounds or build muscle; it's a gateway to vitality, mental clarity, and improved overall well-being. In this article, we'll delve into the myriad benefits of regular exercise and provide you with practical insights to help you incorporate physical activity seamlessly into your daily routine.
+                            </p>
+                            <div class="image">
+                                <img src="img/workout tips.png" alt="" id="myimagesof">
+                            </div>
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>1. Enhancing Physical Fitness:</b>
+                            <p class="justify"> Regular exercise is the cornerstone of physical fitness. It improves cardiovascular health, boosts lung capacity, and enhances muscular strength and endurance. Engaging in activities like brisk walking, jogging, swimming, or cycling helps to keep your heart strong and your body in optimal shape.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>2. Weight Management and Metabolism:</b>
+                            <p class="justify">Struggling with weight management? Exercise is your ally. It accelerates your metabolism, making it easier to burn calories and manage weight. Combining regular physical activity with a balanced diet creates a powerful synergy that can help you achieve and maintain a healthy weight.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>3. Mental Health and Mood Elevation:</b>
+                            <p class="justify">Exercise isn't just about sculpting your body; it's also a potent tool for nurturing your mind. Physical activity triggers the release of endorphins, those natural mood lifters that reduce stress and anxiety. Regular exercise is associated with improved mental clarity, enhanced self-esteem, and a brighter outlook on life.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>4. Quality Sleep:</b>
+                            <p class="justify">Sound sleep is essential for overall health, and exercise contributes to better sleep quality. When you engage in physical activity, your body is primed for restorative sleep. Just remember to schedule exercise earlier in the day to avoid disrupting your sleep cycle.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>5. Disease Prevention:</b>
+                            <p class="justify">Engaging in regular exercise significantly lowers the risk of chronic diseases. From heart disease and diabetes to certain types of cancer, physical activity acts as a shield against these ailments. It improves blood circulation, regulates blood sugar levels, and strengthens the immune system, creating a robust defense mechanism for your body.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>6. Social Interaction and Engagement:</b>
+                            <p class="justify">Participating in group exercises or sports offers a social dimension that enhances your overall well-being. It's an opportunity to connect with like-minded individuals, fostering a sense of community and belonging.</p>
+                            </li>
+                    </div>
+                </div>       
+                <hr class="mypageHr">
+
+                            <p class="impnote"><b>Incorporating Exercise into Your Routine :-</b> Starting an exercise routine doesn't require grand gestures. Begin with small, achievable goals and gradually increase the intensity and duration. Choose activities you enjoy, as this will increase your likelihood of sticking to your routine. A mix of cardiovascular exercises, strength training, and flexibility work yields comprehensive benefits.</p>
+                            </div>
+                            <hr class="mypageHr">
+                            
+                </div>
+
+                </div>
+            </article>
+        </section>
+
+        <!-- BALANCED DIET -->
+        <section>
+            <article>
+                <div class="mycontainer1" style="display: block;">
+
+                    <div class="myparas">
+                        <h2 class="h2" id="Diet">The Importance of a Balanced Diet for Well-being</h2>
+
+                        <div class="vitnut">
+                        <p>A balanced diet is a diet that includes a variety of foods in the right proportions to provide the body with all the necessary nutrients it needs for optimal health. A balanced diet includes foods from all the different food groups, including :-</p>
+                        <div class="image">
+                                <img src="img/balance diet.jpg" alt="Balanced Diet" id="myimagesof">
+                            </div>
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>1. Fruits and vegetables:</b>
+                            <p class="justify"> These provide essential vitamins, minerals, and fiber that are important for maintaining good health.</p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>2. Whole grains:</b>
+                            <p class="justify">  Whole grains are a great source of carbohydrates, fiber, and essential vitamins and minerals. Examples include whole wheat bread, brown rice, and oats.</p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>3. Protein:</b>
+                            <p class="justify">  Protein is important for building and repairing tissues in the body. Good sources of protein include lean meats, fish, beans, and legumes.</p>
+                            </li>
+                        </div>
+                    </div>
+                    <hr class="mypageHr">
+
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>4. Dairy:</b>
+                            <p class="justify"> Dairy products are a good source of calcium, which is important for bone health. Examples include milk, yogurt, and cheese.</p>
+                            </li>
+                        </div>
+                        <div class="flex-item">
+                            <li>
+                                <b>5. Healthy fats:</b>
+                            <p class="justify">  Healthy fats, such as those found in nuts, seeds, and oily fish, are important for maintaining good health and reducing the risk of heart disease.</p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>Healthy fats:</b>
+                            <p class="justify">  Healthy fats, such as those found in nuts, seeds, and oily fish, are important for maintaining good health and reducing the risk of heart disease.</p>
+                            </li>
+                        </div>
+                    </div>
+                    <hr class="mypageHr">
+
                             
 
-                            <!-- <p class="impnote"><b>NOTE :- By following these steps and tips, you can maintain good skin health and improve the appearance and texture of your skin. Remember that everyone's skin is unique, so it may take some trial and error to find the right skincare routine and diet that works for you.</b></p> -->
+                            <p class="impnote"><b>NOTE :-</b> A balanced diet is important for maintaining good health and reducing the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer. It's important to eat a variety of foods from each food group in the right proportions to ensure that the body gets all the necessary nutrients it needs. It's also important to limit intake of unhealthy foods such as processed foods, sugary drinks, and foods high in saturated and trans fats. A balanced diet, along with regular exercise and other healthy lifestyle habits, can help you achieve and maintain optimal health and wellness.</p>
                             <hr class="mypageHr">
             </div>
 
-        </div>
-    </div>
-    <div class="mycontainer1" style="display: block;">
-
-        <div class="myparas">
-            <h2 class="h2"> A balanced diet 
-                </h2>
-            <div class="vitnut">
-               <strong>A balanced diet is a diet that includes a variety of foods in the right proportions to provide the body with all the necessary nutrients it needs for optimal health. A balanced diet includes foods from all the different food groups, including :-</strong>
-                <li>
-                    <b>Fruits and vegetables:</b>
-                   <p class="justify"> These provide essential vitamins, minerals, and fiber that are important for maintaining good health.</p>
-                </li>
-                <li>
-                    <b>Whole grains:</b>
-                   <p class="justify">  Whole grains are a great source of carbohydrates, fiber, and essential vitamins and minerals. Examples include whole wheat bread, brown rice, and oats.</p>
-                </li>
-                <li>
-                    <b>Protein:</b>
-                   <p class="justify">  Protein is important for building and repairing tissues in the body. Good sources of protein include lean meats, fish, beans, and legumes.</p>
-                </li>
-                <li>
-                    <b>Dairy:</b>
-                   <p class="justify"> Dairy products are a good source of calcium, which is important for bone health. Examples include milk, yogurt, and cheese.</p>
-                </li>
-                <li>
-                    <b>Healthy fats:</b>
-                   <p class="justify">  Healthy fats, such as those found in nuts, seeds, and oily fish, are important for maintaining good health and reducing the risk of heart disease.</p>
-                </li>
-                
-
-                <p class="impnote"><b>NOTE :-</b> A balanced diet is important for maintaining good health and reducing the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer. It's important to eat a variety of foods from each food group in the right proportions to ensure that the body gets all the necessary nutrients it needs. It's also important to limit intake of unhealthy foods such as processed foods, sugary drinks, and foods high in saturated and trans fats. A balanced diet, along with regular exercise and other healthy lifestyle habits, can help you achieve and maintain optimal health and wellness.</p>
-                <hr class="mypageHr">
-</div>
-
-</div>
-</div>
-<div class="mycontainer1" style="display: block;">
-
-    <div class="myparas">
-        <h2 class="h2">* Stay hydrated </h2>
-          
-        <div class="vitnut">
-            <p class="impnote"><b>NOTE :-</b> Here's some information on hydration and why it's important, along with tips for staying hydrated:<br><br>
-            Hydration is the process of replacing fluids lost through sweating, urination, and breathing. Water is essential for maintaining many bodily functions, including regulating body temperature, transporting nutrients and oxygen to cells, and removing waste products. Being adequately hydrated is important for overall health and wellness. </p>
-            <br>
-            <strong>Here are some reasons why being hydrated is important :-</strong>
-            <li>
-                <b>Regulates body temperature:</b>
-               <p class="justify">  Water helps regulate body temperature by carrying heat away from internal organs and out of the body through sweat.</p>
-            </li>
-            <li>
-                <b>Helps with digestion:</b>
-               <p class="justify">  Water is necessary for the digestion and absorption of food.</p>
-            </li>
-            <li>
-                <b>Protects organs and tissues:</b>
-               <p class="justify">  Water acts as a lubricant for joints, protects organs and tissues, and helps maintain healthy skin.</p>
-            </li>
-            <li>
-                <b>Improves cognitive function:</b>
-               <p class="justify">  Dehydration can cause headaches and impair cognitive function, so staying hydrated can help improve mental clarity and focus.</p>
-            </li>
-            <li>
-                <b>Boosts physical performance:</b>
-               <p class="justify">  Being properly hydrated can improve physical performance by improving endurance and reducing fatigue.</p>
-            </li>
-            <div>
-                <hr class="mypageHr"> <br><br>
-            <h2 class="h2"> * Here are some tips for staying hydrated:<br></h2>
-            <li>
-                <b>Drink plenty of water:</b>
-               <p class="justify"> Aim to drink at least 8 cups of water per day, or more if you're sweating heavily or engaging in vigorous exercise.</p>
-            </li>
-            <li>
-                <b>Eat foods high in water content:</b>
-               <p class="justify">  Fruits and vegetables such as watermelon, cucumbers, and tomatoes are high in water content and can help you stay hydrated.</p>
-            </li>
-            <li>
-                <b>Limit caffeine and alcohol:</b>
-               <p class="justify">  Caffeine and alcohol can be dehydrating, so limit your intake of these beverages and drink water to rehydrate.</p>
-            </li>
-            <li>
-                <b>Monitor urine color:</b>
-               <p class="justify">  Urine color can be a good indicator of hydration levels. Aim for pale yellow urine, which indicates adequate hydration.</p>
-            </li>
-            <li>
-                <b>Drink fluids before, during, and after exercise:</b>
-               <p class="justify">  When exercising, it's important to drink fluids before, during, and after to stay hydrated and replace fluids lost through sweat.</p>
-            </li>
-            
-
-            <p class="impnote"><b>NOTE :-</b> Staying hydrated is important for overall health and wellness. By drinking plenty of water, eating foods high in water content, and monitoring your fluid intake, you can maintain proper hydration levels and support the many important functions of your body.</p>
             </div>
-            <hr class="mypageHr"> <br><br>
-            
-</div>
+                </div>
+            </article>
+        </section>
 
-</div>
-</div>
-    <div class="mycontainer2" id="recent">
-        <!-- <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="myWWW"> -->
-        <li id="li">
-            <h4 style="color: #000000; font-size: 25px; margin-top: 40px;">RECENT POSTS</h4>
-            <br>
-            <img src="img/fruits&vitamin.png" alt="" class="recentImg">
-            <a href="vitamins&nutri.html" target="_blank" style="color: #000000;"><ul>VITAMINS & MINERALS</ul></a>
-            <hr class="hr">
-            <img src="img/good food.png" alt="" class="recentImg">
-            <a href="nutrients.html" target="_blank" style="color: #000000;"><ul>GOOD FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fastfood.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>AVOID FAST FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fruits and vegies.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>FRUITS & VEGETABLES</ul></a>
-            <hr class="hr">
-            <img src="img/healthy tips.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>HEALTHY TIPS</ul></a>
-            <hr class="hr">
-            <img src="img/balance diet.png" alt="" class="recentImg">
-            <a href="healthyfood.html" target="_blank" style="color: #000000;"><ul>BALANCE DIET</ul></a>
-            <hr class="hr">
-            <img src="img/maditation.png" alt="" class="recentImg">
-            <a href="maditation.html" target="_blank" style="color: #000000;"><ul>MADITATION</ul></a>
-            <hr class="hr">
-            <img src="img/mind control.png" alt="" class="recentImg">
-            <a href="mindcontrol.html" target="_blank" style="color: #000000;"><ul>MIND CONTROL</ul></a>
-            <hr class="hr">
-            <img src="img/live healthy.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>LIVE HEALTHY</ul></a>
-            <hr class="hr">
-            <img src="img/sleep_good.png" alt="" class="recentImg">
-            <a href="sleep.html" target="_blank" style="color: #000000;"><ul>GOOD SLEEP</ul></a>
-            <hr class="hr">
-            <img src="img/care_skin.png" alt="" class="recentImg">
-            <a href="skincare.html" target="_blank" style="color: #000000;"><ul>SKIN CARE</ul></a>
-            <hr class="hr">
-            <img src="img/workout tips.png" alt="" class="recentImg">
-            <a href="workouttips.html" target="_blank" style="color: #000000;"><ul>WORKOUT TIPS</ul></a>
-            <hr class="hr">
-        </li>
-    </div>
-    <div class="mycontacts">
-        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
-        <a href="https://wa.me/919810298566" target="_blank"><i class="fa fa-whatsapp" id="whatsapp"></i></a>
-      </div>
-    <div class="mainFoot">
-        <div class="icon-bar">
-            <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
-            <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
-            <a href="healthyfood.html"><i class="fa fa-apple"></i></a> 
-            <a href="maditation.html"><i class="fa fa-headphones"></i></a>
-            <a href="contact.html"><i class="fa fa-phone"></i></a> 
+        <!-- STAY HYDRATED -->
+        <section>
+            <article>
+                <div class="mycontainer1" style="display: block;">
+
+                    <div class="myparas">
+                        <h2 class="h2" id="Hydration">The Importance of Hydration for Overall Well-being</h2>
+                        
+                        <div class="vitnut">
+                            
+                            <div class="image">
+                                <img src="img/water.jpg" alt="Drinking water" id="myimagesof">
+                            </div>
+                            <h3>Here are some reasons why being hydrated is important :-</h3>
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>1. Regulates body temperature:</b>
+                            <p class="justify">  Water helps regulate body temperature by carrying heat away from internal organs and out of the body through sweat.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>2. Helps with digestion:</b>
+                            <p class="justify">  Water is necessary for the digestion and absorption of food.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>3. Protects organs and tissues:</b>
+                            <p class="justify">  Water acts as a lubricant for joints, protects organs and tissues, and helps maintain healthy skin.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>4. Improves cognitive function:</b>
+                            <p class="justify">  Dehydration can cause headaches and impair cognitive function, so staying hydrated can help improve mental clarity and focus.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>5. Boosts physical performance:</b>
+                            <p class="justify">  Being properly hydrated can improve physical performance by improving endurance and reducing fatigue.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>6. Drink plenty of water:</b>
+                            <p class="justify"> Aim to drink at least 8 cups of water per day, or more if you're sweating heavily or engaging in vigorous exercise.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>7. Eat foods high in water content:</b>
+                            <p class="justify">  Fruits and vegetables such as watermelon, cucumbers, and tomatoes are high in water content and can help you stay hydrated.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>8. Limit caffeine and alcohol:</b>
+                            <p class="justify">  Caffeine and alcohol can be dehydrating, so limit your intake of these beverages and drink water to rehydrate.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>9. Monitor urine color:</b>
+                            <p class="justify">  Urine color can be a good indicator of hydration levels. Aim for pale yellow urine, which indicates adequate hydration.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>10. Drink fluids before, during, and after exercise:</b>
+                            <p class="justify">  When exercising, it's important to drink fluids before, during, and after to stay hydrated and replace fluids lost through sweat.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                        <li>
+                            <b>Drink fluids before, during, and after exercise:</b>
+                        <p class="justify">  When exercising, it's important to drink fluids before, during, and after to stay hydrated and replace fluids lost through sweat.</p>
+                        </li>
+                    </div>
+                    <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                        <li>
+                            <b>Drink fluids before, during, and after exercise:</b>
+                        <p class="justify">  When exercising, it's important to drink fluids before, during, and after to stay hydrated and replace fluids lost through sweat.</p>
+                        </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                            
+
+                            <p class="impnote"><b>NOTE :-</b> Staying hydrated is important for overall health and wellness. By drinking plenty of water, eating foods high in water content, and monitoring your fluid intake, you can maintain proper hydration levels and support the many important functions of your body.</p>
+                            </div>
+                            <hr class="mypageHr"> <br><br>
+                            
+                </div>
+
+                </div>
+            </article>
+        </section>
+
+        <!-- MANAGE SLEEP -->
+        <section>
+            <article>
+                <div class="mycontainer1" style="display: block;">
+
+                    <div class="myparas">
+                        <h2 class="h2" id="sleep">Enhancing Wellness Through Restorative Sleep</h2>
+                        
+                        <div class="vitnut">
+                            <p>
+                                Getting good and better sleep is crucial for overall health and well-being. It helps regulate mood, improves memory and cognitive function, and boosts immune system function. Consistently poor sleep quality is linked to a range of health issues, including heart disease, diabetes, and depression. Prioritizing sleep by establishing a regular sleep routine and creating a comfortable sleep environment can improve both physical and mental health.
+                            </p>
+
+                            <div class="image">
+                                <img src="img/sleep_good.png" alt="" id="myimagesof">
+                            </div>
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>1. Stick to a consistent sleep schedule:</b>
+                            <p class="justify">Try to go to bed and wake up at the same time each day, even on weekends.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>2. Create a relaxing bedtime routine:</b>
+                            <p class="justify">Develop a relaxing bedtime routine, such as taking a warm bath, reading a book, or listening to calming music.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>3. Create a comfortable sleep environment:</b>
+                            <p class="justify">Make sure your bedroom is cool, dark, and quiet, and invest in a comfortable mattress and pillows.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>4. Limit screen time before bed:</b>
+                            <p class="justify">Avoid using electronic devices for at least an hour before bed, as the blue light can disrupt your sleep.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>5. Avoid caffeine and alcohol:</b>
+                            <p class="justify">Avoid consuming caffeine and alcohol close to bedtime, as they can interfere with your sleep.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>6. Exercise regularly:</b>
+                            <p class="justify">Regular exercise can help improve your sleep quality, but try to finish your workout a few hours before bedtime.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>7. Manage stress:</b>
+                            <p class="justify">Practice stress management techniques, such as deep breathing, meditation, or yoga, to help calm your mind before bed</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>8. Avoid large meals before bed:</b>
+                            <p class="justify">Try to avoid large meals, spicy or heavy foods, and excessive liquids before bedtime, as they can cause discomfort and disrupt your sleep.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>9. Monitor urine color:</b>
+                            <p class="justify">  Urine color can be a good indicator of hydration levels. Aim for pale yellow urine, which indicates adequate hydration.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                            
+
+                            <p class="impnote"><b>NOTE :-</b> By following these tips, you can help improve the quality of your sleep and wake up feeling more rested and refreshed. <br>
+                                Getting enough sleep is crucial for good health and well-being.
+                            </p>
+                            </div>
+                            <hr class="mypageHr"> <br><br>
+                            
+                </div>
+
+                </div>
+            </article>
+        </section>
+
+
+        <!-- MANAGE STRESS -->
+        <section>
+            <article>
+                <div class="mycontainer1" style="display: block;">
+
+                    <div class="myparas">
+                        <h2 class="h2" id="stress">Managing Stress for a Healthier Life</h2>
+                        
+                        <div class="vitnut">
+                            <p>
+                                In today's fast-paced world, stress has become a common companion for many individuals. While some stress can be motivating, chronic stress can have detrimental effects on both physical and mental health. Learning effective strategies to manage stress is essential for maintaining a balanced and healthy life. In this article, we will explore various techniques and practices that can help you manage stress and enhance your overall well-being.
+                            </p>
+
+                            <div class="image">
+                                <img src="img/hihi.jpg" alt="manage stress" id="myimagesof">
+                            </div>
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>1. Mindfulness and Meditation:</b>
+                            <p class="justify">Practicing mindfulness and meditation can help you stay present in the moment, reduce rumination, and promote relaxation. Engage in deep breathing exercises, meditation, or yoga to cultivate a sense of calmness and clarity.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>2. Physical Activity:</b>
+                            <p class="justify">Regular exercise is not only beneficial for physical health but also plays a crucial role in reducing stress. Physical activity releases endorphins, which are natural mood enhancers. Whether it's a brisk walk, a workout session, or a dance class, find an activity you enjoy and make it a part of your routine.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>3. Healthy Lifestyle Choices:</b>
+                            <p class="justify">Adopting a balanced diet, getting adequate sleep, and staying hydrated are foundational elements for stress management. Nutrient-rich foods and proper sleep contribute to improved mood and resilience against stressors.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>4. Effective Time Management:</b>
+                            <p class="justify">Feeling overwhelmed by a packed schedule can exacerbate stress. Organize your tasks, set realistic goals, and prioritize your activities. Break down large tasks into smaller, manageable steps to reduce feelings of stress and pressure.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>5. Social Support:</b>
+                            <p class="justify">Connecting with friends, family, or support groups can provide an outlet for sharing your feelings and receiving empathy. Engaging in positive social interactions can reduce feelings of isolation and foster a sense of belonging.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>6. Hobbies and Relaxation:</b>
+                            <p class="justify">Pursue activities that bring you joy and relaxation. Engaging in hobbies such as painting, reading, gardening, or playing a musical instrument can divert your mind from stressors and provide a therapeutic escape.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                <div class="flex-my">
+                    <div class="flex-item">
+                            <li>
+                                <b>7. Limiting Technology Use:</b>
+                            <p class="justify">Constant exposure to screens and digital media can contribute to stress. Set boundaries for your screen time, especially before bedtime, to promote better sleep quality and mental well-being.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item">
+                            <li>
+                                <b>8. Seek Professional Help:</b>
+                            <p class="justify">If stress becomes overwhelming and affects your daily life, seeking professional help is crucial. A therapist or counselor can provide guidance and tools to manage stress effectively.</p>
+                            </li>
+                    </div>
+                    <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>Monitor urine color:</b>
+                            <p class="justify">  Urine color can be a good indicator of hydration levels. Aim for pale yellow urine, which indicates adequate hydration.</p>
+                            </li>
+                    </div>
+                </div>
+                <hr class="mypageHr">
+
+                            
+
+                            <p class="impnote"><b>NOTE :-</b> Remember that stress is a natural response, but managing it is vital for maintaining a healthy and fulfilling life. By incorporating mindfulness practices, healthy lifestyle choices, and effective time management, you can navigate life's challenges with resilience and reduce the negative impact of stress on your well-being. Prioritize self-care, connect with your support network, and take steps toward a happier and stress-free life.
+                            </p>
+                            </div>
+                            <hr class="mypageHr"> <br><br>
+                            
+                </div>
+
+                </div>
+            </article>
+        </section>
+
+            </div>
         </div>
-        <div class="TableLists">
-            <li>
-                
-                <h4 style="color: #169602;">GOOD FOOD</h4>
+</main>
+   
+
+<aside>
+    <div class="mycontacts">
+        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" ><i class="fab fa-instagram" id="instagram"></i></a>
+        <a href="https://wa.me/919810298566" ><i class="fab fa-whatsapp" id="whatsapp"></i></a>
+    </div>
+</aside>
+
+<footer>
+    <div class="mainFoot">
+    <div class="icon-bar">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+        <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
+        <a href="healthyfood.html"><i class="fas fa-apple-alt"></i></a> 
+        <a href="maditation.html"><i class="fa fa-headphones"></i></a>
+        <a href="contact.html"><i class="fa fa-phone-alt"></i></a> 
+    </div>   
+
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD FOOD</h3>
             <br>
-            <a href="vitamins&nutri.html" target="_blank"><ul>VITAMINS & MINERALS</ul><hr></a>
-            <a href="nutrients.html" target="_blank"><ul>GOOD FOOD</ul><hr></a>
+            <a href="vitamins&nutri.html" ><ul>VITAMINS & MINERALS</ul><hr></a>
+            <a href="nutrients.html" ><ul>GOOD FOOD</ul><hr></a>
             <a href="fastfood.html"><ul>AVOID FAST FOOD</ul><hr></a>
             <a href="benefitsofyoga.html"><ul>BENEFITS OF YOGA</ul><hr></a>
-            <a href="healthyfood.html" target="_blank"><ul>BALANCE DIET</ul><hr></a>
-            <a href="maditation.html" target="_blank"><ul>MADITATION</ul><hr></a>
+            <a href="healthyfood.html" ><ul>BALANCE DIET</ul><hr></a>
+            <a href="maditation.html" ><ul>MADITATION</ul><hr></a>
         </li>
-        </div>
-        <div class="TableLists">
-            <li>
-
-                <h3 style="
-                    color: white;
-                    font-size: 20px;
-                    text-shadow: 3px 3px 10px black;
-                "
-                id="h3">
-                    Welcome To Whole Wellness
-                </h3><br>
-                <img src="img/dumbles.png" alt="">
-                <img src="img/www1.png" alt=""><br>
-                <img src="img/www2.png" alt="">
-                <img src="img/dumble.png" alt="">
-            </li>
-
-            <!-- <li><br>
-            </li> -->
-        </div>
-
-        <div class="TableLists">
-            <li>
-                <!-- <img src="img/www3.png" alt=""> -->
-                    <h4 style="color: #169602;">GOOD HEALTH</h4>
-                <br>
-                <a href="mindcontrol.html" target="_blank"><ul>MIND CONTROL</ul><hr></a>
-                <a href="sleep.html" target="_blank"><ul>GOOD SLEEP</ul><hr></a>
-                <a href="skincare.html" target="_blank"><ul>SKIN CARE</ul><hr></a>
-                <a href="workouttips.html" target="_blank"><ul>WORKOUT TIPS</ul><hr></a>
-                <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
-                <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
-            </li>
-        </div>
     </div>
+
+    <div class="TableLists">
+        <li>            
+            <h3 class="welcome-heading" id="h3">
+                Discover Total Well-being with Whole Wellness Web
+            </h3><br>
+            <img src="img/dumbles.png" alt="imag1">
+            <img src="img/www1.png" alt="imag2"><br>
+            <img src="img/www2.png" alt="iamg3">
+            <img src="img/dumble.png" alt="imag4">
+        </li>
+    </div>
+    
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD HEALTH</h3>
+            <br>
+            <a href="mindcontrol.html" ><ul>MIND CONTROL</ul><hr></a>
+            <a href="sleep.html" ><ul>GOOD SLEEP</ul><hr></a>
+            <a href="skincare.html" ><ul>SKIN CARE</ul><hr></a>
+            <a href="workouttips.html" ><ul>WORKOUT TIPS</ul><hr></a>
+            <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
+            <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
+        </li>
+    </div>
+    </div>
+
     <div class="myFoot">
-        <footer>
-            2023 &copy COPYRIGHTS WHOLE WELLNESS WEB
-        </footer>
-    </div>
-    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa fa-sort-asc"></i></button>
-    <script type="text/javascript" src="https://s.skimresources.com/js/238967X1722021.skimlinks.js"></script>
-    <script src="JS/postjava.js"></script>
+        <p>&copy; 2023 COPYRIGHTS WHOLE WELLNESS WEB. All rights reserved.</p>
+     </div>
+</footer>
+    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-caret-up"></i></button>
+    <script src="JS/healthy.js"></script>
 </body>
 
 </html>

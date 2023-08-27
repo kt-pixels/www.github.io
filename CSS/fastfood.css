@@ -1,0 +1,1112 @@
+/* BODY SECTION  */
+html {
+    scroll-behavior: smooth;
+  }
+  hr {
+    max-width: 100vw;
+  }
+  * {
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: gainsboro;
+    border-radius: 50%;
+  }
+  
+  .h2 {
+    padding: 20px;
+    background-color: #6c0000;
+    color: white !important;
+  }
+  /* NAVBAR SECTION  */
+  
+  /* LINKS SECTION  */
+  
+  .none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+
+  #li {
+      list-style: none;
+      /* text-align: start; */
+      font-size: 20px;
+      margin-top: -62px;
+  }
+  
+  li ul {
+    padding: 20px 10px;
+  }
+  
+  li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  li b a {
+    text-decoration: underline;
+    color: #55008d;
+  }
+  
+  #myinsta {
+    color: #55008d;
+  }
+  
+  .myvitamins-heading {
+    font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  .Myvitamins {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+      padding: 15px 0px;
+      background-color: rgb(115 3 3);
+      border-radius: 0;
+  }
+  .mnav {
+    display: flex;
+    background-color: rgb(66 4 4);
+    box-shadow: 0px 5px 10px;
+    max-width: 100%;
+    align-items: center;
+  }
+  
+  /* LOGO  */
+  
+  #wwwlogo {
+      height: 100px;
+      margin-left: 16px;
+      max-width: 100%;
+  }
+  /* LIST  */
+  
+  .nav {
+      list-style: none;
+      color: white;
+      max-width: 100%;
+      margin-left: 30px;
+  }
+  
+  .nav:hover {
+      cursor: pointer;
+  }
+  /* SEARCH OR BUTTON  */
+  
+  #text {
+      width: 170px;
+      height: 30px;
+      margin-left: 50px;
+      text-align: center;
+      max-width: 100%;
+  }
+  
+  .icons {
+      width: 40px;
+      height: 34px;
+      max-width: 100%;
+  }
+  
+  /* FOR BUTTON SECTION  */
+  
+  .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+  
+     /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      margin-left: -30px;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    /* RECENT POSTS SECTION MAKING AND MY CONTENT IS HERE  */
+  
+    .fullbody {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      /* display: flex; */
+      /* margin-top: 42px; */
+    }
+  
+    .mycontacts{
+      padding-left: 10px;
+      margin: 15px;
+  }
+  .mycontacts a{
+      padding-left: 10px;
+      font-size: 36px;
+      padding: 10px;
+      color: whitesmoke;
+      cursor: pointer;
+  }
+  
+  #india {
+    width: 95px;
+    margin: 10px;
+    display: flex;
+    position: absolute;
+    top: 7px;
+    left: 70rem;
+  }
+  
+  #instagram{
+      background-image: linear-gradient(to bottom right, purple, rgb(245, 15, 149), red, yellow);
+      padding: 6px 8px;
+      border: groove;
+      border-radius: 10px 10px 10px 10px;
+  }
+  #whatsapp {
+      background-image: linear-gradient( green, rgb(36, 189, 36));
+      padding: 6px 8px;
+      border: groove;
+      border-radius: 10px 10px 10px 10px;
+  }
+  
+    /* FOR RIGHT SIDE  */
+    .mycontainer2 {
+      display: block;
+      width: 20%;
+      max-width: 80%;
+      margin-left: 60px;
+      background-color: white;
+      text-align: center;
+      padding: 20px;
+      position: absolute;
+      left: 70vw;
+      top: 25vw;
+      border-left: groove;
+      border-bottom: groove;
+      min-width: calc(20% - 2px);
+      z-index: 999 !important;
+      overflow-y: auto;
+      height: calc(155vh - 50px);
+    }
+    .mycontainer2 li ul:hover {
+      background-color: #b90000cf;
+      color: white;
+    }
+    #myWWW {
+      width: 20vw;
+      background-color: #0000008f;
+      border-radius: 0px 30px 30px 30px;
+    }
+
+    .welcome-heading{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 0;
+      background-color: transparent;
+    }
+  
+    .good-food {
+      color: #169602; 
+      background-color: transparent; 
+      text-align: start; 
+      box-shadow: none;
+      margin-top: 0;
+    }
+    /* FOR LEFT SIDE  */
+  
+    .thisFlexDiv {
+      display: block;
+    }
+    .mycontainer1 {
+      padding: 20px;
+      display: flex;
+      /* width: 100%;
+      max-width: 96%; */
+    }
+  
+    .image {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+      /* width: 40vw;
+      margin-top: 30px;
+      border-radius: 0px 9px 0px 9px; */
+    }
+    #myimagesof {
+      width: 50vw;
+      margin-top: 0px;
+      border-radius: 0px;
+    }
+    .image-max {
+      background-image: url(..//img/fastfood.jpg);
+      height: 400px;
+      width: auto;
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+  
+    /* #iWntToHideLast .flex-my:nth-child(2) .flex-items .flex-item:last-child */
+    /* #iWntToHideLast:nth-child(2) .flex-my .flex-item:nth-child(3) {
+      opacity: 0;
+    } */
+  
+    .my-yoa-types {
+      text-decoration: underline;
+    margin-left: 30px;
+    }
+  
+  
+    .side-menu {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      background-color: #e9e9e9;
+      box-shadow: 0px -5px 8px;
+      padding-top: 3rem;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    
+    .side-menu a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 10px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    
+    .side-menu a:hover {
+      background-color: #555;
+    }
+    
+    .content {
+      /* margin-left: 250px; */
+      padding: 20px;
+    }
+    
+    #hamburger {
+        width: 17%;
+        padding: 10px;
+        cursor: pointer;
+        position: fixed;
+      transition: 0.5s;
+        z-index: 3;
+        display: none;
+    }
+    
+    .bars {
+      height: 5px;
+      width: 40px;
+      margin: 10px 0px 0px 0px;
+      background-color: #373737;
+      border-radius: 15px;
+    }
+    
+    #bars1 {
+      transition: 0.5s;
+      margin-top: 0px;
+      background-color: #000000ab;
+    }
+    #bars2, #bars3 {
+      transition: 0.5s;
+      background-color: #000000ab;
+    }
+    /* #bars3 {
+      transition: 0.5s;
+      background-color: #808080ab;
+    } */
+  
+    
+    /* FOR HORIZONTAL LINES SECTION  */
+  
+  #Dropdown1{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+    z-index: 3;
+  }
+  
+  #Dropdown2{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 36rem;
+    z-index: 3;
+  }
+  
+  #Dropdown3{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 43rem;
+    z-index: 3;
+  }
+  
+  #Dropdown4{
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 4rem;
+    left: 52rem;
+    z-index: 3;
+  }
+  
+  #Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
+    margin: 0;
+    padding: 13px;
+    font-size: 18px;
+    background-color: rgb(66 4 4);
+    color: white;
+    border: 1px groove;
+  }
+  #Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
+    cursor: pointer;
+    background-color: rgb(155, 0, 0);
+  }
+  
+  #Dropdown1:last-child ul {
+    border-bottom: none;
+  }
+  
+    /* a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    } */
+    
+    .round:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+    
+    .next {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .privOrnext{
+      text-align: center;
+      padding: 30px 0px 30px 0px;
+    }
+    .round {
+      text-decoration: none;
+      padding: 0px 24px 10px;
+      font-size: 40px;
+    }
+  
+    .myparas {
+      text-align: start;
+    }
+    .myparas h2{
+      text-align: center;
+      color: #333;
+    }
+  
+    .resource {
+      text-align: center;
+      font-size: 30px;
+      margin: 20px;
+      font-family: system-ui;
+      text-align: center;
+      color: white;
+      -webkit-text-stroke: 2px black;
+      padding: 20px;
+    }
+  
+  
+    .totalflex {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+  }
+  
+  .flex-my {
+    display: flex;
+  }
+  .flex-item li {
+    flex: 1;
+  }
+  
+  .flex-item {
+      flex: 1;
+      margin: 0 10px;
+  }
+  
+  .justify{
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .flex-item b {
+    font-size: 20px;
+  }
+  
+  /* .flex-item img {
+    
+    height: 220px;
+  } */
+  
+  .imgFlex {
+    height: 220px;
+  }
+  .imgFlex img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flex-item .button {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #188bff;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .flex-item .button:hover {
+    background-color: #006bd6;
+  }
+  
+  .totalflex:nth-child(1) .flex-item:nth-child(2) .button {
+    margin-top: 21px;
+  }
+  
+  .totalflex:nth-child(2) .flex-item:last-child .button {
+    margin-top: 21px;
+  }
+  
+  
+    
+    #vitnut {
+      font-size: 20px;
+      margin-top: 12px;
+      /* width: 870px; */
+    }
+  .vitnut {
+    font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    /* margin-top: 40px;
+    font-size: 20px;
+    width: 72%; */
+  }
+  .vitnut li {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  
+  .mylistofvit {
+    font-size: 18px;
+      color: #555;
+      margin: 10px 0px;
+      line-height: 1.6;
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px; */
+  }
+  
+  /* MAIN WWW HEADING SECTION  */
+  
+  .headerwww {
+    font-size: 3vw;
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-top: 0px;
+    max-width: 100%;
+  }
+  
+  .main-heading{
+    color: rgb(70, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .vitandnut {
+    width: 870px;
+    font-size: 20px;
+    margin-top: 20px;
+  } */
+  .recentImg {
+    width: 19vw;
+  border: groove;
+  }
+  
+  .hr {
+    margin-bottom: 20px;
+  }
+  
+  .mypageHr {
+    border: none;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+    /* margin-top: 10px;
+    margin-bottom: -20px; */
+  }
+  
+  .impnote {
+    font-size: 14px;
+      color: #777;
+      margin-top: 20px;
+    /* margin-top: 40px;
+    border: groove;
+    overflow-y: scroll;
+    height: 120px;
+    padding: 10px; */
+  }
+  
+  /* MAIN FOOTER SECTION  */
+  
+  .mainFoot{
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    background-color: rgb(22 22 22);
+  }
+  
+  /* ICONS  */
+  
+  .icon-bar {
+    width: 90px;
+    background-color: #555;
+    max-width: 100%;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    max-width: 100%;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* LISTS FOOTER    */
+  
+  .TableLists {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: flex;
+    width: 40%;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 2vw;
+  }
+  
+  .TableLists li img {
+    width: 100px;
+    max-width: 100%;
+    border-radius: 360px;
+    margin-bottom: 20px;
+    border: groove;
+    margin-left: 58px;
+  }
+  
+  .TableLists li ul{
+    padding: 10px;
+    max-width: 100%;
+    font-size: 20px;
+  }
+  
+  .TableLists li ul:hover{
+    background-color: #e3e3e3;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  /* COPYRIGT SECTION  */
+  
+  .myFoot {
+    text-align: center;
+    max-width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: black;
+  }
+  
+  /* SCROLLING BUTTON  */
+  
+  #myBtn1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #323232; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 28px; /* Increase font size */
+    height: 50px;
+  }
+  
+  #myBtn1:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+  .Mybtn {
+    padding: 12px 25px 12px 25px;
+    background-image: linear-gradient(to right, #188bff, #030ac1);
+    color: white;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: double;
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .Mybtn:hover {
+    background-image: linear-gradient(to right,#030ac1, #188bff);
+  }
+  
+  
+  @media only screen and (max-width : 1100px){
+  
+    /* FULL BODY SECTION  */
+  
+    .fullbody{
+      display: block;
+      width: auto;
+      max-width: fit-content;
+    }
+  
+  /* FOR ROTATE BARS  */
+  
+  #menu-bar {
+      position: relative;
+      background-color: rgb(22 22 22);
+      padding: 2px;
+  }
+  .main-heading {
+    color: rgb(70, 0, 0);
+    font-size: 6vw;
+    text-align: center;
+  }
+  
+  /* HAMBURGER MENU  */
+  .bar {
+      width: 36px;
+      margin: 10px;
+      margin-top: 10px;
+      height: 3px;
+      background-color: white;
+      margin-bottom: 10px;
+      transition: 0.3s ease;
+  }
+  
+  .change {
+      display: block;
+  }
+  
+  .change .bar {
+      background-color: white;
+  }
+  
+  .change #bar1 {
+      transform: translateY(12px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+      opacity: 0;
+  }
+  
+  .change #bar3 {
+      transform: translateY(-14px) rotateZ(45deg);
+  }
+  
+  .bg-bars {
+      display: none;
+  }
+  
+  
+  /* MAIN BODY CONTENT SECTION  */
+  
+  #myimagesof {
+    width: 89vw;
+    /* margin-top: -24px; */
+    margin-bottom: 26px;
+  }
+  
+  #vitnut {
+    width: 100%;
+    text-align: justify;
+    font-size: 14px;
+  }
+  ol {
+    text-align: justify;
+  }
+  .mycontainer1 {
+    margin-bottom: 40px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    /* padding: 20px;
+    display: block;
+    text-align: center; */
+  }
+  
+  .mylistofvit {
+      margin-top: 0px;
+      text-align: justify;
+      font-size: 17px;
+      display: none;
+  }
+  
+  /* hr {
+    display: none;
+  } */
+  
+  .flex-item {
+    margin: 10px 0px;
+  }
+  
+  .flex-item b {
+    font-size: 16px;
+  }
+  
+  .vitnut li {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    list-style: none;
+  }
+  
+  .h2 {
+      margin-left: 0px;
+      font-size: 5vw;
+      text-align: justify;
+  }
+  #h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    text-align: center;
+  }
+  
+  .vitnut {
+    margin-top: 0px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* RECENT SECTION  */
+  
+  .mycontainer2 {
+    display: none;
+  }
+  
+  /* PARAGRAPH SECTION  */
+  
+  .myparas {
+    margin-left: 0px;
+    font-size: 2vw;
+        text-align: start;
+  }
+  /* FOOTER SECTION SIZING  */
+  
+  
+  
+  .TableLists {
+    font-size: 2vw;
+  }
+  .TableLists li {
+    font-size: 12px;
+  }
+  .TableLists li img {
+    width: 8vw;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .TableLists li ul {
+    padding: 10px 0px 10px 5px;
+    max-width: 100%;
+    font-size: 10px;
+  }
+  .myFoot {
+    font-size: 10px;
+  }
+  
+  /* HIDE NAVBAR LISTS  */
+  .mnav {
+    display: none;
+  }
+  
+  /* SHOW MENU LISTS  */
+  .newmynav {
+    display: block;
+    text-align: center;
+  }
+  #wwwlogo {
+    height: 100px;
+    margin-left: 0px;
+  }
+  .nav {
+    text-align: center;
+    margin-bottom: -46px;
+    margin-top: -39px;
+    margin-left: 0px;
+    padding: 40px;
+    font-size: 14px;
+  }
+  #text {
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .dropdown-content {
+    margin-left: -66px;
+    text-align: start;
+  }
+  #myBtn1 {
+    position: fixed;
+    bottom: 6px;
+    right: 10px;
+    padding: 10px;
+    font-size: 28px;
+    height: 40px;
+    background-color: #5550;
+    color: #5c0707;
+  }
+  #myBtn1:hover {
+    background-color: #0000000d;
+  }
+  }
+  
+  @media only screen and (max-width : 600px){
+  .TableLists li ul {
+    padding: 10px 0px 10px 5px;
+    max-width: 100%;
+    font-size: 9px;
+  }
+  /*  */
+  #h3 {
+    display: none;
+  }
+  .TableLists img {
+    display: block;
+  }
+  .totalflex {
+    display: block;
+  }
+  
+  .imgFlex {
+    height: 170px;
+  }
+  
+  .resource {
+    text-align: center;
+    font-size: 21px;
+    margin: 20px 0px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    padding: 20px 0px;
+  }
+  
+  .icon-bar {
+    display: none;
+  }
+  .mainFoot {
+    padding: 15px;
+  }
+  .myparas h2 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .main-heading {
+    color: rgb(70, 0, 0);
+    font-size: 6vw;
+    text-align: center;
+    /* text-decoration: underline; */
+  }
+  .myparas .h2 {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px;
+  }
+  .Myvitamins {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .image{
+    text-align: center;
+  }
+  .bars {
+    width: 30px;
+  }
+  .image img {
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px;
+  }
+  .impnote {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .justify {
+    font-size: 14px;
+    text-align: start;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  
+  .flex-item .button {
+    font-size: 16px;
+  }
+  
+  #none {
+    display: none;
+  }
+  
+  .Mybtn {
+    padding: 8px 15px 8px 15px;
+    font-size: 12px;
+  }
+
+  .welcome-heading {
+    display: none;
+  }
+  .image-max {
+    height: 200px;
+    margin-bottom: 20px;
+      }
+  
+      .mycontacts a {
+        /* padding-left: 10px; */
+        font-size: 24px;
+      }
+      #instagram {
+        border-radius: 6px 6px 6px 6px;
+        padding: 6px 8px;
+    }
+      #whatsapp {
+        border-radius: 6px 6px 6px 6px;
+        padding: 6px 8px;
+      }
+      .my-yoa-types {
+        text-decoration: underline;
+      text-align: center;
+      }
+      #india {
+        display: none;
+    }
+
+    .vitnut li {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      list-style: none;
+    }
+  
+    #Dropdown1 {
+      top: 20rem;
+      left: 0;
+  }
+  #Dropdown2 {
+      top: 23rem;
+      left: 0;
+  }
+  #Dropdown3 {
+      top: 26rem;
+      left: 0;
+  }
+  #Dropdown4 {
+      top: 29rem;
+      left: 0;
+  }
+  h3 {
+    margin-top: 15px;
+      padding: 5px;
+      font-size: 16px;
+      background-color: #8b8b8b;
+      border-radius: 5px;
+      color: white;
+  }
+  
+  .flex-my {
+    display: block;
+  }
+    }

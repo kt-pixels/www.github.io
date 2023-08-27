@@ -5,74 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/myposts.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Whole Wellness Web || Healthy Skin Tips</title>
-    <link rel="shortcut icon" href="img/plogo.png" type="image/my-icon">
+    <meta name="description" content="Discover effective tips and steps for maintaining healthy skin. Learn how to cleanse, moisturize, and protect your skin from UV rays. Explore the importance of hydration, a balanced diet, and stress management for achieving radiant and glowing skin. Improve your skin health with expert advice from Whole Wellness Web.">
+    <meta name="author" content="KirtanArtistry">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="CSS/skin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Healthy Skin Tips: Expert Advice for Glowing and Radiant Skin - Whole Wellness Web</title>
+    <link rel="shortcut icon" href="img/6-removebg-preview.png" type="image/my-icon">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8527456040994261"
      crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="menu-bar" onclick="menuOnClick()">
-        <div id="bar1" class="bar"></div>
-        <div id="bar2" class="bar"></div>
-        <div id="bar3" class="bar"></div>
-    </div>
-    <div class="newDropping">
-        <nav id="myNavbar" class="mnav">
-            <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
-            <li class="nav"> <a href="index.html">HOME </a></li>
-            <li class="nav"> <a href="about.html" target="_blank">ABOUT </a></li>
-            <li class="nav"> <a href="posts.html" target="_blank">POSTS </a></li>
-            <li class="nav"> <a href="contact.html" target="_blank">CONTACT US </a></li>
-            <li class="nav"> <a href="terms-and-condition.html">TERMS AND CONDITIONS </a></li>
-            <li class="nav"> <a href="privacy-policy.html" target="_blank">PRIVACY POLICY </a></li>
-            <div class="dropdown">
-                <input type="text" id="text" placeholder="SEARCH HERE" id="searchbar" onkeyup="search_posts()">
-                <div class="dropdown-content">
-                    <a href="vitamins&nutri.html" target="_blank" class="myposts">
-                        <li> VITAMINS & MINERALS </li>
-                    </a>
-                    <a href="sleep.html" target="_blank" class="myposts">
-                        <li> SLEEP GOOD </li>
-                    </a>
-                    <a href="workouttips.html" target="_blank" class="myposts">
-                        <li> WORKOUT TIPS </li>
-                    </a>
-                    <a href="healthyfood.html" target="_blank" class="myposts">
-                        <li> BALANCE DIET </li>
-                    </a>
-                    <a href="maditation.html" target="_blank" class="myposts">
-                        <li> MADITATION </li>
-                    </a>
-                    <a href="skincare.html" target="_blank" class="myposts">
-                        <li> SKIN CARE </li>
-                    </a>
-                </div>
-            </div>
-            <button type="submit" class="icons"><i class="fa fa-search"></i></button>
-        </nav>
+    <header>
+    
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <div class="newDropping">
+            <nav id="myNavbar" class="mnav">
+                <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="wwwlogo">
+                <li class="nav"> <a href="index.html"> <i class="fa fa-home"></i>&nbsp;HOME </a></li>
+                <li class="nav"> <a href="about.html" ><i class="fa fa-address-book"></i>&nbsp;ABOUT US</a></li>
+                <li class="nav"> <a href="posts.html" ><i class="far fa-images"></i>&nbsp;POSTS </a></li>
+                <li class="nav" id="show1">DIET PLANS <span class="fas fa-angle-down" id="whenClickFirst"></span>
+                <li id="Dropdown1">
+                    <ul>Weight Loss Diet</ul>
+                    <ul>Weight Gain Diet</ul>
+                    <ul>Muscle Building Diet</ul>
+                    <ul>Diabetic-Friendly Diet</ul>
+                    <ul>Vegetarian or Vegan Diet</ul>
+                    <ul>Heart-Healthy Diet</ul>
+                </li>
+                </li>
+                <li class="nav" id="show2">RECIPES <span class="fas fa-angle-down" id="whenClickSecond"></span>
+                    <li id="Dropdown2">
+                        <ul>Weight Loss Diet</ul>
+                        <ul>Weight Gain Diet</ul>
+                        <ul>Muscle Building Diet</ul>
+                        <ul>Diabetic-Friendly Diet</ul>
+                        <ul>Vegetarian or Vegan Diet</ul>
+                        <ul>Heart-Healthy Diet</ul>
+                    </li>
+                </li>
+                <li class="nav" id="show3">WORKOUTS <span class="fas fa-angle-down" id="whenClickThird"></span>
+                    <li id="Dropdown3">
+                        <ul>Weight Loss Diet</ul>
+                        <ul>Weight Gain Diet</ul>
+                        <ul>Muscle Building Diet</ul>
+                        <ul>Diabetic-Friendly Diet</ul>
+                        <ul>Vegetarian or Vegan Diet</ul>
+                        <ul>Heart-Healthy Diet</ul>
+                    </li>
+                </li>
+                <li class="nav" id="show4">YOGA <span class="fas fa-angle-down" id="whenClickForth"></span>
+                    <li id="Dropdown4">
+                        <ul>Weight Loss Diet</ul>
+                        <ul>Weight Gain Diet</ul>
+                        <ul>Muscle Building Diet</ul>
+                        <ul>Diabetic-Friendly Diet</ul>
+                        <ul>Vegetarian or Vegan Diet</ul>
+                        <ul>Heart-Healthy Diet</ul>
+                    </li>
+                </li>
+                <li class="nav"> <a href="contact.html" ><i class="fas fa-phone-alt"></i>&nbsp;CONTACT US </a></li>
+                
+                <img src="img/orsrc17338.jpg" alt="indian" id="india">
+                
+            </nav>
+        </div>
+    </header>
 
         <div class="headerwww grid">
-            <h1 class="main-heading">
-                WHOLE WELLNESS WEB
-            </h1>
+            <h1 class="main-heading">Healthy Skin Tips for Radiant Beauty</h1>
         </div>
+<section>
+    <article>
         <div class="fullbody">
             <div class="thisFlexDiv">
                 <div class="mycontainer1">
-
-                    
-
                     <div class="myparas">
-                        <h2>* SKIN CARE *</h2>
+                        <h2>Effective Skin Care Tips for a Healthy Glow</h2>
                         <p id="vitnut"><q> Maintaining good skin condition involves several factors, including proper skincare, a healthy diet, and lifestyle habits. </q>
                         </p>
                     </div>
                 </div>
                 <div class="image-max">
-                    <img src="img/care_skin.png" alt="" id="myimagesof">
+                    <!-- <img src="img/care_skin.png" alt="" id="myimagesof"> -->
                 </div>
 
                 <!-- VITAMIN A SECTION  -->
@@ -80,166 +101,162 @@
                 <div class="mycontainer1" style="display: block;">
 
                     <div class="myparas">
-                        <h2 class="h2"> Here are some steps and tips to help you maintain good skin health:<br><br></h2>
+                        <h2 class="h2"> Here are some steps and tips to help you maintain good skin health</h2>
                         <div class="vitnut">
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b>Keep your skin clean:</b>
+                                <b>1. Keep your skin clean:</b>
                                 <p class="justify">Cleanse your skin twice a day with a gentle cleanser to remove dirt, oil, and impurities. Avoid using hot water or harsh soaps, which can strip the skin of its natural oils.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Exfoliate regularly:</b>
+                                <b>2. Exfoliate regularly:</b>
                                 <p class="justify">Exfoliation removes dead skin cells, which can clog pores and cause breakouts. Use a gentle exfoliator once or twice a week to keep your skin smooth and bright.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Moisturize:</b>
+                                <b>3. Moisturize:</b>
                                 <p class="justify">Hydrate your skin by applying a moisturizer daily. Look for a moisturizer that is appropriate for your skin type, whether it is oily, dry, or combination.</p>
                             </li>
+                        </div>
+                    </div>
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b>Protect your skin from the sun:</b>
+                                <b>4. Protect your skin from the sun:</b>
                                 <p class="justify">UV rays can damage the skin and cause premature aging. Wear sunscreen with at least SPF 30 and reapply every two hours when exposed to the sun.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Stay hydrated:</b>
+                                <b>5. Stay hydrated:</b>
                                 <p class="justify">Drink plenty of water to keep your skin hydrated and flush out toxins. Aim for at least 8 glasses of water per day.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Eat a healthy diet: </b>
+                                <b>6. Eat a healthy diet: </b>
                                 <p class="justify">A balanced diet rich in fruits, vegetables, lean proteins, and healthy fats can provide essential nutrients for healthy skin. Avoid processed and sugary foods, which can lead to inflammation and breakouts.</p>
                             </li>
+                        </div>
+                    </div>
+                    <div class="flex-my">
+                        <div class="flex-item">
                             <li>
-                                <b><a href="sleep.html">Get enough sleep</a>: </b>
+                                <b>7. Get enough sleep: </b>
                                 <p class="justify">Lack of sleep can cause stress and hormonal imbalances, which can lead to skin problems. Aim for 7-8 hours of sleep per night to allow your skin to regenerate.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b><a href="maditation.html">Manage stress</a>: </b>
+                                <b>8. Manage stress: </b>
                                 <p class="justify">Stress can trigger skin problems such as acne, eczema, and psoriasis. Practice stress-reducing activities such as yoga, meditation, or deep breathing exercises.</p>
                             </li>
+                        </div>
+                        <div class="flex-item">
                             <li>
-                                <b>Avoid smoking and excessive alcohol consumption: </b>
+                                <b>9. Avoid smoking and excessive alcohol consumption: </b>
                                 <p class="justify">Smoking and drinking too much alcohol can damage your skin and make it look dull and dehydrated.</p>
                             </li>
+                        </div>
+                    </div>
+                    <div class="flex-my">
+                        <div class="flex-item">
+                            <li>
+                                <b>10. Exfoliate regularly: </b>
+                                <p class="justify">Use a gentle exfoliant once or twice a week to help remove dead skin cells and promote cell turnover.</p>
+                            </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
                             <li>
                                 <b>Exfoliate regularly: </b>
                                 <p class="justify">Use a gentle exfoliant once or twice a week to help remove dead skin cells and promote cell turnover.</p>
                             </li>
+                        </div>
+                        <div class="flex-item displayNoneOnMobile" style="opacity: 0;">
+                            <li>
+                                <b>Exfoliate regularly: </b>
+                                <p class="justify">Use a gentle exfoliant once or twice a week to help remove dead skin cells and promote cell turnover.</p>
+                            </li>
+                        </div>
+                    </div>
 
                             <p class="impnote"><b>NOTE :-</b> By following these steps and tips, you can maintain good skin health and improve the appearance and texture of your skin. Remember that everyone's skin is unique, so it may take some trial and error to find the right skincare routine and diet that works for you.</p>
                             <hr class="mypageHr"><br>
-            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="mycontainer2" id="recent">
-        <!-- <img src="img/FAUGET-removebg-preview.png" alt="Whole Wellness Web" id="myWWW"> -->
-        <li id="li">
-            <h4 style="color: #000000; font-size: 25px; margin-top: 40px;">RECENT POSTS</h4>
-            <br>
-            <img src="img/fruits&vitamin.png" alt="" class="recentImg">
-            <a href="vitamins&nutri.html" target="_blank" style="color: #000000;"><ul>VITAMINS & MINERALS</ul></a>
-            <hr class="hr">
-            <img src="img/good food.png" alt="" class="recentImg">
-            <a href="nutrients.html" target="_blank" style="color: #000000;"><ul>GOOD FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fastfood.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>AVOID FAST FOOD</ul></a>
-            <hr class="hr">
-            <img src="img/fruits and vegies.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>FRUITS & VEGETABLES</ul></a>
-            <hr class="hr">
-            <img src="img/healthy tips.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>HEALTHY TIPS</ul></a>
-            <hr class="hr">
-            <img src="img/balance diet.png" alt="" class="recentImg">
-            <a href="healthyfood.html" target="_blank" style="color: #000000;"><ul>BALANCE DIET</ul></a>
-            <hr class="hr">
-            <img src="img/maditation.png" alt="" class="recentImg">
-            <a href="maditation.html" target="_blank" style="color: #000000;"><ul>MADITATION</ul></a>
-            <hr class="hr">
-            <img src="img/mind control.png" alt="" class="recentImg">
-            <a href="mindcontrol.html" target="_blank" style="color: #000000;"><ul>MIND CONTROL</ul></a>
-            <hr class="hr">
-            <img src="img/live healthy.png" alt="" class="recentImg">
-            <a href="" style="color: #000000;"><ul>LIVE HEALTHY</ul></a>
-            <hr class="hr">
-            <img src="img/sleep_good.png" alt="" class="recentImg">
-            <a href="sleep.html" target="_blank" style="color: #000000;"><ul>GOOD SLEEP</ul></a>
-            <hr class="hr">
-            <img src="img/care_skin.png" alt="" class="recentImg">
-            <a href="skincare.html" target="_blank" style="color: #000000;"><ul>SKIN CARE</ul></a>
-            <hr class="hr">
-            <img src="img/workout tips.png" alt="" class="recentImg">
-            <a href="workouttips.html" target="_blank" style="color: #000000;"><ul>WORKOUT TIPS</ul></a>
-            <hr class="hr">
-        </li>
-    </div>
+    </article>
+</section>
+<aside>
     <div class="mycontacts">
-        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" target="_blank"><i class="fa fa-instagram" id="instagram"></i></a>
-        <a href="https://wa.me/919810298566" target="_blank"><i class="fa fa-whatsapp" id="whatsapp"></i></a>
-      </div>
+        <a href="https://www.instagram.com/whole_wellness_web/?hl=en" target="_blank"><i class="fab fa-instagram" id="instagram"></i></a>
+        <a href="https://wa.me/919810298566" target="_blank"><i class="fab fa-whatsapp" id="whatsapp"></i></a>
+    </div>
+</aside>
+
+
+<footer>
     <div class="mainFoot">
-        <div class="icon-bar">
-            <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
-            <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
-            <a href="healthyfood.html"><i class="fa fa-apple"></i></a> 
-            <a href="maditation.html"><i class="fa fa-headphones"></i></a>
-            <a href="contact.html"><i class="fa fa-phone"></i></a> 
-        </div>
-        <div class="TableLists">
-            <li>
-                
-                <h4 style="color: #169602;">GOOD FOOD</h4>
+    <div class="icon-bar">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+        <a href="vitamins&nutri.html"><i class="fa fa-heartbeat"></i></a> 
+        <a href="healthyfood.html"><i class="fas fa-apple-alt"></i></a> 
+        <a href="maditation.html"><i class="fa fa-headphones"></i></a>
+        <a href="contact.html"><i class="fa fa-phone-alt"></i></a> 
+    </div>   
+
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD FOOD</h3>
             <br>
-            <a href="vitamins&nutri.html" target="_blank"><ul>VITAMINS & MINERALS</ul><hr></a>
-            <a href="nutrients.html" target="_blank"><ul>GOOD FOOD</ul><hr></a>
+            <a href="vitamins&nutri.html" ><ul>VITAMINS & MINERALS</ul><hr></a>
+            <a href="nutrients.html" ><ul>GOOD FOOD</ul><hr></a>
             <a href="fastfood.html"><ul>AVOID FAST FOOD</ul><hr></a>
             <a href="benefitsofyoga.html"><ul>BENEFITS OF YOGA</ul><hr></a>
-            <a href="healthyfood.html" target="_blank"><ul>BALANCE DIET</ul><hr></a>
-            <a href="maditation.html" target="_blank"><ul>MADITATION</ul><hr></a>
+            <a href="healthyfood.html" ><ul>BALANCE DIET</ul><hr></a>
+            <a href="maditation.html" ><ul>MADITATION</ul><hr></a>
         </li>
-        </div>
-        <div class="TableLists">
-            <li>
-
-                <h3 style="
-                    color: white;
-                    font-size: 20px;
-                    text-shadow: 3px 3px 10px black;
-                "
-                id="h3">
-                    Welcome To Whole Wellness
-                </h3><br>
-                <img src="img/dumbles.png" alt="">
-                <img src="img/www1.png" alt=""><br>
-                <img src="img/www2.png" alt="">
-                <img src="img/dumble.png" alt="">
-            </li>
-
-            <!-- <li><br>
-            </li> -->
-        </div>
-
-        <div class="TableLists">
-            <li>
-                <!-- <img src="img/www3.png" alt=""> -->
-                    <h4 style="color: #169602;">GOOD HEALTH</h4>
-                <br>
-                <a href="mindcontrol.html" target="_blank"><ul>MIND CONTROL</ul><hr></a>
-                <a href="sleep.html" target="_blank"><ul>GOOD SLEEP</ul><hr></a>
-                <a href="skincare.html" target="_blank"><ul>SKIN CARE</ul><hr></a>
-                <a href="workouttips.html" target="_blank"><ul>WORKOUT TIPS</ul><hr></a>
-                <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
-                <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
-            </li>
-        </div>
     </div>
+
+    <div class="TableLists">
+        <li>            
+            <h3 class="welcome-heading" id="h3">
+                Discover Total Well-being with Whole Wellness Web
+            </h3><br>
+            <img src="img/dumbles.png" alt="imag1">
+            <img src="img/www1.png" alt="imag2"><br>
+            <img src="img/www2.png" alt="iamg3">
+            <img src="img/dumble.png" alt="imag4">
+        </li>
+    </div>
+    
+    <div class="TableLists">
+        <li>
+            <h3 class="good-food">GOOD HEALTH</h3>
+            <br>
+            <a href="mindcontrol.html" ><ul>MIND CONTROL</ul><hr></a>
+            <a href="sleep.html" ><ul>GOOD SLEEP</ul><hr></a>
+            <a href="skincare.html" ><ul>SKIN CARE</ul><hr></a>
+            <a href="workouttips.html" ><ul>WORKOUT TIPS</ul><hr></a>
+            <a href="terms-and-condition.html"><ul>TERMS AND CONDITIONS</ul><hr></a>
+            <a href="privacy-policy.html"><ul>PRIVACY POLICY</ul><hr></a>
+        </li>
+    </div>
+    </div>
+
     <div class="myFoot">
-        <footer>
-            2023 &copy COPYRIGHTS WHOLE WELLNESS WEB
-        </footer>
-    </div>
-    <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fa fa-sort-asc"></i></button>
-    <script type="text/javascript" src="https://s.skimresources.com/js/238967X1722021.skimlinks.js"></script>
-    <script src="JS/postjava.js"></script>
+        <p>&copy; 2023 COPYRIGHTS WHOLE WELLNESS WEB. All rights reserved.</p>
+     </div>
+</footer>
+        <button onclick="topFunction()" id="myBtn1" title="Go to top"><i class="fas fa-caret-up"></i></button>
+    <script src="JS/skin.js"></script>
 </body>
 
 </html>
