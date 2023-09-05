@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes - Whole Wellness Web</title>
+    <meta name="description" content="Explore a wide variety of mouthwatering recipes on our website. From savory dishes to sweet treats, find the perfect recipe for every occasion.">
+    <meta name="keywords" content="recipes, cooking, food, culinary, delicious, homemade, meal ideas">
+    <meta name="author" content="Kirtan Kaushik">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/6-removebg-preview.png" type="image/my-icon">
+    <!-- <link rel="stylesheet" href="CSS/recipes.css"> -->
+    <style>
+        body {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c0c0c0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(img/ae.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.popup {
+  border: 2px solid gray;
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  background-color: transparent;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.552);
+  padding: 10px;
+  /* transform: scale(0);
+  transition: transform 1s ease; */
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.date {
+    font-size: 30px;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.heading {
+    font-size: 60px;
+    color: white;
+    text-shadow: 4px 4px 10px black;
+    margin: 10px;
+}
+
+.remaining-time {
+    width: 20%;
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    z-index: 99;
+}
+
+.backToHome a{
+    color: white;
+    text-decoration: none;
+}
+
+.backToHome a:hover{
+    color: rgb(26, 122, 232);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .heading {
+    font-size: 30px;
+    text-shadow: 2px 2px 12px black;
+    z-index: 99;
+    }
+    .date {
+    font-size: 16px;
+    text-shadow: 2px 2px 15px black;
+    z-index: 99;
+}
+.remaining-time {
+    height: 20px;
+    z-index: 99;
+}
+.popup {
+    width: 280px;
+    height: 240px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.552);
+}
+ label {
+    display: none;
+ }
+}
+
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <h2 class="heading">Comming Soon</h2>
+        <h3 class="date" id="end-date"></h3>
+    <div class="time" id="time">
+
+        <label for="days">Days:</label>
+        <span class="remaining-time" id="days">0</span>
+        
+        <label for="hours">Hours:</label>
+        <span class="remaining-time" id="hours">0</span>
+
+        <label for="minutes">Minutes:</label>
+        <span class="remaining-time" id="minutes">0</span>
+
+        <label for="seconds">Seconds:</label>
+        <span class="remaining-time" id="seconds">0</span>
+    </div>
+
+    <div class="backToHome">
+        <a href="index.html">Back To Home</a>
+    </div>
+</div>
+
+<script>
+    const endDate = '15 / Oct / 2023 12:00 AM';
+    const WebCommingOn = document.querySelector('#end-date');
+    const days = document.querySelector('#days');
+    const minutes = document.querySelector('#minutes');
+    const hours = document.querySelector('#hours');
+    const seconds = document.querySelector('#seconds');
+
+    // const BodyPopup = document.querySelector('body');
+    const popup = document.querySelector('.popup')
+
+    WebCommingOn.innerHTML = endDate;
+
+    function newDate() {
+        let end = new Date(endDate); 
+        let now = new Date();
+        const diff = (end - now)/ 1000;
+        if (diff < 0) {
+            return;
+        }
+
+        // GET DAYS
+        days.innerHTML = `${Math.floor(diff/ 3600 / 24)}`;
+
+        // GET HOURS
+        hours.innerHTML = `${Math.floor(diff/ 3600) % 24}`;
+
+        // GET MINUTES
+        minutes.innerHTML = `${Math.floor(diff/ 60) % 60}`;
+
+        // GET SECONDS
+        seconds.innerHTML = `${Math.floor(diff) % 60}`;
+    }
+
+    setInterval(function () {
+        newDate()
+    }, 1000);
+
+    // function scale() {
+    //     document.addEventListener('DOMContentLoaded', function(){
+    //     if (popup.style.transform === 'scale(0)' || popup.style.transform === '') {
+    //         popup.style.transform = 'scale(1)'
+    //     }
+    // })
+    // }
+    
+    // scale();
+    
+</script>
+</body>
+</html>

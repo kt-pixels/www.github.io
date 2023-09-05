@@ -1,7 +1,4 @@
 /* BODY SECTION  */
-
-
-
 html {
     scroll-behavior: smooth;
   }
@@ -19,6 +16,15 @@ html {
 
 .fullBody {
     padding: 10px;
+}
+
+
+/* MY NAV DESIGN STARTS HERE */
+
+#menu-bar {
+    position: relative;
+    background-color: rgb(22 22 22);
+    padding: 2px;
 }
 
 
@@ -65,6 +71,7 @@ li a {
     max-width: 100%;
     align-items: center;
 }
+
 
 /* LOGO  */
 
@@ -253,58 +260,64 @@ li a {
 #Dropdown1{
     list-style: none;
     display: none;
-    margin: 0;
-    padding: 10px;
     position: absolute;
-    top: 4rem;
-    left: 28rem;
+    top: 5rem;
+    left: 25rem;
     z-index: 3;
+    box-shadow: 0px 0px 10px #595959;
 }
+
 
 #Dropdown2{
     list-style: none;
     display: none;
     margin: 0;
-    padding: 10px;
     position: absolute;
     top: 4rem;
     left: 36rem;
     z-index: 3;
+    box-shadow: 0px 0px 10px #595959;
 }
 
 #Dropdown3{
     list-style: none;
     display: none;
     margin: 0;
-    padding: 10px;
     position: absolute;
     top: 4rem;
     left: 43rem;
     z-index: 3;
+    box-shadow: 0px 0px 10px #595959;
 }
 
 #Dropdown4{
     list-style: none;
     display: none;
     margin: 0;
-    padding: 10px;
     position: absolute;
     top: 4rem;
     left: 52rem;
     z-index: 3;
+    box-shadow: 0px 0px 10px #595959;
+}
+
+.title {
+    background-color: #000 !important;
+    color: white !important;
+    text-align: center !important;
+    cursor: default !important;
 }
 
 #Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
     margin: 0;
     padding: 13px;
     font-size: 18px;
-    background-color: rgb(66 4 4);
-    color: white;
-    border: 1px groove;
+    background-color: rgb(233 233 233);
+    color: black;
 }
 #Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
     cursor: pointer;
-    background-color: rgb(155, 0, 0);
+    background-color: rgb(153 153 153);
 }
 
 #Dropdown1:last-child ul {
@@ -580,11 +593,7 @@ hr {
         background-color:#0000000d;  /* Add a dark-grey background on hover */
       }
 
-    #menu-bar {
-        position: relative;
-        background-color: rgb(22 22 22);
-        padding: 2px;
-    }
+    
 
     /* HAMBURGER MENU  */
     .bar {

@@ -1,4 +1,6 @@
 /* BODY SECTION  */
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -18,19 +20,25 @@ html {
     background-color: gainsboro;
     border-radius: 50%;
   }
-
-  strong {
-    font-size: 22px;
-  }
   
-  /* .h2 {
-    width: 68vw;
-      margin-left: -10px;
-  } */
+  .h2 {
+    padding: 20px;
+    background-color: #6c0000;
+    color: white !important;
+  }
   /* NAVBAR SECTION  */
   
   /* LINKS SECTION  */
   
+  .none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+
   #li {
       list-style: none;
       /* text-align: start; */
@@ -232,7 +240,7 @@ html {
     }
     .mycontainer1 {
       padding: 20px;
-      display: flex;
+      /* display: flex; */
       /* width: 100%;
       max-width: 96%; */
     }
@@ -254,7 +262,7 @@ html {
       border-radius: 0px;
     }
     .image-max {
-      background-image: url(..//img/balance\ diet.jpg);
+      background-image: url(..//img/care_skin.jpg);
       height: 400px;
       width: auto;
       background-position: center center;
@@ -299,21 +307,6 @@ html {
     .side-menu a:hover {
       background-color: #555;
     }
-
-    .welcome-heading{
-      font-size: 20px;
-      text-align: center;
-      margin-top: 0;
-      background-color: transparent;
-    }
-  
-    .good-food {
-      color: #169602; 
-      background-color: transparent; 
-      text-align: start; 
-      box-shadow: none;
-      margin-top: 0;
-    }
     
     .content {
       /* margin-left: 250px; */
@@ -329,6 +322,19 @@ html {
         z-index: 3;
         display: none;
     }
+    .welcome-heading{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 0;
+      background-color: transparent;
+    }
+  
+    .good-food {
+      color: #169602; 
+      background-color: transparent; 
+      text-align: start; 
+      box-shadow: none;
+    }
     
     .bars {
       height: 5px;
@@ -337,25 +343,21 @@ html {
       background-color: #373737;
       border-radius: 15px;
     }
-
-    .none {
-      color: white;
-      font-size: 20px;
-      text-shadow: 3px 3px 10px black;
-      background-color: transparent;
-      border-radius: 0;
-  }
     
     #bars1 {
       transition: 0.5s;
       margin-top: 0px;
+      background-color: #000000ab;
     }
-    #bars2 {
+    #bars2, #bars3 {
       transition: 0.5s;
+      background-color: #000000ab;
     }
-    #bars3 {
+    /* #bars3 {
       transition: 0.5s;
-    }
+      background-color: #808080ab;
+    } */
+  
     
     /* FOR HORIZONTAL LINES SECTION  */
   
@@ -455,9 +457,7 @@ html {
     }
     .myparas h2{
       text-align: center;
-    padding: 10px;
-    background-color: #6c0000;
-    color: white;
+      color: #333;
     }
   
     .resource {
@@ -540,7 +540,7 @@ html {
     #vitnut {
       font-size: 20px;
       margin-top: 12px;
-      /* width: 870px; */
+      text-align: center;
     }
   .vitnut {
     font-size: 18px;
@@ -561,13 +561,16 @@ html {
       color: #555;
       margin: 10px 0px;
       line-height: 1.6;
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px; */
   }
   
   /* MAIN WWW HEADING SECTION  */
   
   .headerwww {
     font-size: 3vw;
-    padding: 50px 10px 0px 10px;
+    padding-top: 50px;
     margin-top: 0px;
     max-width: 100%;
   }
@@ -819,9 +822,10 @@ html {
   }
   
   .mylistofvit {
-      margin-top: 20px;
+      margin-top: 0px;
       text-align: justify;
-      font-size: 14px;
+      font-size: 17px;
+      display: none;
   }
   
   /* hr {
@@ -977,6 +981,10 @@ html {
     -webkit-text-stroke: 2px black;
     padding: 20px 0px;
   }
+
+  .welcome-heading{
+    display: none;
+  }
   
   .icon-bar {
     display: none;
@@ -996,8 +1004,9 @@ html {
   }
   .myparas .h2 {
     font-size: 17px;
-      text-align: center;
-      margin-bottom: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px;
   }
   .Myvitamins {
     margin-top: 20px;
@@ -1022,13 +1031,9 @@ html {
   }
   .justify {
     font-size: 14px;
-    text-align: justify;
+    text-align: start;
     margin-top: 0px;
     margin-left: 0px;
-  }
-
-  .welcome-heading{
-    display: none;
   }
   
   .flex-item .button {
@@ -1067,6 +1072,12 @@ html {
       #india {
         display: none;
     }
+
+    .vitnut li {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      list-style: none;
+    }
   
     #Dropdown1 {
       top: 20rem;
@@ -1092,21 +1103,8 @@ html {
       border-radius: 5px;
       color: white;
   }
-
-  strong {
-    font-size: 16px;
-}
   
   .flex-my {
     display: block;
   }
-
-  .headerwww {
-    margin-top: 0px;
-}
-#NotFold {
-  color: #333;
-  padding: 0px;
-  background-color: transparent;
-}
     }

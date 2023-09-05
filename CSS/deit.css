@@ -9,7 +9,7 @@ html {
       padding: 0px;
       margin: 0px;
   }
-  
+ 
   h3 {
     text-align: center;
     margin-top: 20px;
@@ -18,19 +18,25 @@ html {
     background-color: gainsboro;
     border-radius: 50%;
   }
-
-  strong {
-    font-size: 22px;
-  }
   
-  /* .h2 {
-    width: 68vw;
-      margin-left: -10px;
-  } */
+  .h2 {
+    padding: 20px;
+    background-color: #6c0000;
+    color: white !important;
+  }
   /* NAVBAR SECTION  */
   
   /* LINKS SECTION  */
   
+  .none {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 10px black;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+
   #li {
       list-style: none;
       /* text-align: start; */
@@ -150,6 +156,13 @@ html {
       display: block;
     }
   
+
+    section.meal {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin: 20px;
+      padding: 20px;
+  }
     /* RECENT POSTS SECTION MAKING AND MY CONTENT IS HERE  */
   
     .fullbody {
@@ -232,7 +245,7 @@ html {
     }
     .mycontainer1 {
       padding: 20px;
-      display: flex;
+      /* display: flex; */
       /* width: 100%;
       max-width: 96%; */
     }
@@ -254,7 +267,7 @@ html {
       border-radius: 0px;
     }
     .image-max {
-      background-image: url(..//img/balance\ diet.jpg);
+      background-image: url(..//img/care_skin.jpg);
       height: 400px;
       width: auto;
       background-position: center center;
@@ -299,21 +312,6 @@ html {
     .side-menu a:hover {
       background-color: #555;
     }
-
-    .welcome-heading{
-      font-size: 20px;
-      text-align: center;
-      margin-top: 0;
-      background-color: transparent;
-    }
-  
-    .good-food {
-      color: #169602; 
-      background-color: transparent; 
-      text-align: start; 
-      box-shadow: none;
-      margin-top: 0;
-    }
     
     .content {
       /* margin-left: 250px; */
@@ -329,6 +327,19 @@ html {
         z-index: 3;
         display: none;
     }
+    .welcome-heading{
+      font-size: 20px;
+      text-align: center;
+      margin-top: 0;
+      background-color: transparent;
+    }
+  
+    .good-food {
+      color: #169602; 
+      background-color: transparent; 
+      text-align: start; 
+      box-shadow: none;
+    }
     
     .bars {
       height: 5px;
@@ -337,25 +348,21 @@ html {
       background-color: #373737;
       border-radius: 15px;
     }
-
-    .none {
-      color: white;
-      font-size: 20px;
-      text-shadow: 3px 3px 10px black;
-      background-color: transparent;
-      border-radius: 0;
-  }
     
     #bars1 {
       transition: 0.5s;
       margin-top: 0px;
+      background-color: #000000ab;
     }
-    #bars2 {
+    #bars2, #bars3 {
       transition: 0.5s;
+      background-color: #000000ab;
     }
-    #bars3 {
+    /* #bars3 {
       transition: 0.5s;
-    }
+      background-color: #808080ab;
+    } */
+  
     
     /* FOR HORIZONTAL LINES SECTION  */
   
@@ -409,11 +416,11 @@ html {
     font-size: 18px;
     background-color: rgb(233 233 233);
     color: black;
-}
-#Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
+  }
+  #Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
     cursor: pointer;
     background-color: rgb(153 153 153);
-}
+  }
   
   #Dropdown1:last-child ul {
     border-bottom: none;
@@ -452,12 +459,13 @@ html {
   
     .myparas {
       text-align: start;
+      /* background-color: #f8f8f8; */
+      /* margin-top: 20px; */
+      /* box-shadow: 1px 2px 4px #999999; */
     }
     .myparas h2{
       text-align: center;
-    padding: 10px;
-    background-color: #6c0000;
-    color: white;
+      color: #333;
     }
   
     .resource {
@@ -535,39 +543,123 @@ html {
     margin-top: 21px;
   }
   
-  
+  .vitnutImages {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .vitnutImages img {
+    width: 60rem;
+    height: 25rem;
+  }
     
     #vitnut {
-      font-size: 20px;
+      font-size: 18px;
       margin-top: 12px;
-      /* width: 870px; */
+      text-align: start;
+      color: #333;
     }
   .vitnut {
     font-size: 18px;
-      color: #555;
-      line-height: 1.6;
-    /* margin-top: 40px;
-    font-size: 20px;
-    width: 72%; */
+    color: #555;
+    /* display: flex; */
+    justify-content: space-around;
+    margin: 20px;
   }
   .vitnut li {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     list-style: none;
   }
+
+  .onlyMeal{
+    background-color: white;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+  }
+  .onlyMeal h2 {
+    padding: 20px;
+    background-color: #555;
+    color: white;
+  }
+
+  .onlyMeal p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+
+  .onlyMeal ul {
+    padding-left: 20px;
+  }
+
+  .onlyImage{
+    width: 320px;
+    margin-top: 30px;
+  }
+  .onlyImage img {
+    width: 150px;
+  }
+
+  .onlyImage img:nth-child(1){
+    border-radius: 0px 80px 0px 80px;
+    box-shadow: -1px 3px 4px;
+    animation: spin 3s linear;
+  }
+  .onlyImage img:nth-child(2){
+    border-radius: 80px 0px 80px 0px;
+    animation: spin 3s linear;
+    box-shadow: -1px 3px 4px;
+  }
+  .onlyImage img:nth-child(3){
+    border-radius: 80px 0px 80px 0px;
+    animation: spin 3s linear;
+    box-shadow: -1px 3px 4px;
+  }
+  .onlyImage img:nth-child(4){
+    border-radius: 0px 80px 0px 80px;
+    animation: spin 3s linear;
+    box-shadow: -1px 3px 4px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+tbody {
+  background-color: white;
+}
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
   
   .mylistofvit {
     font-size: 18px;
       color: #555;
       margin: 10px 0px;
       line-height: 1.6;
+    /* margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px; */
   }
   
   /* MAIN WWW HEADING SECTION  */
   
   .headerwww {
     font-size: 3vw;
-    padding: 50px 10px 0px 10px;
+    padding-top: 50px;
     margin-top: 0px;
     max-width: 100%;
   }
@@ -819,9 +911,10 @@ html {
   }
   
   .mylistofvit {
-      margin-top: 20px;
+      margin-top: 0px;
       text-align: justify;
-      font-size: 14px;
+      font-size: 17px;
+      display: none;
   }
   
   /* hr {
@@ -977,6 +1070,10 @@ html {
     -webkit-text-stroke: 2px black;
     padding: 20px 0px;
   }
+
+  .welcome-heading{
+    display: none;
+  }
   
   .icon-bar {
     display: none;
@@ -996,8 +1093,9 @@ html {
   }
   .myparas .h2 {
     font-size: 17px;
-      text-align: center;
-      margin-bottom: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 8px;
   }
   .Myvitamins {
     margin-top: 20px;
@@ -1022,13 +1120,9 @@ html {
   }
   .justify {
     font-size: 14px;
-    text-align: justify;
+    text-align: start;
     margin-top: 0px;
     margin-left: 0px;
-  }
-
-  .welcome-heading{
-    display: none;
   }
   
   .flex-item .button {
@@ -1067,6 +1161,12 @@ html {
       #india {
         display: none;
     }
+
+    .vitnut li {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      list-style: none;
+    }
   
     #Dropdown1 {
       top: 20rem;
@@ -1092,21 +1192,35 @@ html {
       border-radius: 5px;
       color: white;
   }
-
-  strong {
-    font-size: 16px;
-}
   
   .flex-my {
     display: block;
   }
 
-  .headerwww {
-    margin-top: 0px;
+  .vitnutImages img {
+    width: 15rem;
+    height: 9rem;
+  }
+
+  .vitnutImages {
+    margin: 0px;
 }
-#NotFold {
-  color: #333;
-  padding: 0px;
-  background-color: transparent;
+
+.vitnut {
+  margin: 0px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.mycontainer1 {
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+table {
+  margin-top: 20px;
 }
     }

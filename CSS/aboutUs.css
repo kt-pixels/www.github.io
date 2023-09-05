@@ -313,13 +313,12 @@ html {
     margin: 0;
     padding: 13px;
     font-size: 18px;
-    background-color: rgb(66 4 4);
-    color: white;
-    border: 1px groove;
+    background-color: rgb(233 233 233);
+    color: black;
   }
   #Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
     cursor: pointer;
-    background-color: rgb(155, 0, 0);
+    background-color: rgb(153 153 153);
   }
   
   #Dropdown1:last-child ul {

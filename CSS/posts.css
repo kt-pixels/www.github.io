@@ -156,6 +156,7 @@ li a {
     display: block;
   }
 
+  
 
   .none {
     color: white;
@@ -202,16 +203,25 @@ li a {
 
   .left {
     display: flex;
-    overflow: scroll;
-    white-space: nowrap;
-    padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .left a{
   display: inline-block;
-  margin-right: 20px; /* Adjust the spacing between items */
   animation: scrollText 20s linear infinite;
+  transition: transform 0.3s;
+  text-decoration: none;
 }
+
+/* .left a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s;
+} */
+
+
 
 /* @keyframes scrollText {
   0% {
@@ -222,12 +232,33 @@ li a {
   }
 } */
 
+.centered-text {
+  text-align: center;
+  position: relative;
+}
 
+.centered-text img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.centered-text p {
+  font-size: 22px;
+  color: white;
+  font-weight: bolder;
+}
+
+
+.left a:hover {
+  transform: scale(1.05);
+  filter: brightness(0.4);
+}
 
   .left img {
-    margin-left: 30px;
-    width: 500px;
-    border: groove;
+    width: 29vw;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 7px;
   }
 
   /* SCROLLING BUTTON  */
@@ -262,6 +293,12 @@ li a {
     padding-bottom: 10px;
     max-width: 100%;
   }
+
+  .h2 {
+    padding: 20px;
+    background-color: #6c0000;
+    color: white !important;
+}
 
 
   .main-heading{
@@ -315,16 +352,15 @@ li a {
 }
 
 #Dropdown1 ul, #Dropdown2 ul, #Dropdown3 ul, #Dropdown4 ul {
-    margin: 0;
-    padding: 13px;
-    font-size: 18px;
-    background-color: rgb(66 4 4);
-    color: white;
-    border: 1px groove;
+  margin: 0;
+  padding: 13px;
+  font-size: 18px;
+  background-color: rgb(233 233 233);
+  color: black;
 }
 #Dropdown1 ul:hover, #Dropdown2 ul:hover, #Dropdown3 ul:hover, #Dropdown4 ul:hover {
-    cursor: pointer;
-    background-color: rgb(155, 0, 0);
+  cursor: pointer;
+  background-color: rgb(153 153 153);
 }
 
 #Dropdown1:last-child ul {
@@ -627,11 +663,12 @@ li a {
 .left {
   /* width: 315vh; */
   padding: 10px;
+  justify-content: center;
 }
 .left img {
   border: groove;
-  width: 200px;
-  margin: 0;
+  width: 260px;
+  margin: 10px;
 }
 .welcome-heading{
   display: none;
