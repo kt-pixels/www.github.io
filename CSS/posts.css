@@ -436,6 +436,13 @@ li a {
     cursor: pointer;
     color: #000;
   }
+
+  .chngesMade {
+    text-align: center;
+    padding: 10px;
+    background-color: #6c0000;
+    color: white;
+  }
   
   /* COPYRIGT SECTION  */
   

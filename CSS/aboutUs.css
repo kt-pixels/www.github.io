@@ -394,6 +394,10 @@ html {
       margin: 0 10px;
       border: 2px groove;
   }
+
+  .flex-item a {
+    text-decoration: none;
+  }
   
   .justify{
     font-size: 18px;
