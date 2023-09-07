@@ -342,7 +342,7 @@ html {
       transition: 0.5s;
         z-index: 3;
         display: none;
-        background-color: #610000;
+        background-color: rgb(0 71 173);
         border-radius: 0px 50px 50px 0px;
     }
     

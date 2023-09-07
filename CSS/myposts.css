@@ -17,6 +17,7 @@ h3 {
   font-size: 25px;
   background-color: gainsboro;
   border-radius: 50%;
+  box-shadow: 2px 2px 5px;
 }
 
 .h2 {
@@ -302,13 +303,15 @@ li b a {
   }
   
   #hamburger {
-      width: 17%;
-      padding: 10px;
-      cursor: pointer;
-      position: fixed;
-    transition: 0.5s;
-      z-index: 3;
-      display: none;
+    width: 70px;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+  transition: 0.5s;
+    z-index: 3;
+    display: none;
+    background-color: rgb(0 71 173);
+    border-radius: 0px 50px 50px 0px;
   }
   
   .bars {
@@ -330,11 +333,11 @@ li b a {
   #bars1 {
     transition: 0.5s;
     margin-top: 0px;
-    background-color: #000000ab;
+    background-color: white;
   }
   #bars2, #bars3 {
     transition: 0.5s;
-    background-color: #000000ab;
+    background-color: white;
   }
   /* #bars3 {
     transition: 0.5s;
@@ -346,6 +349,7 @@ li b a {
     text-align: center;
     margin-top: 0;
     background-color: transparent;
+    box-shadow: none !important;
   }
 
   .good-food {

@@ -243,43 +243,59 @@ const hamburger = document.getElementById('hamburger');
 
 hamburger.addEventListener('click', function() {
 
-if (sideMenu.style.left === '-250px' || sideMenu.style.left === '') {
-sideMenu.style.left = '0';
-hamburger.style.width = '230px'
-hamburger.style.backgroundColor = '#a4a4a4'
-bars1.style.transform = 'rotate(-45deg)'
-bars1.style.marginTop = '10px'
-bars2.style.opacity = '0'
-bars3.style.transform = 'rotate(45deg)'
-bars3.style.marginTop = '-20px'
-bars3.style.marginBottom = '10px'
-} else {
-sideMenu.style.left = '-250px';
-// hamburger.style.width = '17%'
-hamburger.style.backgroundColor = 'transparent'
-bars1.style.transform = 'rotate(0deg)'
-bars1.style.marginTop = '0px'
-bars2.style.opacity = '1'
-bars3.style.transform = 'rotate(0deg)'
-bars3.style.marginTop = '10px'
-bars3.style.marginBottom = '0px'
-// content.style.marginLeft = '0';
-}
-})
+  if (sideMenu.style.left === '-250px' || sideMenu.style.left === '') {
+    sideMenu.style.left = '0';
+    hamburger.style.width = '230px'
+    hamburger.style.backgroundColor = 'rgb(0 71 173)'
+    hamburger.style.borderRadius = '0px';
+    bars1.style.transform = 'rotate(-45deg)'
+    bars1.style.marginTop = '10px'
+    bars1.style.backgroundColor = 'white'
+    
+    bars2.style.opacity = '0'
+    bars3.style.transform = 'rotate(45deg)'
+    bars3.style.marginTop = '-20px'
+    bars3.style.marginBottom = '10px'
+    bars3.style.backgroundColor = 'white'
+    
+    } else {
+    sideMenu.style.left = '-250px';
+    hamburger.style.width = '70px'
+    hamburger.style.backgroundColor = 'rgb(0 71 173)'
+    hamburger.style.borderRadius = '0px 50px 50px 0px';
+    bars1.style.transform = 'rotate(0deg)'
+    bars1.style.marginTop = '0px'
+    bars1.style.backgroundColor = ' white'
+    
+    bars2.style.opacity = '1'
+    bars2.style.backgroundColor = ' white'
+    
+    bars3.style.transform = 'rotate(0deg)'
+    bars3.style.marginTop = '10px'
+    bars3.style.marginBottom = '0px'
+    bars3.style.backgroundColor = ' white'
+    
+    }
+    })
 
 function scrollFunction() {
 if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 hamburger.style.display = "block";
 } else {
-hamburger.style.display = "none";
-sideMenu.style.left = '-250px';
-hamburger.style.width = '17%'
-hamburger.style.backgroundColor = 'transparent'
-bars1.style.transform = 'rotate(0deg)'
-bars1.style.marginTop = '0px'
-bars2.style.opacity = '1'
-bars3.style.transform = 'rotate(0deg)'
-bars3.style.marginTop = '10px'
+  hamburger.style.display = "none";
+  sideMenu.style.left = '-250px';
+  hamburger.style.width = '70px'
+  hamburger.style.backgroundColor = 'rgb(0 71 173)'
+  hamburger.style.borderRadius = '0px 50px 50px 0px';
+  bars1.style.transform = 'rotate(0deg)'
+  bars1.style.marginTop = '0px'
+  bars1.style.backgroundColor = ' white'
+  bars2.style.opacity = '1'
+  bars2.style.backgroundColor = ' white'
+  bars3.style.transform = 'rotate(0deg)'
+  bars3.style.marginTop = '10px'
+  bars3.style.marginBottom = '0px' 
+  bars3.style.backgroundColor = ' white'
 }
 }
 window.onscroll = function() {scrollFunction()};
